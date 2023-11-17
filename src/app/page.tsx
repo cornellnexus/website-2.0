@@ -2,7 +2,11 @@ import Image from "next/image";
 import nexusLogo from "../../img/nexus.svg";
 import beach from "../../img/beach.svg";
 import robot from "../../img/robot-render.svg";
-import team from "../../img/team-picture.svg";
+import team from "../../img/fullteam.jpeg";
+import insta from "../../img/insta-svg.svg";
+import github from "../../img/github-svg.svg";
+import facebook from "../../img/facebook-svg.svg";
+import email from "../../img/email-svg.svg";
 
 export default function Home() {
   return (
@@ -39,7 +43,7 @@ export default function Home() {
         <div className="mission-wrapper">
           <div className="robot-render">
             <div className="robot-render-wrapper">
-              <Image id="robot-svg" src={robot} alt="Robot" />
+              <Image id="robot-svg" priority src={robot} alt="Robot" />
             </div>
           </div>
           <div className="mission-statement">
@@ -80,10 +84,34 @@ export default function Home() {
           </div>
           <div className="team-picture">
             <div className="team-picture-wrapper">
-              <Image id="team-svg" src={team} alt="Team" />
+              <Image id="team-svg" priority src={team} alt="Team" />
             </div>
           </div>
         </div>
+        <footer>
+          <div className="social-links">
+            <a href="https://www.instagram.com/cornellnexus/" target="_blank">
+              <Image id="insta-icon" src={insta} height="40" alt="Instagram" />
+            </a>
+            <a href="https://github.com/cornellnexus" target="_blank">
+              <Image id="github-icon" src={github} height="40" alt="Github" />
+            </a>
+            <a href="https://www.facebook.com/cornellnexus/" target="_blank">
+              <Image
+                id="facebook-icon"
+                src={facebook}
+                height="40"
+                alt="Facebook"
+              />
+            </a>
+            <a href="mailto:nexus@cornell.edu" target="_blank">
+              <Image id="email-icon" src={email} height="40" alt="E-mail" />
+            </a>
+          </div>
+          <div className="copyright">
+            <p>Cornell Nexus © 2023</p>
+          </div>
+        </footer>
       </div>
     </>
   );

@@ -38,6 +38,28 @@ body {
   background-color: #4c9cb8;
 }
 
+footer {
+  background-color: white;
+  width: 100%;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  margin-top: 4rem;
+  display: flex;
+  border-top: 1px solid black;
+  justify-content: space-between;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  float: right;
+  font-size: 1.5rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
 .underwater-text {
   color: white;
 }
@@ -123,6 +145,7 @@ body {
 #team-svg {
   width: 60%;
   height: auto;
+  border-radius: 1rem;
 }
 
 #mission-title,
