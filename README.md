@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, clone this repo and then navigate to it in the terminal and run ```npm install``` in order to download all required packages. 
+First, clone this repo and then navigate to it in the terminal and run `npm install` in order to download all required packages.
 
 Then, run the development server:
 
