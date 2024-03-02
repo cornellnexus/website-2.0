@@ -1,5 +1,5 @@
-import Link from "next/link"
-import Image from "next/image"
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -18,12 +18,12 @@ export default function Navbar() {
         <div className="nav-links">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
-          <Link href="">Team</Link>
-          <Link href="">Support</Link>
-          <Link href="">Apply</Link>
-          <Link href="">Contact</Link>
+          <Link href="/team">Team</Link>
+          <Link href="/support">Support</Link>
+          <Link href="/apply">Apply</Link>
+          <Link href="/contact">Contact</Link>
         </div>
       </div>
     </nav>
-  )
+  );
 }

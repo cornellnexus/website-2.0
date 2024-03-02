@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+      to bottom,
       transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 * {
@@ -21,18 +23,16 @@ html {
   height: 100%;
 }
 
-body {
-  background-color: #4c9cb8;
-}
-
 footer {
   background-color: white;
   width: 100%;
   padding: 1rem 1.5rem 1rem 1.5rem;
-  margin-top: 4rem;
   display: flex;
-  border-top: 1px solid black;
   justify-content: space-between;
+}
+
+.page-wrapper {
+  background-color: #4c9cb8;
 }
 
 .copyright {
@@ -63,7 +63,6 @@ footer {
   justify-content: space-between;
   padding: 1rem 3rem 1rem 3rem;
   width: 100%;
-  border-bottom: 1px solid black;
   background-color: white;
 }
 

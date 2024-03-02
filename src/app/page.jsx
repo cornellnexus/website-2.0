@@ -8,7 +8,7 @@ export default function Home() {
       <div className="page">
         <div className="team-info flex flex-row">
           <div className="team-title-wrapper">
-            <p id="team-name">Cornell Nexus</p>
+            <p id="team-name">Nexus at Cornell</p>
             <p id="team-desc">Creating social impact through technology</p>
           </div>
           <Image
@@ -65,7 +65,7 @@ export default function Home() {
                 eu non diam phasellus vestibulum lorem. Vel facilisis volutpat
                 est velit egestas dui id.
               </p>
-              <Link href="">
+              <Link href="/team">
                 <button id="meet-btn" className="underwater-text">
                   Meet The Team!
                 </button>

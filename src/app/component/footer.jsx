@@ -42,7 +42,7 @@ export default function Footer() {
         </a>
       </div>
       <div className="copyright">
-        <p>Cornell Nexus © 2023</p>
+        <p>Nexus at Cornell © 2023</p>
       </div>
     </footer>
   );
