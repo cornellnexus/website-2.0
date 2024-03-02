@@ -1,5 +1,6 @@
 import Image from "next/image";
 import beach from "../../public/beach.svg";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -43,9 +44,11 @@ export default function Home() {
                 eu non diam phasellus vestibulum lorem. Vel facilisis volutpat
                 est velit egestas dui id.
               </p>
-              <button id="learn-btn" className="underwater-text">
-                Learn More
-              </button>
+              <Link href="/about">
+                <button id="learn-btn" className="underwater-text">
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -62,9 +65,11 @@ export default function Home() {
                 eu non diam phasellus vestibulum lorem. Vel facilisis volutpat
                 est velit egestas dui id.
               </p>
-              <button id="meet-btn" className="underwater-text">
-                Meet The Team!
-              </button>
+              <Link href="">
+                <button id="meet-btn" className="underwater-text">
+                  Meet The Team!
+                </button>
+              </Link>
             </div>
           </div>
           <div className="team-picture">
