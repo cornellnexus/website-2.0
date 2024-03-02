@@ -1,27 +1,14 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
 
 * {
   box-sizing: border-box;
@@ -95,7 +82,7 @@ footer {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  padding-left: 4rem;
+  padding-right: 4rem;
   text-align: center;
   background-color: #f3cc91;
   height: 45%;
@@ -132,6 +119,7 @@ footer {
   font-size: 2.75rem;
   font-weight: 550;
 }
+
 #team-desc {
   font-size: 1.2rem;
 }
