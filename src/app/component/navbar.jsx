@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <nav>
-      <div className="nav-wrapper">
+      <div className="flex items-center justify-between px-12 py-4">
         <Link href="/">
           <Image
             id="nexus-logo"
@@ -15,7 +15,7 @@ export default function Navbar() {
             alt="Nexus Logo"
           />
         </Link>
-        <div className="nav-links">
+        <div className="flex gap-12">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/team">Team</Link>

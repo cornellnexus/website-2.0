@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -10,7 +10,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -21,139 +21,19 @@ body {
 body,
 html {
   height: 100%;
-}
-
-footer {
-  background-color: white;
   width: 100%;
-  padding: 1rem 1.5rem 1rem 1.5rem;
-  display: flex;
-  justify-content: space-between;
 }
 
 .page-wrapper {
   background-color: #4c9cb8;
-  padding-bottom: 4rem;
 }
 
-.copyright {
-  display: flex;
-  align-items: center;
-  float: right;
-  font-size: 1.5rem;
-}
-
-.social-links {
-  display: flex;
-  gap: 1.5rem;
-}
-
-.underwater-text {
-  color: white;
-}
-
-.page {
-  width: 100%;
-  height: 100%;
-}
-
-.nav-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 3rem 1rem 3rem;
-  width: 100%;
-  background-color: white;
-}
-
-.nav-links {
-  display: flex;
-  gap: 3rem;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: black;
-}
-
-.team-info {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: center;
-  padding-right: 4rem;
+#hero {
   padding-top: 4rem;
-  text-align: center;
   background-color: #f3cc91;
-  height: 45%;
-}
-
-.mission-wrapper,
-.us-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  text-align: center;
-  align-items: center;
-}
-
-.mission-wrapper {
-  margin-bottom: 6rem;
-}
-
-.robot-render-wrapper,
-.us-statement {
-  width: 100%;
-  padding-left: 4rem;
-}
-
-.team-picture-wrapper {
-  width: 100%;
-  padding-right: 4rem;
-}
-
-.mission-statement-wrapper {
-  padding-right: 4rem;
-}
-
-#team-name {
-  font-size: 2.75rem;
-  font-weight: 550;
-}
-
-#team-desc {
-  font-size: 1.2rem;
-}
-
-#beach-svg {
-  width: 100%;
-  height: auto;
-}
-
-#robot-svg,
-#team-svg {
-  width: 60%;
-  height: auto;
-  border-radius: 1rem;
-}
-
-#mission-title,
-#us-title {
-  font-size: 2.75rem;
-  font-weight: 550;
-}
-
-#mission-statement,
-#us-statement {
-  font-size: 1.2rem;
 }
 
 #learn-btn,
 #meet-btn {
   background-color: #4ac040;
-  border: none;
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
-  padding: 0.5rem 4rem 0.5rem 4rem;
-  border-radius: 1rem;
 }
