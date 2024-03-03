@@ -33,6 +33,7 @@ footer {
 
 .page-wrapper {
   background-color: #4c9cb8;
+  padding-bottom: 4rem;
 }
 
 .copyright {
@@ -82,6 +83,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding-right: 4rem;
+  padding-top: 4rem;
   text-align: center;
   background-color: #f3cc91;
   height: 45%;

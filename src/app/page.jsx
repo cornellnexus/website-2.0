@@ -18,7 +18,18 @@ export default function Home() {
             alt="Nexus Robot"
           />
         </div>
-        <Image id="beach-svg" priority src={beach} alt="Beach" />
+        <div>
+          <Image
+            id="beach-svg"
+            priority
+            src={"beach.svg"}
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: "100%", height: "auto" }}
+            alt="Beach"
+          />
+        </div>
         <div className="mission-wrapper">
           <div className="robot-render">
             <div className="robot-render-wrapper">
