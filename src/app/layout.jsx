@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={dm_sans.className}>
         <Navbar />
-        <div className="page-wrapper pb-16 mx-auto">{children}</div>
+        <div className="page-wrapper mx-auto">{children}</div>
         <Footer />
       </body>
     </html>

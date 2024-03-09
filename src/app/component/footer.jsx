@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-white flex items-center justify-between px-12 py-4">
+    <footer className="bg-white flex flex-wrap items-center justify-between px-12 py-4">
       <div className="flex gap-6 items-center">
         <a href="https://www.instagram.com/cornellnexus/" target="_blank">
           <Image

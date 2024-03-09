@@ -39,7 +39,7 @@ export default function Navbar() {
           {navItems.map((item) => (
             <Link
               key={item.id}
-              className="p-3 hover:bg-aqua hover:text-black rounded-xl m-2 cursor-pointer duration-300"
+              className="p-3 hover:bg-aqua hover:text-black rounded-xl mx-2 cursor-pointer duration-300"
               href={item.path}
             >
               {item.text}
@@ -76,7 +76,7 @@ export default function Navbar() {
           {navItems.map((item) => (
             <Link
               key={item.id}
-              className="p-3 hover:bg-aqua duration-300 border-b border-grey cursor-pointer"
+              className="p-3 hover:bg-teal hover:text-white duration-300 border-b border-grey cursor-pointer"
               href={item.path}
             >
               {item.text}
