@@ -42,7 +42,7 @@ export default function Footer() {
         </a>
       </div>
       <div className="text-2xl">
-        <p>Nexus at Cornell © 2023</p>
+        <p>Nexus at Cornell © 2024</p>
       </div>
     </footer>
   );
