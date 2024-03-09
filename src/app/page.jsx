@@ -5,10 +5,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <div
-          id="hero"
-          className="flex flex-row flex-wrap justify-evenly items-center"
-        >
+        <div className="flex flex-row flex-wrap justify-evenly items-center pt-16 bg-sand">
           <div className="text-center mb-12">
             <p className="text-5xl font-medium">Nexus at Cornell</p>
             <p className="text-xl">Creating social impact through technology</p>
@@ -55,7 +52,7 @@ export default function Home() {
               <Link href="/about">
                 <button
                   id="learn-btn"
-                  className="mt-2 px-16 py-4 border-none text-white text-xl rounded-xl"
+                  className="mt-2 px-16 py-4 border-none text-white bg-green text-xl rounded-xl"
                 >
                   Learn More
                 </button>
@@ -86,7 +83,7 @@ export default function Home() {
             <Link href="/team">
               <button
                 id="meet-btn"
-                className="mt-2 px-16 py-4 border-none text-white text-xl rounded-xl"
+                className="mt-2 px-16 py-4 border-none text-white bg-green text-xl rounded-xl"
               >
                 Meet The Team!
               </button>

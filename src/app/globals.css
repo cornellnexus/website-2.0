@@ -23,17 +23,3 @@ html {
   height: 100%;
   width: 100%;
 }
-
-.page-wrapper {
-  background-color: #4c9cb8;
-}
-
-#hero {
-  padding-top: 4rem;
-  background-color: #f3cc91;
-}
-
-#learn-btn,
-#meet-btn {
-  background-color: #4ac040;
-}
