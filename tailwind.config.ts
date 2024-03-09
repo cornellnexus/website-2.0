@@ -23,6 +23,8 @@ const config: Config = {
       sand: "#f3cc91",
       green: "#4ac040",
       teal: "#4c9cb8",
+      aqua: "#66d0e7",
+      navy: "#15618B",
     },
   },
   plugins: [],
