@@ -1,21 +1,19 @@
 import Image from "next/image";
 
-export default function MemberCard() {
-  return (
-    <div>
-      <div className="w-96 h-96 flex flex-col bg-slate-600 rounded">
+export default function MemberCard(props) {
+  return(
+    <div className="rounded bg-white shadow-lg mx-4 my-3">
+      <div className="text-center text-lg p-2">
         <Image
-          className='rounded'
-          id='carouselImage'
-          src={'/progress.png'}
-          alt="progressimage"
-          width='100'
-          height='100'
+          className="rounded pb-2"
+          src={'/' + props.src}
+          alt={props.name}
+          width="260"
+          height="325"
         />
-        <div>
-          Member tester
-        </div>
+        {props.name} <br></br>
+        {props.title}
       </div>
     </div>
-  )
+  );
 }
