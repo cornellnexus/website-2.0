@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-
 import { useState } from "react";
-
+import MemberCard from '../component/membercard';
+import Link from 'next/link'
 
 
 export default function AboutUs() {
@@ -50,6 +50,10 @@ export default function AboutUs() {
               <div className="pr-20 pl-20 p-10 desc-size text-xl">
                 {mission}
               </div>
+
+              <Link href="about/?modal=true&subteam=Business&name=Vinny">
+                <button type="button" className="bg-blue-500 text-white p-2">Open Modal</button>
+              </Link>
 
             </div>
           </div>
