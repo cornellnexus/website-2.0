@@ -22,7 +22,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div className="flex items-center justify-between px-12 py-4">
+      <div className="relative flex items-center justify-between px-12 py-4 bg-white border-b border-grey">
         {/* Desktop */}
         <Link href="/">
           <Image
@@ -39,7 +39,7 @@ export default function Navbar() {
           {navItems.map((item) => (
             <Link
               key={item.id}
-              className="p-3 hover:bg-aqua hover:text-black rounded-xl mx-2 cursor-pointer duration-300"
+              className="p-3 rounded-xl hover:bg-teal hover:text-white mx-2 cursor-pointer duration-300"
               href={item.path}
             >
               {item.text}
@@ -65,18 +65,13 @@ export default function Navbar() {
             />
           )}
         </div>
-
-        <ul
-          className={
-            burger
-              ? "fixed md:hidden flex flex-col left-0 top-0 w-[60%] h-full bg-white shadow-lg ease-in-out duration-500"
-              : "fixed flex flex-col left-[-100%] bottom-0 top-0 w-[60%] bg-white shadow-lg ease-in-out duration-500"
-          }
-        >
+      </div>
+      <div className={burger ? "burger is-open" : "burger"}>
+        <ul className={"md:hidden overflow-hidden flex flex-col bg-white"}>
           {navItems.map((item) => (
             <Link
               key={item.id}
-              className="p-3 hover:bg-teal hover:text-white duration-300 border-b border-grey cursor-pointer"
+              className="p-3 hover:bg-teal hover:text-white border-b border-grey cursor-pointer"
               href={item.path}
             >
               {item.text}

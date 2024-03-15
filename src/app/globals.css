@@ -49,3 +49,13 @@ html {
 #meet-btn {
   background-color: #4ac040;
 }
+
+.burger {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s ease-out;
+}
+
+.burger.is-open {
+  grid-template-rows: 1fr;
+}
