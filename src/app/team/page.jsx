@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import MemberCard from "../component/memberCard";
+import NameCard from "../component/nameCard";
 
 export default function Team() {
   return (
@@ -22,7 +22,7 @@ export default function Team() {
             Our team is broken up into 4 main subteams: electrical, software, mechanical, and 
             business. Each team may be working on their own individual tasks, whether that be 
             working with sensors or building a pitch deck. However, the integration between these 
-            four teams is what allows us to work on the robot efficiently and allows members to 
+            four teams is what allows us to work on the robot efficiently and allows Members to 
             learn about disciplines outside of their subteam.
           </div>
           <Image
@@ -55,41 +55,41 @@ export default function Team() {
             Members
           </div>
           <div className="flex flex-row flex-wrap justify-center">
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Amber Li"
               title="Electrical Subteam Lead"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Casey Kashishian"
               title="Social Chair"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="George Maidhof"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Jasmine Si"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Aaron Sucov"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Antranig Baghdassarian"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Akmal Rupasingha"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Anamitra Rawat"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Parishee Bajaj"
             />
@@ -123,33 +123,33 @@ export default function Team() {
             Members
           </div>
           <div className="flex flex-row flex-wrap justify-center">
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Mona Wu"
               title="Full Team Lead"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Tanay Nisar"
               title="Business Subteam Lead"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Elaine Wu"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Vedaant Shah"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Jeana Han"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Oscar Lam"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Neha Jain"
             />
@@ -178,44 +178,44 @@ export default function Team() {
             Members
           </div>
           <div className="flex flex-row flex-wrap justify-center">
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Chris Bauer"
               title="Mechanical Subteam Lead"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Katlynn Ryu"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Lucca Correia"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Mia Tarantini"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Yujean Choi"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Farah Achouri"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="William Dignam"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Cleo Hamilton"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Ethan Sekiguchi"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Natalie Kaplan"
             />
@@ -244,49 +244,49 @@ export default function Team() {
             Members
           </div>
           <div className="flex flex-row flex-wrap justify-center mb-10">
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Lin Jin"
               title="Full Team Lead"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Vinny Huang"
               title="Software Subteam Lead"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Shreya Kumar"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Sophia Pan"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Ahan Mishra"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Natalie Leung"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Gary Chen"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Luke Tao"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Michael Wu"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Grace Wei"
             />
-            <MemberCard
+            <NameCard
               src="progress.png"
               name="Amishi Gupta"
             />
