@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "./component/button";
 
 export default function Home() {
   return (
     <div className="bg-teal pb-4">
-      <div className="flex flex-row flex-wrap justify-evenly items-center pt-16 bg-sand">
+      <div className="flex flex-row flex-wrap justify-center items-center gap-12 pt-16 px-4 bg-sand">
         <div className="text-center mb-12">
           <p className="text-5xl font-medium">Nexus at Cornell</p>
           <p className="text-xl">Creating social impact through technology</p>
@@ -25,11 +26,11 @@ export default function Home() {
         style={{ width: "100%", height: "auto" }}
         alt="Beach"
       />
-      <div className="max-w-screen-lg mx-auto">
+      <div className="flex flex-col items-center max-w-screen-lg px-4 mx-auto">
         <div className="flex justify-center items-center flex-wrap gap-12 mb-12">
           <div>
             <Image
-              className="rounded-xl"
+              className="rounded shadow"
               priority
               src={"/robot-render.svg"}
               width="400"
@@ -40,26 +41,19 @@ export default function Home() {
           <div className="max-w-sm">
             <p className="text-white text-4xl font-medium">Our Mission</p>
             <p className="text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Senectus et netus et malesuada fames ac. Magna fermentum iaculis
-              eu non diam phasellus vestibulum lorem. Vel facilisis volutpat est
-              velit egestas dui id.
+              Save the turtles with a turtle. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Senectus et netus et malesuada
+              fames ac. Magna fermentum iaculis eu non diam phasellus vestibulum
+              lorem. Vel facilisis volutpat est velit egestas dui id.
             </p>
-            <Link href="/about">
-              <button
-                id="learn-btn"
-                className="mt-4 px-12 py-3 border-none text-white bg-green text-xl rounded-xl"
-              >
-                Learn More
-              </button>
-            </Link>
+            <Button href="/about" text="Learn More"></Button>
           </div>
         </div>
         <div className="flex justify-center items-center flex-wrap flex-row-reverse gap-12 mb-12">
           <div>
             <Image
-              className="rounded-xl"
+              className="rounded shadow"
               priority
               src={"/fullteam.jpeg"}
               width="400"
@@ -76,14 +70,7 @@ export default function Home() {
               eu non diam phasellus vestibulum lorem. Vel facilisis volutpat est
               velit egestas dui id.
             </p>
-            <Link href="/team">
-              <button
-                id="meet-btn"
-                className="mt-4 px-12 py-3 border-none text-white bg-green text-xl rounded-xl"
-              >
-                Meet The Team!
-              </button>
-            </Link>
+            <Button href="/team" text="Meet The Team!"></Button>
           </div>
         </div>
         <Image
@@ -92,9 +79,36 @@ export default function Home() {
           width={0}
           height={0}
           sizes="100vw"
-          style={{ width: "100%", height: "auto" }}
+          style={{ width: "80%", height: "auto" }}
+          className="my-8"
           alt="Bubbles"
         />
+        <div className="mb-12 w-full max-w-sm">
+          <Button href="/apply" text="Join Us!"></Button>
+        </div>
+        <div className="flex justify-center items-center flex-wrap flex-row gap-12 mb-12">
+          <div>
+            <Image
+              className="rounded shadow"
+              priority
+              src={"/fullteam.jpeg"}
+              width="400"
+              height="400"
+              alt="Team"
+            />
+          </div>
+          <div className="max-w-sm">
+            <p className="text-white text-4xl font-medium">Sponsors</p>
+            <p className="text-white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Senectus et netus et malesuada fames ac. Magna fermentum iaculis
+              eu non diam phasellus vestibulum lorem. Vel facilisis volutpat est
+              velit egestas dui id.
+            </p>
+            <Button href="/team" text="Support Us!"></Button>
+          </div>
+        </div>
       </div>
     </div>
   );
