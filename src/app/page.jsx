@@ -27,7 +27,7 @@ export default function Home() {
         alt="Beach"
       />
       <div className="flex flex-col items-center max-w-screen-lg px-4 mx-auto">
-        <div className="flex justify-center items-center flex-wrap gap-12 mb-12">
+        <div className="flex justify-center flex-wrap gap-12 mb-12">
           <div>
             <Image
               className="rounded shadow"
@@ -50,7 +50,7 @@ export default function Home() {
             <Button href="/about" text="Learn More"></Button>
           </div>
         </div>
-        <div className="flex justify-center items-center flex-wrap flex-row-reverse gap-12 mb-12">
+        <div className="flex justify-center flex-wrap flex-row-reverse gap-12 mb-12">
           <div>
             <Image
               className="rounded shadow"
@@ -86,7 +86,7 @@ export default function Home() {
         <div className="mb-12 w-full max-w-sm">
           <Button href="/apply" text="Join Us!"></Button>
         </div>
-        <div className="flex justify-center items-center flex-wrap flex-row gap-12 mb-12">
+        <div className="flex justify-center flex-wrap flex-row gap-12 mb-12">
           <div>
             <Image
               className="rounded shadow"
