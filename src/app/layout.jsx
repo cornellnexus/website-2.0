@@ -1,6 +1,6 @@
 import Navbar from "./component/navbar";
 import Footer from "./component/footer";
-import Modal from './component/modal'
+import Modal from "./component/modal";
 
 import "./globals.css";
 import { DM_Sans } from "next/font/google";
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={dm_sans.className}>
         <Navbar />
-        <div className="page-wrapper pb-16">
+        <div className="page-wrapper">
           {children}
           <Modal />
         </div>
