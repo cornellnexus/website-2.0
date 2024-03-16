@@ -28,26 +28,26 @@ export default function AboutUs() {
         {/* Main page content */}
         <div className="space-y-5">
           <div id="ourmission" className="">
-            <div className="flex flex-col bg-white">
-              <div className="text-center title-size font-bold text-5xl p-5">
+            <div className="flex flex-col bg-white items-center pb-10">
+              <div className="text-center title-size font-semibold text-5xl py-10">
                 Our Mission
               </div>
 
               <div id="carousel" className="flex flex-row justify-center">
                 <button onClick={handlePrev} id='prevBtn' className='w-10 transition ease-in-out hover:bg-gray-200 duration-300'> &lt; </button>
                 <Image
-                  className='rounded'
+                  className='rounded pb-5'
                   id='carouselImage'
                   src={images[index]}
                   alt="progressimage"
-                  width='1000'
-                  height='1000'
+                  width='700'
+                  height='700'
 
                 />
                 <button onClick={handleNext} id='nextBtn' className='w-10 transition ease-in-out hover:bg-gray-200 duration-300'> &gt; </button>
               </div>
 
-              <div className="pr-20 pl-20 p-10 desc-size text-xl">
+              <div className="max-w-screen-md text-center">
                 {mission}
               </div>
 
@@ -59,9 +59,9 @@ export default function AboutUs() {
           </div>
 
           <div id="story">
-            <div className="flex flex-col text-white px-10">
+            <div className="flex flex-col items-center text-white px-12 ">
 
-              <div className="flex flex-row">
+              <div className="flex flex-row max-w-screen-lg">
                 <Image
                   className='flex-grow'
                   src={'/progress.png'}
@@ -70,21 +70,21 @@ export default function AboutUs() {
                   height='600'
                 />
                 <div className="flex flex-col flex-grow">
-                  <div className="pl-20 title-size text-5xl p-5 font-bold">
+                  <div className="pl-20 title-size text-5xl py-10 font-semibold">
                     Progress
                   </div>
-                  <div className=" pl-20 desc-size text-xl">
+                  <div className="pl-20 max-w-screen-md text-left">
                     {progressDesc}
                   </div>
                 </div>
               </div>
 
-              <div className="flex flex-row">
-                <div className="flex flex-col flex-grow text-white">
-                  <div className=" title-size text-5xl p-5 font-bold">
+              <div className="flex flex-row py-10  max-w-screen-lg">
+                <div className="flex flex-col flex-grow text-white ">
+                  <div className=" title-size text-5xl py-10 font-semibold">
                     Story
                   </div>
-                  <div className="pr-20 desc-size text-xl">
+                  <div className="pr-20 max-w-screen-md text-left">
                     {storyDesc}
                   </div>
                 </div>

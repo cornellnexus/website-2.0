@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function MemberCard(props) {
-  return(
+  return (
     <div className="rounded bg-white shadow-lg mx-4 my-3">
       <div className="text-center text-lg p-2">
         <Image
