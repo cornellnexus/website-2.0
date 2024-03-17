@@ -17,7 +17,7 @@ export default function Support() {
           width="700"
           height="700"
         />
-        <div className="max-w-screen-md text-center">
+        <div className="max-w-screen-md text-center text-lg">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
           tempor incididunt ut labore et dolore magna aliqua. Ut morbi tincidunt 
           augue interdum velit euismod in pellentesque massa. Ut tellus elementum 
@@ -39,11 +39,43 @@ export default function Support() {
           height="4"
         />
         <div className="flex w-full mb-10">
-          <div className="grow text-center bg-ash mx-20 rounded">
-            Box 1
+          <div className="flex-1 bg-ash mx-20 rounded">
+            <div className="m-5">
+              <div className="text-2xl font-semibold">
+                Sponsorships
+              </div>
+              <div>
+                Forming partnerships and receiving sponsors is a large part of how 
+                we receive funding and gain valuable partners. View our sponsorship 
+                package below!
+              </div>
+              <div className="flex justify-center">
+                <Link className="mt-2" target="_blank" href=""> 
+                  <button className="min-w-[8rem] px-4 py-2 border-none text-white bg-navy text-md font-medium rounded-lg">
+                    View
+                  </button>
+                </Link>
+              </div>
+            </div>
           </div>
-          <div className="grow text-center bg-ash mx-20 rounded">
-            Box 2
+          <div className="flex-1 bg-ash mx-20 rounded">
+            <div className="m-5">
+              <div className="text-2xl font-semibold">
+                Giving Day
+              </div>
+              <div>
+                Giving Day gifts will assist us overcome the last big obstacle, 
+                of funding, in creating our first minimum viable product that we 
+                have been working towards.
+              </div>
+                <div className="flex justify-center">
+                  <Link className="mt-2" target="_blank" href="https://givingday.cornell.edu/campaigns/cornell-nexus">
+                    <button className="min-w-[8rem] px-4 py-2 border-none text-white bg-navy text-md font-medium rounded-lg">
+                      Support
+                    </button>
+                  </Link>
+                </div>
+            </div>
           </div>
         </div>
       </div>
