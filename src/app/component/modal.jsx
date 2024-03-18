@@ -14,23 +14,27 @@ function Modal() {
 
   const modal = searchParams.get("modal");
   const hasEmoji = searchParams.get("hasEmoji");
-  const name = searchParams.get("name");
+  const firstname = searchParams.get("firstname");
+  const lastname = searchParams.get('lastname');
   const pathname = usePathname();
 
   return (
     <>
       {modal &&
         <dialog
-          className="fixed left-0 top-0 w-full h-full bg-black bg-opacity-50 z-50 overflow-auto backdrop-blur flex ">
+          className="fixed left-0 top-0 w-full h-full bg-black bg-opacity-50 z-50 overflow-hidden backdrop-blur flex ">
           <div className="modal-color text-white modal-length h-flex m-auto py-5 px-8 rounded transform transition-opacity">
             <div className="flex flex-col ">
 
               <div className="flex flex-row self-end">
 
-                <Link href={pathname}>
+                <Link
+                  href={pathname}
+                  scroll={false}
+                >
                   <Image
                     className='rounded'
-                    id='carouselImage'
+                    id='x'
                     src={'/modal-x.svg'}
                     alt="progressimage"
                     width='20'
@@ -44,16 +48,21 @@ function Modal() {
               <div className="flex flex-row justify-between mt-4">
                 <div className="flex flex-row self-start  text-3xl">
                   <div className="line flex flex-row">
-                    <p> {name} </p>
+                    <p> {firstname + " " + lastname} </p>
                     <div className="pl-3">
-                      <Image
-                        className='rounded '
-                        id='carouselImage'
-                        src={memberInfo[name]['emoji']}
-                        alt="progressimage"
-                        width='35'
-                        height='35'
-                      />
+                      {memberInfo[firstname + " " + lastname]['emoji'] !== "" ?
+
+                        <Image
+                          className='rounded '
+                          id='emoji'
+                          src={memberInfo[name]['emoji']}
+                          alt="progressimage"
+                          width='35'
+                          height='35'
+                        />
+                        :
+                        null
+                      }
                     </div>
                   </div>
 
@@ -72,7 +81,7 @@ function Modal() {
               </div>
 
               <div className="flex flex-row self-start mt-5">
-                {memberInfo[name]['desc']}
+                {memberInfo[firstname + " " + lastname]['desc']}
               </div>
 
               <br />

@@ -1,6 +1,6 @@
 import Navbar from "./component/navbar";
 import Footer from "./component/footer";
-import Modal from './component/modal'
+import Modal from "./component/modal";
 
 import "./globals.css";
 import { DM_Sans } from "next/font/google";

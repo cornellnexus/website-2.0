@@ -22,7 +22,7 @@ const config: Config = {
       grey: "#f6f6f6",
       ash: "#D9D9D9",
       sand: "#f3cc91",
-      green: "#4ac040",
+      green: "#76C33D",
       teal: "#4c9cb8",
       aqua: "#66d0e7",
       navy: "#15618B",
