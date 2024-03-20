@@ -20,6 +20,7 @@ const config: Config = {
       white: "#ffffff",
       black: "#000000",
       grey: "#f6f6f6",
+      ash: "#D9D9D9",
       sand: "#f3cc91",
       green: "#76C33D",
       teal: "#4c9cb8",
