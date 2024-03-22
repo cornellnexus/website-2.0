@@ -9,7 +9,8 @@ export default function MemberCard(props) {
   const uri = "team/?modal=true&subteam=Business&firstname=" + firstName + "&lastname=" + lastName
 
   return (
-    <div className="rounded bg-white shadow-lg mx-4 my-3">
+    <div className="rounded bg-white shadow-lg mx-4 my-3 transform transition duration-500 
+    hover:scale-110">
       <Link
         href={uri}
         scroll={false}

@@ -10,12 +10,12 @@ function Modal() {
   // Current URL format
   // nameOfPage/?modal=_&name=_
   // to add more params just add &varName=__ to the end
-  // Don't forget to check type of var when you get it
 
   const modal = searchParams.get("modal");
   const hasEmoji = searchParams.get("hasEmoji");
   const firstname = searchParams.get("firstname");
   const lastname = searchParams.get('lastname');
+  const name = firstname + " " + lastname;
   const pathname = usePathname();
 
   return (
@@ -50,7 +50,7 @@ function Modal() {
                   <div className="line flex flex-row">
                     <p> {firstname + " " + lastname} </p>
                     <div className="pl-3">
-                      {memberInfo[firstname + " " + lastname]['emoji'] !== "" ?
+                      {memberInfo[name]['emoji'] !== "" ?
 
                         <Image
                           className='rounded '
@@ -81,7 +81,7 @@ function Modal() {
               </div>
 
               <div className="flex flex-row self-start mt-5">
-                {memberInfo[firstname + " " + lastname]['desc']}
+                {memberInfo[name]['desc']}
               </div>
 
               <br />

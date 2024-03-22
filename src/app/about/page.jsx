@@ -23,11 +23,11 @@ export default function AboutUs() {
 
   return (
     <>
-      <div className="page">
+      <div className="page bg-grey">
         {/* Main page content */}
         <div className="space-y-5">
           <div id="ourmission" className="">
-            <div className="flex flex-col bg-white items-center pb-10">
+            <div className="flex flex-col items-center pb-10">
               <div className="text-center title-size font-semibold text-5xl py-10">
                 Our Mission
               </div>
@@ -60,11 +60,6 @@ export default function AboutUs() {
 
               <div className="max-w-screen-md text-center">{mission}</div>
 
-              <Link href="about/?modal=true&subteam=Business&name=Vinny">
-                <button type="button" className="bg-blue-500 text-white p-2">
-                  Open Modal
-                </button>
-              </Link>
             </div>
           </div>
 
