@@ -102,14 +102,33 @@ export default function Team() {
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
-            {ElectricalSubteam.map((name, idx) => (
-              <MemberCard
-                key={idx}
-                src={memberInfo[name]["image"]}
-                name={name}
-                title={memberInfo[name]["title"]}
-              />
-            ))}
+            {ElectricalSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] != "") {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {ElectricalSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] == "") {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                  />
+                );
+              }
+              return null;
+            })}
           </div>
           <Image
             className="my-10"

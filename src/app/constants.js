@@ -179,7 +179,7 @@ export const memberInfo = {
 
   "Casey Kashishian": {
     "desc": "I am a sophomore from Delaware majoring in Material Science and Engineering. I love playing soccer and have played for 15 years. In my free time I will go out and play soccer or watch the Premier League on the weekends. Outside sports I enjoy watching shows and reading. During this past summer I worked almost 40 hours every week at WaWa.",
-    "title": "",
+    "title": "Social Chair",
     "image": "",
     "emoji": "",
     "linkedin": ""
