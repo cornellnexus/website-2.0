@@ -69,7 +69,7 @@ export default function AboutUs() {
           </div>
 
           <div id="story">
-            <div className="flex flex-col items-center text-white px-12 py-8">
+            <div className="flex flex-col items-center text-white px-12 py-8 bg-teal">
               <div className="flex justify-center flex-wrap flex-row gap-12 mb-12">
                 <div>
                   <Image
