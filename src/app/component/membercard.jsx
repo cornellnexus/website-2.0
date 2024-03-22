@@ -10,7 +10,7 @@ export default function MemberCard(props) {
 
   return (
     <div className="rounded bg-white shadow-lg mx-4 my-3 transform transition duration-500 
-    hover:scale-110">
+    hover:scale-105">
       <Link
         href={uri}
         scroll={false}
