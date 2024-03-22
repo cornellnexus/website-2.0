@@ -23,80 +23,74 @@ export default function AboutUs() {
 
   return (
     <>
-      <div className="page bg-grey">
-        {/* Main page content */}
-        <div className="space-y-5">
-          <div id="ourmission" className="">
-            <div className="flex flex-col items-center pb-10">
-              <div className="text-center title-size font-semibold text-5xl py-10">
-                Our Mission
-              </div>
-              <div id="carousel" className="flex flex-row justify-center my-12">
-                <button
-                  onClick={handlePrev}
-                  id="prevBtn"
-                  className="w-10 transition ease-in-out hover:bg-teal hover:text-white duration-300"
-                >
-                  &lt;
-                </button>
-                <div className="relative overflow-hidden w-[300px] h-[225px] sm:w-[600px] sm:h-[450px] md:w-[700px] md:h-[525px] pb-5 rounded">
-                  <Image
-                    className="object-cover"
-                    id="carouselImage"
-                    src={images[index]}
-                    alt="progressimage"
-                    quality={100}
-                    fill={true}
-                  />
-                </div>
-                <button
-                  onClick={handleNext}
-                  id="nextBtn"
-                  className="w-10 transition ease-in-out hover:bg-teal hover:text-white duration-300"
-                >
-                  &gt;
-                </button>
-              </div>
-
-              <div className="max-w-screen-md text-center">{mission}</div>
-
-            </div>
+      {/* Main page content */}
+      <div id="ourmission" className="bg-grey space-y-5 px-4">
+        <div className="flex flex-col items-center pb-10">
+          <div className="text-center title-size font-semibold text-5xl my-10">
+            Our Mission
           </div>
-
-          <div id="story">
-            <div className="flex flex-col items-center text-white px-12 py-8 bg-teal">
-              <div className="flex justify-center flex-wrap flex-row gap-12 mb-12">
-                <div>
-                  <Image
-                    className="rounded shadow"
-                    src={"/progress.png"}
-                    alt="progress image"
-                    width="400"
-                    height="400"
-                  />
-                </div>
-                <div className="max-w-sm">
-                  <p className="text-4xl font-medium">Progress</p>
-                  <p className>{progressDesc}</p>
-                </div>
-              </div>
-
-              <div className="flex justify-center flex-wrap flex-row-reverse gap-12 mb-12">
-                <div>
-                  <Image
-                    className="rounded shadow"
-                    src={"/story.png"}
-                    alt="story image"
-                    width="400"
-                    height="400"
-                  />
-                </div>
-                <div className="max-w-sm">
-                  <p className="text-4xl font-medium">Story</p>
-                  <p className>{storyDesc}</p>
-                </div>
-              </div>
+          <div id="carousel" className="flex flex-row justify-center mb-5">
+            <button
+              onClick={handlePrev}
+              id="prevBtn"
+              className="w-10 transition ease-in-out hover:bg-teal hover:text-white duration-300"
+            >
+              &lt;
+            </button>
+            <div className="relative overflow-hidden w-[300px] h-[225px] sm:w-[600px] sm:h-[450px] md:w-[700px] md:h-[525px] pb-5 rounded">
+              <Image
+                className="object-cover"
+                id="carouselImage"
+                src={images[index]}
+                alt="progressimage"
+                quality={100}
+                fill={true}
+              />
             </div>
+            <button
+              onClick={handleNext}
+              id="nextBtn"
+              className="w-10 transition ease-in-out hover:bg-teal hover:text-white duration-300"
+            >
+              &gt;
+            </button>
+          </div>
+          <div className="max-w-screen-md text-center">{mission}</div>
+        </div>
+      </div>
+      <div
+        id="story"
+        className="flex flex-col items-center text-white px-4 py-8 bg-teal"
+      >
+        <div className="flex justify-center flex-wrap flex-row gap-12 mb-12">
+          <div>
+            <Image
+              className="rounded shadow"
+              src={"/progress.png"}
+              alt="progress image"
+              width="400"
+              height="400"
+            />
+          </div>
+          <div className="max-w-sm">
+            <p className="text-4xl font-medium">Progress</p>
+            <p className>{progressDesc}</p>
+          </div>
+        </div>
+
+        <div className="flex justify-center flex-wrap flex-row-reverse gap-12 mb-12">
+          <div>
+            <Image
+              className="rounded shadow"
+              src={"/story.png"}
+              alt="story image"
+              width="400"
+              height="400"
+            />
+          </div>
+          <div className="max-w-sm">
+            <p className="text-4xl font-medium">Story</p>
+            <p className>{storyDesc}</p>
           </div>
         </div>
       </div>
