@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import MemberCard from "../component/membercard";
 import { memberInfo } from "../constants";

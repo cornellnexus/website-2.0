@@ -32,6 +32,10 @@ html {
   border-bottom: 2.5px solid white
 }
 
+.emptyline {
+  border-bottom: 2.5px solid rgba(255, 255, 255, 0);
+}
+
 .modal-length {
   width: 36rem;
 }

@@ -14,7 +14,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "https://www.linkedin.com/in/ahan-mishra/"
+    "linkedin": "https://www.linkedin.com/in/ahan-mishra/",
+    "email": " "
   },
 
   "Lin Jin": {
@@ -22,7 +23,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "https://www.linkedin.com/in/lin-jin-32b008221/"
+    "linkedin": "https://www.linkedin.com/in/lin-jin-32b008221/",
+    "email": " "
   },
 
   "Aaron Sucov": {
@@ -30,7 +32,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Amber Li": {
@@ -38,7 +41,8 @@ export const memberInfo = {
     "title": "Electrical Subteam Lead",
     "image": "",
     "emoji": "",
-    "linkedin": "www.linkedin.com/in/amber-li-a63155248"
+    "linkedin": "www.linkedin.com/in/amber-li-a63155248",
+    "email": " "
   },
 
   "Antranig Baghdassarian": {
@@ -46,7 +50,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Elaine Wu": {
@@ -54,7 +59,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": "ew457@cornell.edu"
   },
 
   "Anamitra Rawat": {
@@ -62,7 +68,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Gary Chen": {
@@ -70,7 +77,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Grace Wei": {
@@ -78,7 +86,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Luke Tao": {
@@ -86,7 +95,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Michael Wu": {
@@ -94,7 +104,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Akmal Rupasingha": {
@@ -102,7 +113,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "www.linkedin.com/in/amber-li-a63155248"
+    "linkedin": "www.linkedin.com/in/amber-li-a63155248",
+    "email": " "
   },
 
   "Vinny Huang": {
@@ -110,7 +122,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "/mewmoji.svg",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Sophia Pan": {
@@ -118,7 +131,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Andrew Lowitt": {
@@ -126,7 +140,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "www.linkedin.com/in/andrew-lowitt-728462267"
+    "linkedin": "www.linkedin.com/in/andrew-lowitt-728462267",
+    "email": " "
   },
 
   "Natalie Leung": {
@@ -134,7 +149,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Rose Basch": {
@@ -142,7 +158,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "https://www.linkedin.com/in/rose-basch-rb753/"
+    "linkedin": "https://www.linkedin.com/in/rose-basch-rb753/",
+    "email": " "
   },
 
   "Vedaant Shah": {
@@ -150,7 +167,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Allen Chen": {
@@ -158,7 +176,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Shreya Kumar": {
@@ -166,7 +185,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "https://www.linkedin.com/in/shreyak500/"
+    "linkedin": "https://www.linkedin.com/in/shreyak500/",
+    "email": " "
   },
 
   "Farah Achouri": {
@@ -174,7 +194,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "https://www.linkedin.com/in/farah-achouri?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    "linkedin": "https://www.linkedin.com/in/farah-achouri?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    "email": " "
   },
 
   "Casey Kashishian": {
@@ -182,7 +203,8 @@ export const memberInfo = {
     "title": "Social Chair",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Cleo Hamilton": {
@@ -190,7 +212,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Katlynn Ryu": {
@@ -198,7 +221,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "https://www.linkedin.com/in/katlynn-minseo-ryu-09440720a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    "linkedin": "https://www.linkedin.com/in/katlynn-minseo-ryu-09440720a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    "email": " "
   },
 
   "Mia Tarantini": {
@@ -206,7 +230,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "www.linkedin.com/in/mia-tarantini-9a388b268"
+    "linkedin": "www.linkedin.com/in/mia-tarantini-9a388b268",
+    "email": " "
   },
 
   "Christopher Bauer": {
@@ -214,7 +239,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Ata Zavaro": {
@@ -222,7 +248,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "ata-zavaro"
+    "linkedin": "ata-zavaro",
+    "email": " "
   },
 
   "Nicholas Papapanou": {
@@ -230,7 +257,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "www.linkedin.com/in/nicholaspapapanou"
+    "linkedin": "www.linkedin.com/in/nicholaspapapanou",
+    "email": " "
   },
 
   "Tanay Nisar": {
@@ -238,7 +266,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "https://www.linkedin.com/in/tanay-nisar/"
+    "linkedin": "https://www.linkedin.com/in/tanay-nisar/",
+    "email": " "
   },
 
   "Jasmine Si": {
@@ -246,7 +275,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Mona Wu": {
@@ -254,7 +284,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "https://www.linkedin.com/in/mona-wu-4b5b68244/"
+    "linkedin": "https://www.linkedin.com/in/mona-wu-4b5b68244/",
+    "email": " "
   },
 
   "Lucca Correia": {
@@ -262,7 +293,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "https://www.linkedin.com/in/luccaec/"
+    "linkedin": "https://www.linkedin.com/in/luccaec/",
+    "email": " "
   },
 
   "Yujean Choi": {
@@ -270,7 +302,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Jeana Han": {
@@ -278,7 +311,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "George Maidhof": {
@@ -286,7 +320,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "https://www.linkedin.com/in/george-maidhof-70ab13249/"
+    "linkedin": "https://www.linkedin.com/in/george-maidhof-70ab13249/",
+    "email": " "
   },
 
   "Oscar Lam": {
@@ -294,7 +329,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Neha Jain": {
@@ -302,7 +338,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "https://www.linkedin.com/in/neha-jain-1798231a2/"
+    "linkedin": "https://www.linkedin.com/in/neha-jain-1798231a2/",
+    "email": " "
   },
 
   "Ethan Sekiguchi": {
@@ -310,7 +347,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "https://www.linkedin.com/in/ethan-sekiguchi-41459a22b"
+    "linkedin": "https://www.linkedin.com/in/ethan-sekiguchi-41459a22b",
+    "email": " "
   },
 
   "William Dignam": {
@@ -318,7 +356,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": ""
+    "linkedin": "",
+    "email": " "
   },
 
   "Natalie Kaplan": {
@@ -326,7 +365,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "https://www.linkedin.com/in/natalie-kaplan-294a65247"
+    "linkedin": "https://www.linkedin.com/in/natalie-kaplan-294a65247",
+    "email": " "
   },
 
   "Parishee Bajaj": {
@@ -334,7 +374,8 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "www.linkedin.com/in/parishee-bajaj"
+    "linkedin": "www.linkedin.com/in/parishee-bajaj",
+    "email": " "
   },
 
   "Amishi Gupta": {
@@ -342,6 +383,7 @@ export const memberInfo = {
     "title": "",
     "image": "",
     "emoji": "",
-    "linkedin": "www.linkedin.com/in/amishigupta"
+    "linkedin": "www.linkedin.com/in/amishigupta",
+    "email": " "
   }
 };

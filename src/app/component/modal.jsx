@@ -23,7 +23,7 @@ function Modal() {
       {modal &&
         <dialog
           className="fixed left-0 top-0 w-full h-full bg-black bg-opacity-50 z-50 overflow-hidden backdrop-blur flex ">
-          <div className="modal-color text-white modal-length h-flex m-auto py-5 px-8 rounded transform transition-opacity">
+          <div className="modal-color text-white modal-length h-flex m-auto py-8 px-8 rounded transform transition-opacity">
             <div className="flex flex-col ">
 
               <div className="flex flex-row self-end">
@@ -36,7 +36,7 @@ function Modal() {
                     className='rounded'
                     id='x'
                     src={'/modal-x.svg'}
-                    alt="progressimage"
+                    alt="closeButton"
                     width='20'
                     height='20'
                   />
@@ -47,9 +47,9 @@ function Modal() {
 
               <div className="flex flex-row justify-between mt-4">
                 <div className="flex flex-row self-start  text-3xl">
-                  <div className="line flex flex-row">
+                  <div className="line leading-normal  flex flex-row truncate">
                     <p> {firstname + " " + lastname} </p>
-                    <div className="pl-3">
+                    <div className={memberInfo[name]['emoji'] !== "" ? "pl-3" : ""}>
                       {memberInfo[name]['emoji'] !== "" ?
 
                         <Image
@@ -68,7 +68,21 @@ function Modal() {
 
                 </div>
 
-                <div className="self-end">
+                <div className="flex flex-row pb-1 space-x-3 self-end emptyline">
+                  <p></p>
+                  <Link
+                    href={`mailto:${memberInfo[name]['email']}`}
+                    title="Email me for a coffee chat!"
+                  >
+                    <Image
+                      className='rounded justify-center'
+                      id='carouselImage'
+                      src={'/fi-rr-coffee.svg'}
+                      alt="progressimage"
+                      width='35'
+                      height='35'
+                    />
+                  </Link>
                   <Image
                     className='rounded'
                     id='carouselImage'
