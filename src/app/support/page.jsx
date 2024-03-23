@@ -1,6 +1,5 @@
-"use client";
 import Image from "next/image";
-import Link from "next/link";
+import Button from "../component/button";
 
 export default function Support() {
   return (
@@ -27,15 +26,12 @@ export default function Support() {
             eget. Adipiscing elit pellentesque habitant morbi. Pulvinar
             pellentesque habitant morbi tristique senectus et netus.
           </div>
-          <Link
-            className="mt-5"
-            target="_blank"
+          <Button
             href="https://securelb.imodules.com/s/1717/giving/interior.aspx?sid=1717&gid=2&pgid=16421&cid=27217&dids=5455&sort=1&bledit=1"
-          >
-            <button className="mt-2 px-16 py-2.5 border-none text-white bg-navy text-xl rounded-xl">
-              Donate
-            </button>
-          </Link>
+            text="Donate"
+            size="xs"
+            color="navy"
+          />
           <Image
             className="my-10"
             src={"/delimiter.svg"}
@@ -52,11 +48,7 @@ export default function Support() {
                 sponsorship package below!
               </div>
               <div className="flex justify-center">
-                <Link className="mt-2" target="_blank" href="">
-                  <button className="min-w-[8rem] px-4 py-2 border-none text-white bg-navy text-md font-medium rounded-lg">
-                    View
-                  </button>
-                </Link>
+                <Button href="" text="View" size="xs" color="navy" />
               </div>
             </div>
             <div className="bg-ash rounded p-5 max-w-md">
@@ -67,15 +59,12 @@ export default function Support() {
                 have been working towards.
               </div>
               <div className="flex justify-center">
-                <Link
-                  className="mt-2"
-                  target="_blank"
+                <Button
                   href="https://givingday.cornell.edu/campaigns/cornell-nexus"
-                >
-                  <button className="min-w-[8rem] px-4 py-2 border-none text-white bg-navy text-md font-medium rounded-lg">
-                    Support
-                  </button>
-                </Link>
+                  text="Support"
+                  size="xs"
+                  color="navy"
+                />
               </div>
             </div>
           </div>

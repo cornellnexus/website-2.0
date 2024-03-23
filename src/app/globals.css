@@ -24,10 +24,6 @@ html {
   width: 100%;
 }
 
-.page-wrapper {
-  background-color: #4c9cb8;
-}
-
 .modal-color {
   background-color: #5C5C5C;
 }
@@ -38,16 +34,6 @@ html {
 
 .modal-length {
   width: 36rem;
-}
-
-#hero {
-  padding-top: 4rem;
-  background-color: #f3cc91;
-}
-
-#learn-btn,
-#meet-btn {
-  background-color: #4ac040;
 }
 
 .burger {

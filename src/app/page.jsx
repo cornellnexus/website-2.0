@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Button from "./component/button";
 
 export default function Home() {
@@ -47,7 +46,7 @@ export default function Home() {
               fames ac. Magna fermentum iaculis eu non diam phasellus vestibulum
               lorem. Vel facilisis volutpat est velit egestas dui id.
             </p>
-            <Button href="/about" text="Learn More"></Button>
+            <Button href="/about" text="Learn More" size="lg" color="green" />
           </div>
         </div>
         <div className="flex justify-center flex-wrap flex-row-reverse gap-12 mb-12">
@@ -70,7 +69,12 @@ export default function Home() {
               eu non diam phasellus vestibulum lorem. Vel facilisis volutpat est
               velit egestas dui id.
             </p>
-            <Button href="/team" text="Meet The Team!"></Button>
+            <Button
+              href="/team"
+              text="Meet The Team!"
+              size="lg"
+              color="green"
+            />
           </div>
         </div>
         <Image
@@ -83,9 +87,7 @@ export default function Home() {
           className="my-8"
           alt="Bubbles"
         />
-        <div className="mb-12 w-full max-w-sm">
-          <Button href="/apply" text="Join Us!"></Button>
-        </div>
+        <Button href="/apply" text="Join Us!" size="lg" color="green" />
         <div className="flex justify-center flex-wrap flex-row gap-12 mb-12">
           <div>
             <Image
@@ -106,7 +108,7 @@ export default function Home() {
               eu non diam phasellus vestibulum lorem. Vel facilisis volutpat est
               velit egestas dui id.
             </p>
-            <Button href="/team" text="Support Us!"></Button>
+            <Button href="/team" text="Support Us!" size="lg" color="green" />
           </div>
         </div>
       </div>
