@@ -5,39 +5,40 @@ import Link from "next/link";
 import Button from "./component/button";
 import { motion } from "framer-motion";
 
+const buttonVariants = {
+  hover: {
+    scale: 1.02,
+    transition: {
+      duration: 0.15,
+    },
+  },
+};
+
+const imageVariants = {
+  offscreen: { opacity: 0 },
+  onscreen: {
+    opacity: 1,
+    transition: {
+      duration: 0.8,
+      ease: "easeOut",
+    },
+  },
+};
+
+const contentScrollVariants = {
+  offscreen: { y: 50, opacity: 0 },
+  onscreen: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      type: "spring",
+      bounce: 0.25,
+      duration: 0.8,
+    },
+  },
+};
+
 export default function Home() {
-  const buttonVariants = {
-    hover: {
-      scale: 1.02,
-      transition: {
-        duration: 0.15,
-      },
-    },
-  };
-
-  const imageVariants = {
-    offscreen: { opacity: 0 },
-    onscreen: {
-      opacity: 1,
-      transition: {
-        duration: 0.8,
-        ease: "easeOut",
-      },
-    },
-  };
-
-  const contentScrollVariants = {
-    offscreen: { y: 50, opacity: 0 },
-    onscreen: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        type: "spring",
-        bounce: 0.25,
-        duration: 0.8,
-      },
-    },
-  };
 
   return (
     <div className="bg-teal pb-4">
