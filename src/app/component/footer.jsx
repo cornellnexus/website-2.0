@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-white flex flex-wrap items-center gap-4 justify-around sm:justify-between px-12 py-6">
       <div className="flex flex-wrap gap-6 justify-center items-center">
         <div className="flex flex-row justify-between gap-6">
-          <a href="https://www.instagram.com/cornellnexus/" target="_blank" class="transition ease-in-out delay-90 hover:-translate-y-1">
+          <a href="https://www.instagram.com/cornellnexus/" target="_blank" className="transition ease-in-out delay-90 hover:-translate-y-1">
             <Image
               id="insta-icon"
               src={"/insta-svg.svg"}
@@ -14,7 +14,7 @@ export default function Footer() {
               alt="Instagram"
             />
           </a>
-          <a href="https://www.facebook.com/cornellnexus/" target="_blank" class="transition ease-in-out delay-90 hover:-translate-y-1">
+          <a href="https://www.facebook.com/cornellnexus/" target="_blank" className="transition ease-in-out delay-90 hover:-translate-y-1">
             <Image
               id="facebook-icon"
               src={"facebook-svg.svg"}
@@ -25,7 +25,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="flex flex-row justify-between gap-6">
-          <a href="https://github.com/cornellnexus" target="_blank" class="transition ease-in-out delay-90 hover:-translate-y-1">
+          <a href="https://github.com/cornellnexus" target="_blank" className="transition ease-in-out delay-90 hover:-translate-y-1">
             <Image
               id="github-icon"
               src={"/github-svg.svg"}
@@ -34,7 +34,7 @@ export default function Footer() {
               alt="Github"
             />
           </a>
-          <a href="mailto:nexus@cornell.edu" target="_blank" class="transition ease-in-out delay-90 hover:-translate-y-1">
+          <a href="mailto:nexus@cornell.edu" target="_blank" className="transition ease-in-out delay-90 hover:-translate-y-1">
             <Image
               id="email-icon"
               src={"email-svg.svg"}
