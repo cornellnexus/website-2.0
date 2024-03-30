@@ -74,7 +74,7 @@ export default function AboutUs() {
           </div>
           <div className="max-w-sm">
             <p className="text-4xl font-medium">Progress</p>
-            <p className>{progressDesc}</p>
+            <p>{progressDesc}</p>
           </div>
         </div>
 
@@ -90,7 +90,7 @@ export default function AboutUs() {
           </div>
           <div className="max-w-sm">
             <p className="text-4xl font-medium">Story</p>
-            <p className>{storyDesc}</p>
+            <p>{storyDesc}</p>
           </div>
         </div>
       </div>
