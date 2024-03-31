@@ -159,18 +159,29 @@ export default function Home() {
             </motion.div>
           </motion.div>
         </div>
-        <Image
-          priority
-          src={"bubbles.svg"}
-          width={0}
-          height={0}
-          sizes="100vw"
-          style={{ width: "80%", height: "auto" }}
-          className="my-8"
-          alt="Bubbles"
-        />
+        <motion.div
+          initial={{y:50, scale:0}}
+          whileInView={{y:0, scale:1}}
+          viewport={{once: true, amount: .7}}
+          transition={{duration: .5, ease: "easeOut"}}
+          className="flex justify-center"
+        >
+          <Image
+            priority
+            src={"bubbles.svg"}
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: "80%", height: "auto" }}
+            className="my-8"
+            alt="Bubbles"
+          />
+        </motion.div>
         <div className="mb-12 w-full max-w-sm">
           <motion.div
+            initial={{opacity: 0, scale:0}}
+            whileInView={{opacity: 1, scale: 1}}
+            viewport={{once: true, amount: .7}}
             whileHover="hover"
             variants={buttonVariants}
           >
