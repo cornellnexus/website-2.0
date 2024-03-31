@@ -37,7 +37,7 @@ export default function Footer() {
           <a href="mailto:nexus@cornell.edu" target="_blank" className="transition ease-in-out delay-90 hover:-translate-y-1">
             <Image
               id="email-icon"
-              src={"email-svg.svg"}
+              src={"fi-rr-envelope.svg"}
               width="30"
               height="30"
               alt="E-mail"
