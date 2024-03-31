@@ -42,7 +42,7 @@ export default function Home() {
 
   return (
     <div className="bg-teal pb-4">
-      <div className="min-h-screen bg-sand">
+      <div className="min-w-screen bg-sand">
         <div className="flex flex-row flex-wrap justify-center items-center gap-12 pt-16 px-4 bg-sand">
           <motion.div 
             initial={{ x: -150, opacity: 0 }}
