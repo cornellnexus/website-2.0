@@ -87,7 +87,7 @@ export default function Home() {
           <motion.div
             initial="offscreen"
             whileInView="onscreen"
-            viewport={{ once: true, amount: 0.7 }}
+            viewport={{ once: true, amount: 0.3 }}
             variants={imageVariants}
           >
             <Image
@@ -122,7 +122,12 @@ export default function Home() {
           </motion.div>
         </div>
         <div className="flex justify-center flex-wrap flex-row-reverse gap-12 mb-12">
-          <div>
+          <motion.div
+            initial="offscreen"
+            whileInView="onscreen"
+            viewport={{once:true, amount: 0.3}}
+            variants={imageVariants}
+          >
             <Image
               className="rounded shadow"
               priority
@@ -131,7 +136,7 @@ export default function Home() {
               height="400"
               alt="Team"
             />
-          </div>
+          </motion.div>
           <motion.div
             initial="offscreen"
             whileInView="onscreen"
@@ -176,7 +181,7 @@ export default function Home() {
           <motion.div
             initial="offscreen"
             whileInView="onscreen"
-            viewport={{ once: true, amount: 0.7 }}
+            viewport={{ once: true, amount: 0.3 }}
             variants={imageVariants}
           >
             <Image
