@@ -2,9 +2,10 @@
 import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function AboutUs() {
+  const [direction, setDirection] = useState("right");
   const mission =
     "Nexus is a student-run project team on campus that aims to create novel technologies to be deployed by global organizations for social impact. Currently, we are building a solar-powered robot that filters microplastics while autonomously traversing beaches, picking up what cleanup volunteers can’t. The amount of plastic pollution has been rising readily. Nexus’ goal is to be a significant actor and leader in the fight against such environmental pollution. Our team has been working hard to make our vision a reality for global impact through the interdisciplinary collaboration between mechanical, electrical, and software engineers, as well as the business development and outreach team.Most importantly, we hope to increase research and awareness around the intersection of technology and environmental sustainability to do our part in saving our planet. As our team expands, we plan to tackle global issues and engineering challenges to create a positive social impact on our planet.";
   const progressDesc =
@@ -15,13 +16,14 @@ export default function AboutUs() {
   const images = ["/robot.png", "/mechanical.jpeg"];
 
   function handlePrev() {
+    setDirection("left");
     setIndex((index - 1 + images.length) % images.length);
   }
 
   function handleNext() {
+    setDirection("right");
     setIndex((index + 1) % images.length);
   }
-
   return (
     <>
       {/* Main page content */}
@@ -49,7 +51,9 @@ export default function AboutUs() {
             >
               &lt;
             </button>
-            <div className="relative overflow-hidden w-[300px] h-[225px] sm:w-[600px] sm:h-[450px] md:w-[700px] md:h-[525px] pb-5 rounded">
+            <motion.div
+              className="relative overflow-hidden w-[300px] h-[225px] sm:w-[600px] sm:h-[450px] md:w-[700px] md:h-[525px] pb-5 rounded"
+            >
               <Image
                 className="object-cover"
                 id="carouselImage"
@@ -57,7 +61,7 @@ export default function AboutUs() {
                 alt="progress image"
                 fill={true}
               />
-            </div>
+            </motion.div>
             <button
               onClick={handleNext}
               id="nextBtn"
