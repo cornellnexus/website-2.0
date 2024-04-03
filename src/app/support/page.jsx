@@ -76,7 +76,13 @@ export default function Support() {
             />
           </motion.div>
           <div className="flex flex-wrap justify-center gap-8 w-full mb-10">
-            <div className="bg-ash rounded p-5 max-w-md">
+            <motion.div 
+              initial={{opacity: 0, x: -50}}
+              whileInView={{opacity: 1, x: 0}}
+              viewport={{once: true, amount: .7}}
+              transition={{duration: .7, ease:"easeOut"}}
+              className="bg-ash rounded p-5 max-w-md"
+            >
               <div className="text-2xl font-semibold">Sponsorships</div>
               <div>
                 Forming partnerships and receiving sponsors is a large part of
@@ -86,8 +92,14 @@ export default function Support() {
               <div className="flex justify-center">
                 <Button href="" text="View" size="xs" color="navy" />
               </div>
-            </div>
-            <div className="bg-ash rounded p-5 max-w-md">
+            </motion.div>
+            <motion.div 
+              initial={{opacity: 0, x: 50}}
+              whileInView={{opacity: 1, x: 0}}
+              viewport={{once: true, amount: .7}}
+              transition={{duration: .7, delay: .3,ease:"easeOut"}}
+              className="bg-ash rounded p-5 max-w-md"
+            >
               <div className="text-2xl font-semibold">Giving Day</div>
               <div>
                 Giving Day gifts will assist us overcome the last big obstacle,
@@ -102,7 +114,7 @@ export default function Support() {
                   color="navy"
                 />
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
