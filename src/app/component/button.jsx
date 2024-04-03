@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
+import {motion} from "framer-motion";
 
 export default function Button(props) {
   const color = {
@@ -16,7 +19,12 @@ export default function Button(props) {
   };
 
   return (
-    <div className={"w-full " + size[props.size]}>
+    <motion.div 
+      initial={{scale:1}}
+      whileHover={{scale:1.05}}
+      transition={{type:"spring", stiffness: 400, damping: 13}}
+      className={"w-full " + size[props.size]}
+    >
       <Link
         href={props.href}
         className={"flex my-4 rounded-xl transition " + color[props.color]}
@@ -30,6 +38,6 @@ export default function Button(props) {
           {props.text}
         </button>
       </Link>
-    </div>
+    </motion.div>
   );
 }
