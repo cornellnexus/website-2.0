@@ -2,9 +2,11 @@
 import { useSearchParams, usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { memberInfo } from '../constants'
+import { memberInfo } from '../constants';
+import { motion } from 'framer-motion';
 
 function Modal() {
+
   const searchParams = useSearchParams();
 
   // Current URL format
@@ -21,88 +23,92 @@ function Modal() {
   return (
     <>
       {modal &&
-        <dialog
-          className="fixed left-0 top-0 w-full h-full bg-black bg-opacity-50 z-50 overflow-hidden backdrop-blur flex ">
-          <div className="modal-color text-white modal-length h-flex m-auto py-8 px-8 rounded transform transition-opacity">
-            <div className="flex flex-col ">
+        <motion.div
+        // Animation for member card?
+        >
+          <dialog
+            className="fixed left-0 top-0 w-full h-full bg-black bg-opacity-50 z-50 overflow-hidden backdrop-blur flex ">
+            <div className="modal-color text-white modal-length h-flex m-auto py-8 px-8 rounded transform transition-opacity">
+              <div className="flex flex-col ">
 
-              <div className="flex flex-row self-end">
+                <div className="flex flex-row self-end">
 
-                <Link
-                  href={pathname}
-                  scroll={false}
-                >
-                  <Image
-                    className='rounded'
-                    id='x'
-                    src={'/modal-x.svg'}
-                    alt="closeButton"
-                    width='20'
-                    height='20'
-                  />
-                </Link>
-              </div>
-
-
-
-              <div className="flex flex-row justify-between mt-4">
-                <div className="flex flex-row self-start  text-3xl">
-                  <div className="line leading-normal  flex flex-row truncate">
-                    <p> {firstname + " " + lastname} </p>
-                    <div className={memberInfo[name]['emoji'] !== "" ? "pl-3" : ""}>
-                      {memberInfo[name]['emoji'] !== "" ?
-
-                        <Image
-                          className='rounded '
-                          id='emoji'
-                          src={memberInfo[name]['emoji']}
-                          alt="progressimage"
-                          width='35'
-                          height='35'
-                        />
-                        :
-                        null
-                      }
-                    </div>
-                  </div>
-
-                </div>
-
-                <div className="flex flex-row pb-1 space-x-3 self-end emptyline">
-                  <p></p>
                   <Link
-                    href={`mailto:${memberInfo[name]['email']}`}
-                    title="Email me for a coffee chat!"
+                    href={pathname}
+                    scroll={false}
                   >
                     <Image
-                      className='rounded justify-center'
+                      className='rounded'
+                      id='x'
+                      src={'/modal-x.svg'}
+                      alt="closeButton"
+                      width='20'
+                      height='20'
+                    />
+                  </Link>
+                </div>
+
+
+
+                <div className="flex flex-row justify-between mt-4">
+                  <div className="flex flex-row self-start  text-3xl">
+                    <div className="line leading-normal  flex flex-row truncate">
+                      <p> {firstname + " " + lastname} </p>
+                      <div className={memberInfo[name]['emoji'] !== "" ? "pl-3" : ""}>
+                        {memberInfo[name]['emoji'] !== "" ?
+
+                          <Image
+                            className='rounded '
+                            id='emoji'
+                            src={memberInfo[name]['emoji']}
+                            alt="progressimage"
+                            width='35'
+                            height='35'
+                          />
+                          :
+                          null
+                        }
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div className="flex flex-row pb-1 space-x-3 self-end emptyline">
+                    <p></p>
+                    <Link
+                      href={`mailto:${memberInfo[name]['email']}`}
+                      title="Email me for a coffee chat!"
+                    >
+                      <Image
+                        className='rounded justify-center'
+                        id='carouselImage'
+                        src={'/fi-rr-coffee.svg'}
+                        alt="progressimage"
+                        width='35'
+                        height='35'
+                      />
+                    </Link>
+                    <Image
+                      className='rounded'
                       id='carouselImage'
-                      src={'/fi-rr-coffee.svg'}
+                      src={'/white-linkedin.svg'}
                       alt="progressimage"
                       width='35'
                       height='35'
                     />
-                  </Link>
-                  <Image
-                    className='rounded'
-                    id='carouselImage'
-                    src={'/white-linkedin.svg'}
-                    alt="progressimage"
-                    width='35'
-                    height='35'
-                  />
+                  </div>
                 </div>
+
+                <div className="flex flex-row self-start mt-5">
+                  {memberInfo[name]['desc']}
+                </div>
+
+                <br />
+
               </div>
-
-              <div className="flex flex-row self-start mt-5">
-                {memberInfo[name]['desc']}
-              </div>
-
-              <br />
-
             </div>
-          </div>
-        </dialog>
+          </dialog>
+        </motion.div>
       }
     </>
   );
