@@ -66,11 +66,11 @@ export default function Apply() {
           </motion.div>
 
           <motion.div
-            initial={{ y: 200, opacity: 0 }}
+            initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            transition={{ delay: .1, duration: .7, ease: "easeInOut" }}
+            viewport={{ once: true }}
+            transition={{ delay: .1, duration: .5, ease: "easeInOut" }}
           >
-
             <Button
               className="font-semibold"
               href="https://docs.google.com/forms/d/e/1FAIpQLScYhg1SeyPxOobY6WgE7NoL5Ul_7MEmpjnGlYPDJcqBv5gC1w/viewform"
@@ -81,9 +81,10 @@ export default function Apply() {
           </motion.div>
 
           <motion.div
-            initial={{ y: 200, opacity: 0 }}
+            initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            transition={{ delay: .1, duration: .7, ease: "easeInOut" }}
+            viewport={{ once: true}}
+            transition={{ delay: .1, duration: .5, ease: "easeInOut" }}
           >
             <Image
               className="mb-10 mt-6"
@@ -96,9 +97,10 @@ export default function Apply() {
           </motion.div>
 
           <motion.div
-            initial={{ y: 200, opacity: 0 }}
+            initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            transition={{ delay: .1, duration: .7, ease: "easeInOut" }}
+            viewport={{once:true}}
+            transition={{ delay: .1, duration: .5, ease: "easeInOut" }}
           >
             <div className="w-full ">
               <div className="h-auto w-2/3 justify-center mx-auto">
@@ -132,9 +134,10 @@ export default function Apply() {
 
 
           <motion.div
-            initial={{ y: 60, opacity: 0 }}
+            initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            transition={{ delay: .1, duration: .7, ease: "easeInOut" }}
+            viewport={{once: true}}
+            transition={{ delay: .1, duration: .5, ease: "easeInOut" }}
           >
             <div className="py-5 flex flex-col ">
               <div className="flex flex-row ">
@@ -160,7 +163,6 @@ export default function Apply() {
                 />
               </div>
             </div>
-
           </motion.div>
         </div>
       </div>
