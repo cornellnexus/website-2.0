@@ -49,3 +49,7 @@ html {
 .burger.is-open {
   grid-template-rows: 1fr;
 }
+
+.h-accordion-section {
+  height: 30rem;
+}

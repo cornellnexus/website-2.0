@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 export default function Button(props) {
   const color = {
@@ -19,10 +19,10 @@ export default function Button(props) {
   };
 
   return (
-    <motion.div 
-      initial={{scale:1}}
-      whileHover={{scale:1.05}}
-      transition={{type:"spring", stiffness: 400, damping: 13}}
+    <motion.div
+      initial={{ scale: 1 }}
+      whileHover={{ scale: 1.05 }}
+      transition={{ type: "spring", stiffness: 400, damping: 13 }}
       className={"w-full " + size[props.size]}
     >
       <Link
@@ -31,7 +31,7 @@ export default function Button(props) {
       >
         <button
           className={
-            "px-8 py-3 w-full border-none text-white text-xl " +
+            "px-8 py-3 w-full border-none text-white text-xl font-semibold" +
             size[props.size]
           }
         >
