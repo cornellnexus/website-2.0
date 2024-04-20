@@ -12,7 +12,7 @@ export default function Contact() {
             initial={{y:-30, opacity:0}}
             whileInView={{y:0, opacity:1}}
             viewport={{once: true}}
-            transition={{duration: .45, ease:"easeOut"}}
+            transition={{duration: .3, ease:"easeOut"}}
             className="text-center title-size font-semibold text-5xl py-10"
           >
             Contact
@@ -22,7 +22,7 @@ export default function Contact() {
               initial={{opacity:0, scale:0}}
               whileInView={{opacity:1, scale:1}}
               viewport={{once:true}}
-              transition={{duration: .65, delay: .25, type:"spring", stiffness: 150, damping: 17}}
+              transition={{duration: .4, delay: .1, type:"spring", stiffness: 150, damping: 17}}
             >
               <Image
                 src={"/silly-fullteam.jpeg"}
@@ -37,7 +37,7 @@ export default function Contact() {
                 initial={{opacity: 0, x: 100}}
                 whileInView={{opacity: 1, x:0}}
                 viewport={{once: true}}
-                transition={{delay: .8, duration: .6, ease:"easeOut"}}
+                transition={{delay: .55, duration: .45, ease:"easeOut"}}
                 className="text-3xl font-semibold"
               >
                 Get in touch with us!
@@ -46,7 +46,7 @@ export default function Contact() {
                 initial={{opacity: 0, x: 100}}
                 whileInView={{opacity: 1, x:0}}
                 viewport={{once: true}}
-                transition={{delay: .8, duration: .6, ease:"easeOut"}}
+                transition={{delay: .55, duration: .45, ease:"easeOut"}}
                 className="text-lg"
               >
                 Whether you have questions or just want to say hello, we&#39;re here
@@ -57,7 +57,7 @@ export default function Contact() {
                 initial={{opacity: 0, x: 100}}
                 whileInView={{opacity: 1, x:0}}
                 viewport={{once: true}}
-                transition={{delay: 1.3, duration: .6, ease:"easeOut"}}
+                transition={{delay: 1.05, duration: .45, ease:"easeOut"}}
                 className="text-xl font-semibold mt-2"
               >
                 Email
@@ -66,7 +66,7 @@ export default function Contact() {
                 initial={{opacity: 0, x: 100}}
                 whileInView={{opacity: 1, x:0}}
                 viewport={{once: true}}
-                transition={{delay: 1.3, duration: .6, ease:"easeOut"}}
+                transition={{delay: 1.05, duration: .45, ease:"easeOut"}}
               >
                 <a 
                   href="mailto:nexus@cornell.edu"
@@ -79,7 +79,7 @@ export default function Contact() {
                 initial={{opacity: 0, x: 100}}
                 whileInView={{opacity: 1, x:0}}
                 viewport={{once: true}}
-                transition={{delay: 1.8, duration: .6, ease:"easeOut"}}
+                transition={{delay: 1.55, duration: .35, ease:"easeOut"}}
                 className="text-xl font-semibold mt-2"
               >
                 Social Media
@@ -89,7 +89,7 @@ export default function Contact() {
                 initial={{opacity: 0, y: 40}}
                 whileInView={{opacity: 1, y:0}}
                 viewport={{once: true}}
-                transition={{type: "spring", damping: 14, delay: 2.3, duration: .25, ease:"easeOut"}}
+                transition={{type: "spring", damping: 14, delay: 2.05, duration: .1, ease:"easeOut"}}
               >
                 <a href="https://www.instagram.com/cornellnexus/" target="_blank">
                   <motion.div
@@ -110,7 +110,7 @@ export default function Contact() {
                   initial={{opacity: 0, y: 40}}
                   whileInView={{opacity: 1, y: 0}}
                   viewport={{once: true}}
-                  transition={{type: "spring", damping: 14, delay: 2.5, duration: .25, ease: "easeOut"}}
+                  transition={{type: "spring", damping: 14, delay: 2.25, duration: .1, ease: "easeOut"}}
                 >
                   <a href="https://www.linkedin.com/company/cornellnexus/" target="_blank">
                     <motion.div
@@ -131,7 +131,7 @@ export default function Contact() {
                   initial={{opacity: 0, y: 40}}
                   whileInView={{opacity: 1, y: 0}}
                   viewport={{once: true}}
-                  transition={{type: "spring", damping: 14, delay: 2.7, duration: .25, ease: "easeOut"}}
+                  transition={{type: "spring", damping: 14, delay: 2.45, duration: .1, ease: "easeOut"}}
                 >
                   <a href="https://www.facebook.com/cornellnexus/" target="_blank">
                     <motion.div
