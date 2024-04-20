@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Button from "../component/button";
 
@@ -6,10 +7,13 @@ import AccordionActions from '@mui/material/AccordionActions';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import AnimatedTitle from '../component/animatedtitle';
 
-
+import { motion } from 'framer-motion'
 
 export default function Apply() {
+
+
 
   const accordianSection = [
     {
@@ -42,84 +46,122 @@ export default function Apply() {
     <>
       <div className="min-h-screen bg-grey">
         <div className="flex flex-col items-center px-4">
-          <div className="title-size font-semibold text-5xl py-10">
-            Join Our Team!
+          <div className="h-24">
+            <AnimatedTitle text='Join Our Team' />
           </div>
-          <Image
-            className='rounded pb-10'
-            id='x'
-            src={'/sp24-recruitment.svg'}
-            alt="closeButton"
-            width='1200'
-            height='300'
-          />
-          <Button
-            className="font-semibold"
-            href="https://docs.google.com/forms/d/e/1FAIpQLScYhg1SeyPxOobY6WgE7NoL5Ul_7MEmpjnGlYPDJcqBv5gC1w/viewform"
-            color="navy"
-            size="lg"
-            text="Apply"
-          />
+          <motion.div
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: .5, duration: .7, type: "spring", stiffness: 400, damping: 25, ease: "easeOut" }}
+          >
+            <Image
+              className='rounded mb-10 shadow-lg'
+              id='x'
+              src={'/sp24-recruitment.svg'}
+              alt="recruitment timeline"
+              width='1200'
+              height='300'
+            />
+          </motion.div>
 
-          <Image
-            className="mb-10 mt-6"
-            src={"/delimiter.svg"}
-            alt="separator"
-            width="128"
-            height="4"
-          />
+          <motion.div
+            initial={{ y: 200, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: .1, duration: .7, ease: "easeInOut" }}
+          >
 
+            <Button
+              className="font-semibold"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScYhg1SeyPxOobY6WgE7NoL5Ul_7MEmpjnGlYPDJcqBv5gC1w/viewform"
+              color="navy"
+              size="lg"
+              text="Apply"
+            />
+          </motion.div>
 
-          <div className="h-auto">
-            <div className="font-semibold text-left w-full p-3 text-4xl">
-              Frequently Asked Questions (FAQ)
-            </div>
-            {
-              accordianSection.map((accordian, idx) => {
-                return <div className="p-3" key={idx}>
-                  <Accordion>
-                    <AccordionSummary
-                      expandIcon={<ExpandMoreIcon />}
-                    >
-                      <div className="font-semibold">
-                        {accordian["accordianTitle"]}
-                      </div>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                      {accordian["accordianContent"]}
-                    </AccordionDetails>
-                  </Accordion>
+          <motion.div
+            initial={{ y: 200, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: .1, duration: .7, ease: "easeInOut" }}
+          >
+            <Image
+              className="mb-10 mt-6"
+              src={"/delimiter.svg"}
+              alt="separator"
+              width="128"
+              height="4"
+            />
+
+          </motion.div>
+
+          <motion.div
+            initial={{ y: 200, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: .1, duration: .7, ease: "easeInOut" }}
+          >
+            <div className="w-full ">
+              <div className="h-auto w-2/3 justify-center mx-auto">
+                <div className="font-semibold text-left w-full p-3 text-4xl">
+                  Frequently Asked Questions (FAQ)
                 </div>
-              })
-            }
-          </div>
 
-          <div className="py-5 flex flex-col ">
-            <div className="flex flex-row ">
-              <Image
-                className='rounded m-1'
-                id='x'
-                src={'/turtlethink.svg'}
-                alt="closeButton"
-                width='30'
-                height='30'
-              />
-              <div className="text-2xl font-semibold m-1">
-                Any other questions? Just ask us!
+                {
+                  accordianSection.map((accordian, idx) => {
+                    return <div className="m-6 " key={idx}>
+                      <Accordion>
+                        <AccordionSummary
+                          expandIcon={<ExpandMoreIcon />}
+                        >
+                          <div className="font-semibold">
+                            {accordian["accordianTitle"]}
+                          </div>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                          {accordian["accordianContent"]}
+                        </AccordionDetails>
+                      </Accordion>
+                    </div>
+                  })
+                }
+
+
               </div>
             </div>
-            <div className="flex justify-center">
-              <Button
-                className="font-semibold"
-                href=""
-                color="navy"
-                size="lg"
-                text="Contact"
-              />
+          </motion.div>
+
+
+          <motion.div
+            initial={{ y: 60, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: .1, duration: .7, ease: "easeInOut" }}
+          >
+            <div className="py-5 flex flex-col ">
+              <div className="flex flex-row ">
+                <Image
+                  className='rounded m-1'
+                  id='x'
+                  src={'/turtlethink.svg'}
+                  alt="closeButton"
+                  width='30'
+                  height='30'
+                />
+                <div className="text-2xl font-semibold m-1">
+                  Any other questions? Just ask us!
+                </div>
+              </div>
+              <div className="flex justify-center">
+                <Button
+                  className="font-semibold"
+                  href=""
+                  color="navy"
+                  size="lg"
+                  text="Contact"
+                />
+              </div>
             </div>
-          </div>
 
-
+          </motion.div>
         </div>
       </div>
     </>
