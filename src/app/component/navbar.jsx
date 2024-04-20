@@ -39,7 +39,7 @@ export default function Navbar() {
           {navItems.map((item) => (
             <Link
               key={item.id}
-              className="p-3 rounded-xl hover:bg-teal hover:text-white mx-2 cursor-pointer duration-300"
+              className="p-3 rounded-md hover:bg-teal hover:text-white mx-2 cursor-pointer duration-300"
               href={item.path}
             >
               {item.text}

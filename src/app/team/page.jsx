@@ -4,49 +4,49 @@ import { memberInfo } from "../constants";
 
 export default function Team() {
   const ElectricalSubteam = [
+    "Antranig Baghdassarian",
+    "Parishee Bajaj",
     "Amber Li",
     "Casey Kashishian",
     "George Maidhof",
+    "Anamitra Rawat",
+    "Akmal Rupasingha",
     "Jasmine Si",
     "Aaron Sucov",
-    "Antranig Baghdassarian",
-    "Akmal Rupasingha",
-    "Anamitra Rawat",
-    "Parishee Bajaj",
-  ];
-  const MechanicalSubteam = [
-    "Christopher Bauer",
-    "Katlynn Ryu",
-    "Lucca Correia",
-    "Mia Tarantini",
-    "Yujean Choi",
-    "Farah Achouri",
-    "William Dignam",
-    "Cleo Hamilton",
-    "Ethan Sekiguchi",
-    "Natalie Kaplan",
-  ];
-  const SoftwareSubteam = [
-    "Lin Jin",
-    "Vinny Huang",
-    "Shreya Kumar",
-    "Sophia Pan",
-    "Ahan Mishra",
-    "Natalie Leung",
-    "Gary Chen",
-    "Luke Tao",
-    "Michael Wu",
-    "Grace Wei",
-    "Amishi Gupta",
   ];
   const BusinessSubteam = [
-    "Mona Wu",
-    "Tanay Nisar",
-    "Elaine Wu",
-    "Vedaant Shah",
     "Jeana Han",
-    "Oscar Lam",
     "Neha Jain",
+    "Oscar Lam",
+    "Tanay Nisar",
+    "Vedaant Shah",
+    "Elaine Wu",
+    "Mona Wu",
+  ];
+  const SoftwareSubteam = [
+    "Gary Chen",
+    "Amishi Gupta",
+    "Vinny Huang",
+    "Lin Jin",
+    "Shreya Kumar",
+    "Natalie Leung",
+    "Ahan Mishra",
+    "Sophia Pan",
+    "Luke Tao",
+    "Grace Wei",
+    "Michael Wu",
+  ];
+  const MechanicalSubteam = [
+    "Farah Achouri",
+    "Christopher Bauer",
+    "Yujean Choi",
+    "Lucca Correia",
+    "William Dignam",
+    "Cleo Hamilton",
+    "Natalie Kaplan",
+    "Katlynn Ryu",
+    "Ethan Sekiguchi",
+    "Mia Tarantini",
   ];
 
   return (
@@ -62,6 +62,7 @@ export default function Team() {
             alt="fullteam image"
             width="700"
             height="700"
+            priority
           />
           <div className="max-w-screen-md text-center">
             Our team is broken up into 4 main subteams: electrical, software,
@@ -87,6 +88,7 @@ export default function Team() {
             alt="fullteam image"
             width="700"
             height="700"
+            priority
           />
           <div className="max-w-screen-md text-center">
             The electrical subteam is in charge of creating a reliable sensor
@@ -145,6 +147,7 @@ export default function Team() {
             alt="fullteam image"
             width="700"
             height="700"
+            priority
           />
           <div className="max-w-screen-md text-center">
             The business subteam team goes beyond finance and general business
@@ -158,14 +161,33 @@ export default function Team() {
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
-            {BusinessSubteam.map((name, idx) => (
-              <MemberCard
-                key={idx}
-                src={memberInfo[name]["image"]}
-                name={name}
-                title={memberInfo[name]["title"]}
-              />
-            ))}
+            {BusinessSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] != "") {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {BusinessSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] == "") {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                  />
+                );
+              }
+              return null;
+            })}
           </div>
           <Image
             className="my-10"
@@ -183,20 +205,40 @@ export default function Team() {
             alt="fullteam image"
             width="700"
             height="700"
+            priority
           />
           <div className="max-w-screen-md text-center">
             Insert blurb about the mechanical team
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
-            {MechanicalSubteam.map((name, idx) => (
-              <MemberCard
-                key={idx}
-                src={memberInfo[name]["image"]}
-                name={name}
-                title={memberInfo[name]["title"]}
-              />
-            ))}
+            {MechanicalSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] != "") {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {MechanicalSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] == "") {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                  />
+                );
+              }
+              return null;
+            })}
           </div>
           <Image
             className="my-10"
@@ -214,18 +256,38 @@ export default function Team() {
             alt="fullteam image"
             width="700"
             height="700"
+            priority
           />
           <div className="max-w-screen-md text-center">We love CS</div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
-          <div className="flex flex-row flex-wrap justify-center mb-10">
-            {SoftwareSubteam.map((name, idx) => (
-              <MemberCard
-                key={idx}
-                src={memberInfo[name]["image"]}
-                name={name}
-                title={memberInfo[name]["title"]}
-              />
-            ))}
+          <div className="flex flex-row flex-wrap justify-center">
+            {SoftwareSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] != "") {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {SoftwareSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] == "") {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                  />
+                );
+              }
+              return null;
+            })}
           </div>
         </div>
       </div>
