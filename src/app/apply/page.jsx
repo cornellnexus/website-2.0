@@ -46,7 +46,7 @@ export default function Apply() {
     <>
       <div className="min-h-screen bg-grey">
         <div className="flex flex-col items-center px-4">
-          <div className="h-24">
+          <div className="py-10">
             <AnimatedTitle text='Join Our Team' />
           </div>
           <motion.div
