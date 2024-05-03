@@ -284,7 +284,7 @@ export const memberInfo = {
     year: "2025",
     title: "Full Team Lead",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/mona-wu-4b5b68244/",
+    linkedin: "https://www.linkedin.com/in/mona-wu1/",
     email: "",
   },
 

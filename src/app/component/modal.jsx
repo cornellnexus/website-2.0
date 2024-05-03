@@ -47,19 +47,31 @@ function Modal() {
                       <p> {firstname + " " + lastname} </p>
                       <div
                         className={
-                          memberInfo[name]["emoji"] !== "" ? "pl-3" : ""
+                          memberInfo[name]["emoji"] !== ""
+                            ? "pl-3 text-4xl"
+                            : ""
                         }
                       >
-                        {memberInfo[name]["emoji"] !== "" ? (
-                          <Image
-                            className="rounded "
-                            id="emoji"
-                            src={memberInfo[name]["emoji"]}
-                            alt="progressimage"
-                            width="35"
-                            height="35"
-                          />
-                        ) : null}
+                        {(() => {
+                          if (memberInfo[name]["emoji"] === "") {
+                            return null;
+                          } else if (
+                            memberInfo[name]["emoji"].includes(".svg")
+                          ) {
+                            return (
+                              <Image
+                                className="rounded "
+                                id="emoji"
+                                src={memberInfo[name]["emoji"]}
+                                alt="progressimage"
+                                width="35"
+                                height="35"
+                              />
+                            );
+                          } else {
+                            return memberInfo[name]["emoji"];
+                          }
+                        })()}
                       </div>
                     </div>
                   </div>
