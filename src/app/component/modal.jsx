@@ -33,7 +33,7 @@ function Modal() {
                     <Image
                       className="rounded"
                       id="x"
-                      src={"/x.svg"}
+                      src={"x-white.svg"}
                       alt="closeButton"
                       width="20"
                       height="20"
@@ -65,28 +65,43 @@ function Modal() {
                   </div>
 
                   <div className="flex flex-row pb-1 space-x-3 self-end emptyline">
-                    <p></p>
-                    <Link
-                      href={`mailto:${memberInfo[name]["email"]}`}
-                      title="Email me for a coffee chat!"
-                    >
-                      <Image
-                        className="rounded justify-center white"
-                        id="carouselImage"
-                        src={"/coffee-white.svg"}
-                        alt="progressimage"
-                        width="35"
-                        height="35"
-                      />
-                    </Link>
-                    <Image
-                      className="rounded"
-                      id="carouselImage"
-                      src={"/linkedin-white.svg"}
-                      alt="progressimage"
-                      width="35"
-                      height="35"
-                    />
+                    <div>
+                      {memberInfo[name]["email"] !== "" ? (
+                        <Link
+                          href={`mailto:${memberInfo[name]["email"]}`}
+                          title="Email me for a coffee chat!"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <Image
+                            className="rounded justify-center"
+                            id="carouselImage"
+                            src={"/coffee-white.svg"}
+                            alt="progressimage"
+                            width="35"
+                            height="35"
+                          />
+                        </Link>
+                      ) : null}
+                    </div>
+                    <div>
+                      {memberInfo[name]["linkedin"] !== "" ? (
+                        <Link
+                          href={memberInfo[name]["linkedin"]}
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <Image
+                            className="rounded"
+                            id="carouselImage"
+                            src={"/linkedin-white.svg"}
+                            alt="progressimage"
+                            width="35"
+                            height="35"
+                          />
+                        </Link>
+                      ) : null}
+                    </div>
                   </div>
                 </div>
 

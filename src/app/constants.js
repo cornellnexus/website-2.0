@@ -41,7 +41,7 @@ export const memberInfo = {
     year: "2026",
     title: "Electrical Team Lead",
     emoji: "",
-    linkedin: "www.linkedin.com/in/amber-li-a63155248",
+    linkedin: "https://www.linkedin.com/in/amber-li-a63155248",
     email: "",
   },
 
@@ -113,7 +113,7 @@ export const memberInfo = {
     year: "2027",
     title: "",
     emoji: "",
-    linkedin: "www.linkedin.com/in/amber-li-a63155248",
+    linkedin: "",
     email: "",
   },
 
@@ -140,7 +140,7 @@ export const memberInfo = {
     year: "2026",
     title: "",
     emoji: "",
-    linkedin: "www.linkedin.com/in/andrew-lowitt-728462267",
+    linkedin: "https://www.linkedin.com/in/andrew-lowitt-728462267",
     email: "",
   },
 
@@ -230,7 +230,7 @@ export const memberInfo = {
     year: "2026",
     title: "Safety Lead",
     emoji: "",
-    linkedin: "www.linkedin.com/in/mia-tarantini-9a388b268",
+    linkedin: "https://www.linkedin.com/in/mia-tarantini-9a388b268",
     email: "",
   },
 
@@ -374,7 +374,7 @@ export const memberInfo = {
     year: "2027",
     title: "",
     emoji: "",
-    linkedin: "www.linkedin.com/in/parishee-bajaj",
+    linkedin: "https://www.linkedin.com/in/parishee-bajaj",
     email: "pb587@cornell.edu",
   },
 
@@ -383,7 +383,7 @@ export const memberInfo = {
     year: "2027",
     title: "",
     emoji: "",
-    linkedin: "www.linkedin.com/in/amishigupta",
+    linkedin: "https://www.linkedin.com/in/amishigupta",
     email: "ag2424@cornell.edu",
   },
 };
