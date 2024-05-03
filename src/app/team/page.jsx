@@ -3,55 +3,55 @@ import MemberCard from "../component/membercard";
 import { memberInfo } from "../constants";
 
 export default function Team() {
-  const ElectricalSubteam = [
-    "Antranig Baghdassarian",
-    "Parishee Bajaj",
-    "Amber Li",
-    "Casey Kashishian",
-    "George Maidhof",
-    "Anamitra Rawat",
-    "Akmal Rupasingha",
-    "Jasmine Si",
-    "Aaron Sucov",
-  ];
-  const BusinessSubteam = [
-    "Jeana Han",
-    "Neha Jain",
-    "Oscar Lam",
-    "Tanay Nisar",
-    "Vedaant Shah",
-    "Elaine Wu",
-    "Mona Wu",
-  ];
-  const SoftwareSubteam = [
-    "Gary Chen",
-    "Amishi Gupta",
-    "Vinny Huang",
-    "Lin Jin",
-    "Shreya Kumar",
-    "Natalie Leung",
-    "Ahan Mishra",
-    "Sophia Pan",
-    "Luke Tao",
-    "Grace Wei",
-    "Michael Wu",
-  ];
   const MechanicalSubteam = [
-    "Farah Achouri",
     "Christopher Bauer",
-    "Yujean Choi",
     "Lucca Correia",
+    "Katlynn Ryu",
+    "Yujean Choi",
+    "Mia Tarantini",
+    "Farah Achouri",
+    "Ethan Sekiguchi",
     "William Dignam",
     "Cleo Hamilton",
     "Natalie Kaplan",
-    "Katlynn Ryu",
-    "Ethan Sekiguchi",
-    "Mia Tarantini",
+  ];
+  const ElectricalSubteam = [
+    "George Maidhof",
+    "Amber Li",
+    "Jasmine Si",
+    "Casey Kashishian",
+    "Aaron Sucov",
+    "Antranig Baghdassarian",
+    "Parishee Bajaj",
+    "Anamitra Rawat",
+    "Akmal Rupasingha",
+  ];
+  const SoftwareSubteam = [
+    "Lin Jin",
+    "Shreya Kumar",
+    "Vinny Huang",
+    "Sophia Pan",
+    "Natalie Leung",
+    "Ahan Mishra",
+    "Luke Tao",
+    "Michael Wu",
+    "Gary Chen",
+    "Amishi Gupta",
+    "Grace Wei",
+  ];
+  const BusinessSubteam = [
+    "Mona Wu",
+    "Tanay Nisar",
+    "Elaine Wu",
+    "Jeana Han",
+    "Vedaant Shah",
+    "Oscar Lam",
+    "Neha Jain",
   ];
 
   return (
     <>
-      <div className="min-h-screen bg-grey px-4">
+      <div className="min-h-screen bg-grey px-4 pb-12">
         <div className="flex flex-col items-center">
           <div className="text-center title-size font-semibold text-5xl py-10">
             Meet the Team
@@ -65,12 +65,63 @@ export default function Team() {
             priority
           />
           <div className="max-w-screen-md text-center">
-            Our team is broken up into 4 main subteams: electrical, software,
-            mechanical, and business. Each team may be working on their own
+            Our team is broken up into 4 main subteams: mechanical, electrical,
+            software, and business. Each team may be working on their own
             individual tasks, whether that be working with sensors or building a
             pitch deck. However, the integration between these four teams is
             what allows us to work on the robot efficiently and allows Members
             to learn about disciplines outside of their subteam.
+          </div>
+          <Image
+            className="my-10"
+            src={"/delimiter.svg"}
+            alt="separator"
+            width="128"
+            height="4"
+          />
+          <div className="text-center title-size font-semibold text-5xl pb-10">
+            Mechanical Team
+          </div>
+          <Image
+            className="rounded pb-5"
+            src={"/mechanical.jpeg"}
+            alt="fullteam image"
+            width="700"
+            height="700"
+            priority
+          />
+          <div className="max-w-screen-md text-center">
+            Insert blurb about the mechanical team
+          </div>
+          <div className="text-center text-3xl font-semibold py-5">Members</div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {MechanicalSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] != "") {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {MechanicalSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] == "") {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                  />
+                );
+              }
+              return null;
+            })}
           </div>
           <Image
             className="my-10"
@@ -139,6 +190,55 @@ export default function Team() {
             height="4"
           />
           <div className="text-center title-size font-semibold text-5xl pb-10">
+            Software Team
+          </div>
+          <Image
+            className="rounded pb-5"
+            src={"/software.jpeg"}
+            alt="fullteam image"
+            width="700"
+            height="700"
+            priority
+          />
+          <div className="max-w-screen-md text-center">We love CS</div>
+          <div className="text-center text-3xl font-semibold py-5">Members</div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {SoftwareSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] != "") {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {SoftwareSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] == "") {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <Image
+            className="my-10"
+            src={"/delimiter.svg"}
+            alt="separator"
+            width="128"
+            height="4"
+          />
+          <div className="text-center title-size font-semibold text-5xl pb-10">
             Business Team
           </div>
           <Image
@@ -177,106 +277,6 @@ export default function Team() {
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {BusinessSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                  />
-                );
-              }
-              return null;
-            })}
-          </div>
-          <Image
-            className="my-10"
-            src={"/delimiter.svg"}
-            alt="separator"
-            width="128"
-            height="4"
-          />
-          <div className="text-center title-size font-semibold text-5xl pb-10">
-            Mechanical Team
-          </div>
-          <Image
-            className="rounded pb-5"
-            src={"/mechanical.jpeg"}
-            alt="fullteam image"
-            width="700"
-            height="700"
-            priority
-          />
-          <div className="max-w-screen-md text-center">
-            Insert blurb about the mechanical team
-          </div>
-          <div className="text-center text-3xl font-semibold py-5">Members</div>
-          <div className="flex flex-row flex-wrap justify-center">
-            {MechanicalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
-          </div>
-          <div className="flex flex-row flex-wrap justify-center">
-            {MechanicalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                  />
-                );
-              }
-              return null;
-            })}
-          </div>
-          <Image
-            className="my-10"
-            src={"/delimiter.svg"}
-            alt="separator"
-            width="128"
-            height="4"
-          />
-          <div className="text-center title-size font-semibold text-5xl pb-10">
-            Software Team
-          </div>
-          <Image
-            className="rounded pb-5"
-            src={"/software.jpeg"}
-            alt="fullteam image"
-            width="700"
-            height="700"
-            priority
-          />
-          <div className="max-w-screen-md text-center">We love CS</div>
-          <div className="text-center text-3xl font-semibold py-5">Members</div>
-          <div className="flex flex-row flex-wrap justify-center">
-            {SoftwareSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
-          </div>
-          <div className="flex flex-row flex-wrap justify-center">
-            {SoftwareSubteam.map((name, idx) => {
               if (memberInfo[name]["title"] == "") {
                 return (
                   <MemberCard

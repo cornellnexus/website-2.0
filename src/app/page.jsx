@@ -39,15 +39,14 @@ const contentScrollVariants = {
 };
 
 export default function Home() {
-
   return (
     <div className="bg-teal pb-4">
       <div className="min-w-screen bg-sand">
         <div className="flex flex-row flex-wrap justify-center items-center gap-12 pt-16 px-4 bg-sand">
-          <motion.div 
+          <motion.div
             initial={{ x: -150, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: .25, duration: .8, ease: "easeOut" }}
+            transition={{ delay: 0.25, duration: 0.8, ease: "easeOut" }}
             className="text-center mb-12"
           >
             <p className="text-5xl font-medium">Nexus at Cornell</p>
@@ -56,10 +55,10 @@ export default function Home() {
           <motion.div
             initial={{ x: 150, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: .45, duration: .75, ease: "easeOut" }}
+            transition={{ delay: 0.45, duration: 0.75, ease: "easeOut" }}
           >
             <Image
-              src={"/nexusRobot.svg"}
+              src={"/nexus-robot.svg"}
               width="500"
               height="500"
               alt="Nexus Robot"
@@ -67,9 +66,9 @@ export default function Home() {
           </motion.div>
         </div>
         <motion.div
-          initial={{ y: 200, opacity: 0}}
-          animate={{ y:0, opacity: 1 }}
-          transition={{ delay: .1, duration: .7, ease: "easeInOut" }}
+          initial={{ y: 200, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.1, duration: 0.7, ease: "easeInOut" }}
         >
           <Image
             priority
@@ -114,9 +113,7 @@ export default function Home() {
               fames ac. Magna fermentum iaculis eu non diam phasellus vestibulum
               lorem. Vel facilisis volutpat est velit egestas dui id.
             </p>
-            <motion.div
-              whileHover="hover" variants={buttonVariants}
-            >
+            <motion.div whileHover="hover" variants={buttonVariants}>
               <Button href="/about" text="Learn More" size="lg" color="green" />
             </motion.div>
           </motion.div>
@@ -125,7 +122,7 @@ export default function Home() {
           <motion.div
             initial="offscreen"
             whileInView="onscreen"
-            viewport={{once:true, amount: 0.3}}
+            viewport={{ once: true, amount: 0.3 }}
             variants={imageVariants}
           >
             <Image
@@ -152,18 +149,21 @@ export default function Home() {
               eu non diam phasellus vestibulum lorem. Vel facilisis volutpat est
               velit egestas dui id.
             </p>
-            <motion.div
-              whileHover="hover" variants={buttonVariants}
-            >
-              <Button href="/team" text="Meet The Team!" size="lg" color="green" />
+            <motion.div whileHover="hover" variants={buttonVariants}>
+              <Button
+                href="/team"
+                text="Meet The Team!"
+                size="lg"
+                color="green"
+              />
             </motion.div>
           </motion.div>
         </div>
         <motion.div
-          initial={{y:50, scale:0}}
-          whileInView={{y:0, scale:1}}
-          viewport={{once: true, amount: .7}}
-          transition={{duration: .5, ease: "easeOut"}}
+          initial={{ y: 50, scale: 0 }}
+          whileInView={{ y: 0, scale: 1 }}
+          viewport={{ once: true, amount: 0.7 }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
           className="flex justify-center"
         >
           <Image
@@ -179,9 +179,9 @@ export default function Home() {
         </motion.div>
         <div className="mb-12 w-full max-w-sm">
           <motion.div
-            initial={{opacity: 0, scale:0}}
-            whileInView={{opacity: 1, scale: 1}}
-            viewport={{once: true, amount: .7}}
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, amount: 0.7 }}
             whileHover="hover"
             variants={buttonVariants}
           >
@@ -219,10 +219,7 @@ export default function Home() {
               eu non diam phasellus vestibulum lorem. Vel facilisis volutpat est
               velit egestas dui id.
             </p>
-            <motion.div
-              whileHover="hover"
-              variants={buttonVariants}
-            >
+            <motion.div whileHover="hover" variants={buttonVariants}>
               <Button href="/team" text="Support Us!" size="lg" color="green" />
             </motion.div>
           </motion.div>

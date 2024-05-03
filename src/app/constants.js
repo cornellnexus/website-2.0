@@ -228,7 +228,7 @@ export const memberInfo = {
   "Mia Tarantini": {
     desc: "Mia is a sophomore from Pittsburgh, Pennsylvania majoring in Mechanical Engineering in the College of Engineering. She is interested in robotics, specifically in areas of sustainability and medical applications. She likes hand-on engineering with laser engraving and metal machining. In Mia’s free time, she likes to go indoor rock climbing with friends and listen to music.",
     year: "2026",
-    title: "",
+    title: "Safety Lead",
     emoji: "",
     linkedin: "www.linkedin.com/in/mia-tarantini-9a388b268",
     email: "",

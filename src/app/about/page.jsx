@@ -30,30 +30,35 @@ export default function AboutUs() {
       <div id="ourmission" className="bg-grey space-y-5 px-4">
         <div className="flex flex-col items-center pb-12">
           <motion.div
-            initial={{y: -23, opacity: 0}}
-            whileInView={{y:[-23, -6, 0], opacity: [0,.4,1], transition: {delay: .15, duration: .6, times: [0, 0.5, 1]}}}
-            viewport={{once: true}}
+            initial={{ y: -23, opacity: 0 }}
+            whileInView={{
+              y: [-23, -6, 0],
+              opacity: [0, 0.4, 1],
+              transition: { delay: 0.15, duration: 0.6, times: [0, 0.5, 1] },
+            }}
+            viewport={{ once: true }}
             className="text-center title-size font-semibold text-5xl my-10"
           >
             Our Mission
           </motion.div>
-          <motion.div 
-            id="carousel" 
+          <motion.div
+            id="carousel"
             className="flex flex-row justify-center mb-6"
-            initial={{opacity: 0}}
-            whileInView={{opacity: 1, transition: {delay: .15, duration: .6, ease: "easeOut"}}}
-            viewport={{once: true}}
+            initial={{ opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              transition: { delay: 0.15, duration: 0.6, ease: "easeOut" },
+            }}
+            viewport={{ once: true }}
           >
             <button
               onClick={handlePrev}
               id="prevBtn"
-              className="w-10 transition ease-in-out hover:bg-teal hover:text-white duration-300"
+              className="w-12 transition ease-in-out border-l border-t border-b rounded-l hover:bg-teal hover:text-white duration-300"
             >
               &lt;
             </button>
-            <motion.div
-              className="relative overflow-hidden w-[300px] h-[225px] sm:w-[600px] sm:h-[450px] md:w-[700px] md:h-[525px] pb-5 rounded"
-            >
+            <motion.div className="relative overflow-hidden border-t border-b w-[300px] h-[225px] sm:w-[600px] sm:h-[450px] md:w-[700px] md:h-[525px] pb-5">
               <Image
                 className="object-cover"
                 id="carouselImage"
@@ -65,16 +70,20 @@ export default function AboutUs() {
             <button
               onClick={handleNext}
               id="nextBtn"
-              className="w-10 transition ease-in-out hover:bg-teal hover:text-white duration-300"
+              className="w-12 transition ease-in-out border-r border-t border-b rounded-r hover:bg-teal hover:text-white duration-300"
             >
               &gt;
             </button>
           </motion.div>
-          <motion.div 
-            className="max-w-screen-md text-center"
+          <motion.div
+            className="max-w-screen-md text-left"
             initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0, transition: {type: "spring", duration: .8, bounce: .25}}}
-            viewport={{ once: true, amount: .7 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { type: "spring", duration: 0.8, bounce: 0.25 },
+            }}
+            viewport={{ once: true, amount: 0.7 }}
           >
             {mission}
           </motion.div>
@@ -82,14 +91,14 @@ export default function AboutUs() {
       </div>
       <div
         id="story"
-        className="flex flex-col items-center text-white px-4 py-8 bg-teal"
+        className="flex flex-col items-center text-white px-4 py-8 bg-navy"
       >
         <div className="flex justify-center flex-wrap flex-row gap-12 mt-12 mb-12">
           <motion.div
-            initial={{opacity: 0}}
-            whileInView={{opacity: 1}}
-            transition={{duration: .8, ease:"easeOut"}}
-            viewport={{once: true, amount: .3}}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.3 }}
           >
             <Image
               className="rounded shadow"
@@ -99,11 +108,11 @@ export default function AboutUs() {
               height="400"
             />
           </motion.div>
-          <motion.div 
-            initial={{opacity: 0, x: 50}}
-            whileInView={{opacity: 1, x: 0}}
-            transition={{duration: .8, ease:"easeOut"}}
-            viewport={{once: true, amount: .7}}
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.7 }}
             className="max-w-sm"
           >
             <p className="text-4xl font-medium">Progress</p>
@@ -113,10 +122,10 @@ export default function AboutUs() {
 
         <div className="flex justify-center flex-wrap flex-row-reverse gap-12 mb-12">
           <motion.div
-            initial={{opacity: 0}}
-            whileInView={{opacity: 1}}
-            transition={{duration: .8, ease:"easeOut"}}
-            viewport={{once:true, amount:.3}}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.3 }}
           >
             <Image
               className="rounded shadow"
@@ -126,11 +135,11 @@ export default function AboutUs() {
               height="400"
             />
           </motion.div>
-          <motion.div 
-            initial={{x:-50, opacity:0}}
-            whileInView={{x:0, opacity:1}}
-            transition={{duration: .8, ease:"easeOut"}}
-            viewport={{once: true, amount: .7}}
+          <motion.div
+            initial={{ x: -50, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.7 }}
             className="max-w-sm"
           >
             <p className="text-4xl font-medium">Story</p>
