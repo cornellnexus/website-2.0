@@ -104,8 +104,8 @@ export const memberInfo = {
     year: "2026",
     title: "",
     emoji: "",
-    linkedin: "",
-    email: "",
+    linkedin: "https://www.linkedin.com/in/michael-wu-136044198/",
+    email: "mw885@cornell.edu",
   },
 
   "Akmal Rupasingha": {

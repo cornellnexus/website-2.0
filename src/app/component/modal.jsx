@@ -13,7 +13,6 @@ function Modal() {
   // to add more params just add &varName=__ to the end
 
   const modal = searchParams.get("modal");
-  const hasEmoji = searchParams.get("hasEmoji");
   const firstname = searchParams.get("firstname");
   const lastname = searchParams.get("lastname");
   const name = firstname + " " + lastname;
