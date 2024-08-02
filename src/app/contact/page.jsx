@@ -158,40 +158,6 @@ export default function Contact() {
                     </motion.div>
                   </a>
                 </motion.div>
-                <motion.div
-                  initial={{ opacity: 0, y: 40 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{
-                    type: "spring",
-                    damping: 14,
-                    delay: 2.45,
-                    duration: 0.1,
-                    ease: "easeOut",
-                  }}
-                >
-                  <a
-                    href="https://www.facebook.com/cornellnexus/"
-                    target="_blank"
-                  >
-                    <motion.div
-                      initial={{ scale: 1 }}
-                      whileHover={{ scale: 1.1 }}
-                      transition={{
-                        type: "spring",
-                        stiffness: 400,
-                        damping: 13,
-                      }}
-                    >
-                      <Image
-                        src={"/facebook.svg"}
-                        width="40"
-                        height="40"
-                        alt="facebook icon"
-                      />
-                    </motion.div>
-                  </a>
-                </motion.div>
               </div>
             </div>
           </div>

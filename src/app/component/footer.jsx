@@ -18,19 +18,6 @@ export default function Footer() {
               alt="Instagram"
             />
           </a>
-          <a
-            href="https://www.facebook.com/cornellnexus/"
-            target="_blank"
-            className="transition ease-in-out delay-90 hover:-translate-y-1"
-          >
-            <Image
-              id="facebook-icon"
-              src={"facebook.svg"}
-              width="30"
-              height="30"
-              alt="Facebook"
-            />
-          </a>
         </div>
         <div className="flex flex-row justify-between gap-6">
           <a
