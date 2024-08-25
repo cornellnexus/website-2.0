@@ -1,19 +1,8 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-body {
+
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -32,139 +21,35 @@ body {
 body,
 html {
   height: 100%;
-}
-
-body {
-  background-color: #4c9cb8;
-}
-
-footer {
-  background-color: white;
   width: 100%;
-  padding: 1rem 1.5rem 1rem 1.5rem;
-  margin-top: 4rem;
-  display: flex;
-  border-top: 1px solid black;
-  justify-content: space-between;
 }
 
-.copyright {
-  display: flex;
-  align-items: center;
-  float: right;
-  font-size: 1.5rem;
+.modal-color {
+  background-color: #5C5C5C;
 }
 
-.social-links {
-  display: flex;
-  gap: 1.5rem;
+.line {
+  border-bottom: 2.5px solid white
 }
 
-.underwater-text {
-  color: white;
+.emptyline {
+  border-bottom: 2.5px solid rgba(255, 255, 255, 0);
 }
 
-.page {
-  width: 100%;
-  height: 100%;
+.modal-length {
+  width: 36rem;
 }
 
-.nav-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 3rem 1rem 3rem;
-  width: 100%;
-  border-bottom: 1px solid black;
-  background-color: white;
-}
-
-.nav-links {
-  display: flex;
-  gap: 3rem;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: black;
-}
-
-.team-info {
+.burger {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: center;
-  padding-left: 4rem;
-  text-align: center;
-  background-color: #f3cc91;
-  height: 45%;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s ease-out;
 }
 
-.mission-wrapper,
-.us-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  text-align: center;
-  align-items: center;
+.burger.is-open {
+  grid-template-rows: 1fr;
 }
 
-.mission-wrapper {
-  margin-bottom: 6rem;
-}
-
-.robot-render-wrapper,
-.us-statement {
-  width: 100%;
-  padding-left: 4rem;
-}
-
-.team-picture-wrapper {
-  width: 100%;
-  padding-right: 4rem;
-}
-
-.mission-statement-wrapper {
-  padding-right: 4rem;
-}
-
-#team-name {
-  font-size: 2.75rem;
-  font-weight: 550;
-}
-#team-desc {
-  font-size: 1.2rem;
-}
-
-#beach-svg {
-  width: 100%;
-  height: auto;
-}
-
-#robot-svg,
-#team-svg {
-  width: 60%;
-  height: auto;
-  border-radius: 1rem;
-}
-
-#mission-title,
-#us-title {
-  font-size: 2.75rem;
-  font-weight: 550;
-}
-
-#mission-statement,
-#us-statement {
-  font-size: 1.2rem;
-}
-
-#learn-btn,
-#meet-btn {
-  background-color: #4ac040;
-  border: none;
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
-  padding: 0.5rem 4rem 0.5rem 4rem;
-  border-radius: 1rem;
+.h-accordion-section {
+  height: 30rem;
 }

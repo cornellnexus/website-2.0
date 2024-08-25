@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1250,0)">
+        <rect id="email" x="1250" y="0" width="200" height="200" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <rect id="email1" serif:id="email" x="1250" y="0" width="200" height="200"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(1,0,0,1,1250,14.9998)">
+                <path d="M200,37.056C200,23.265 194.521,10.039 184.77,0.287C175.018,-9.465 161.791,-14.944 148,-14.944C118.445,-14.944 81.555,-14.944 52,-14.944C38.209,-14.944 24.982,-9.465 15.23,0.287C5.479,10.039 -0,23.265 0,37.056C0,66.542 0,103.32 0,132.805C-0,146.596 5.479,159.823 15.23,169.575C24.982,179.327 38.209,184.805 52,184.805C81.555,184.805 118.445,184.805 148,184.805C161.791,184.805 175.018,179.327 184.77,169.575C194.521,159.823 200,146.596 200,132.805C200,103.32 200,66.542 200,37.056ZM154.7,60.9L123.4,85.9C116.8,91.2 108.4,93.8 100,93.8C91.6,93.8 83.1,91.2 76.6,85.9L45.3,60.9C42.1,58.3 41.6,53.5 44.1,50.3C46.7,47.1 51.4,46.5 54.6,49.1L85.9,74.1C93.5,80.2 106.4,80.2 114,74.1L145.3,49.1C148.5,46.5 153.3,47 155.8,50.3C158.4,53.5 157.9,58.3 154.7,60.9Z" style="fill:rgb(16,16,16);fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>
