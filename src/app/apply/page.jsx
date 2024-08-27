@@ -15,7 +15,8 @@ export default function Apply() {
   const accordianSection = [
     {
       accordianTitle: "How can I apply?",
-      accordianContent: "",
+      accordianContent:
+        "If you are interested, begin by completing the General Project Team Application. Then, fill out the Cornell Nexus Project Team Application.",
     },
     {
       accordianTitle: "What does your application process look like?",
@@ -66,7 +67,7 @@ export default function Apply() {
             <Image
               className="rounded mb-10 shadow-lg"
               id="x"
-              src={"/sp24-recruitment.svg"}
+              src={"/recruitment-timeline.jpg"}
               alt="recruitment timeline"
               width="1200"
               height="300"
