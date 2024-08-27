@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import Button from "./component/button";
 import { motion } from "framer-motion";
 
@@ -49,7 +48,7 @@ export default function Home() {
             transition={{ delay: 0.25, duration: 0.8, ease: "easeOut" }}
             className="text-center mb-12"
           >
-            <p className="text-5xl font-medium">Nexus at Cornell</p>
+            <p className="text-5xl font-medium">Cornell Nexus Project Team</p>
             <p className="text-xl">Creating social impact through technology</p>
           </motion.div>
           <motion.div
@@ -220,7 +219,12 @@ export default function Home() {
               velit egestas dui id.
             </p>
             <motion.div whileHover="hover" variants={buttonVariants}>
-              <Button href="/team" text="Support Us!" size="lg" color="green" />
+              <Button
+                href="/support"
+                text="Support Us!"
+                size="lg"
+                color="green"
+              />
             </motion.div>
           </motion.div>
         </div>

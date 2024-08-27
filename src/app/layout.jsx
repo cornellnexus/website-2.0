@@ -7,7 +7,7 @@ import { DM_Sans } from "next/font/google";
 const dm_sans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Nexus at Cornell",
+  title: "Cornell Nexus Project Team",
   description: "Student-run project team at Cornell University",
 };
 
