@@ -9,7 +9,7 @@ export default function Team() {
     "Katlynn Ryu",
     "Yujean Choi",
     "Mia Tarantini",
-    "Farah Achouri",
+    // "Farah Achouri",
     "Ethan Sekiguchi",
     "William Dignam",
     "Cleo Hamilton",
@@ -28,11 +28,11 @@ export default function Team() {
   ];
   const SoftwareSubteam = [
     "Lin Jin",
-    "Shreya Kumar",
+    // "Shreya Kumar",
     "Vinny Huang",
     "Sophia Pan",
     "Natalie Leung",
-    "Ahan Mishra",
+    // "Ahan Mishra",
     "Luke Tao",
     "Michael Wu",
     "Gary Chen",
@@ -44,7 +44,7 @@ export default function Team() {
     "Tanay Nisar",
     "Elaine Wu",
     "Jeana Han",
-    "Vedaant Shah",
+    // "Vedaant Shah",
     "Oscar Lam",
     "Neha Jain",
   ];
@@ -65,12 +65,27 @@ export default function Team() {
             priority
           />
           <div className="max-w-screen-md text-center">
-            Our team is broken up into 4 main subteams: mechanical, electrical,
-            software, and business. Each team may be working on their own
-            individual tasks, whether that be working with sensors or building a
-            pitch deck. However, the integration between these four teams is
-            what allows us to work on the robot efficiently and allows Members
-            to learn about disciplines outside of their subteam.
+            Our team is broken up into 4 main subteams:{" "}
+            <a href="#mechanical" className="text-teal">
+              mechanical
+            </a>
+            ,{" "}
+            <a href="#electrical" className="text-teal">
+              electrical
+            </a>
+            ,{" "}
+            <a href="#software" className="text-teal">
+              software
+            </a>
+            , and{" "}
+            <a href="#business" className="text-teal">
+              business
+            </a>
+            . Each team may be working on their own individual tasks, whether
+            that be working with sensors or building a pitch deck. However, the
+            integration between these four teams is what allows us to work on
+            the robot efficiently and allows members to learn about disciplines
+            outside of their subteam.
           </div>
           <Image
             className="my-10"
@@ -79,7 +94,10 @@ export default function Team() {
             width="128"
             height="4"
           />
-          <div className="text-center title-size font-semibold text-5xl pb-10">
+          <div
+            id="mechanical"
+            className="text-center title-size font-semibold text-5xl pb-10"
+          >
             Mechanical Team
           </div>
           <Image
@@ -91,7 +109,13 @@ export default function Team() {
             priority
           />
           <div className="max-w-screen-md text-center">
-            Insert blurb about the mechanical team
+            The mechanical team is currently in the manufacturing stage of
+            building our beach-cleaning robot. This includes working on the
+            drivetrain and filtration assemblies, and using 3D modeling software
+            such as SolidWorks to model our robot. We are a small and personal
+            team—there are opportunities to work on many different components of
+            the robot and to tackle and solve new problems creatively and obtain
+            hands-on experience.
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
@@ -130,7 +154,10 @@ export default function Team() {
             width="128"
             height="4"
           />
-          <div className="text-center title-size font-semibold text-5xl pb-10">
+          <div
+            id="electrical"
+            className="text-center title-size font-semibold text-5xl pb-10"
+          >
             Electrical Team
           </div>
           <Image
@@ -142,15 +169,16 @@ export default function Team() {
             priority
           />
           <div className="max-w-screen-md text-center">
-            The electrical subteam is in charge of creating a reliable sensor
-            network to collect relevant data for real time analysis, generating
-            an appropriate power system to drive the motors and all of the
-            on-board electronics, and collaborating with other subteams to
-            integrate various aspects of the robot. Currently some of our main
-            tasks include working to develop a custom PCB for our sensors to
-            easily communicate with the Raspberry Pi and any other peripherals,
-            building and integrating a battery pack, and helping the software
-            subteam test their Kalman Filter implementation.
+            The electrical subteam designs and implements the sensor and power
+            systems of our autonomous robot. Some of their current projects
+            include: designing, assembling, testing, and iterating upon custom
+            PCBs for sensor operation and power distribution; designing the base
+            station&apos;s charging system to autonomously recharge the
+            robot&apos;s battery using solar power; integrating a GPS-RTK
+            (real-time-kinematics) to obtain high-accuracy localization data for
+            the robot as it traverses the beach; and writing motor controller
+            code using motor encoder data for the updated swerve-steering
+            drivetrain.
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
@@ -189,7 +217,10 @@ export default function Team() {
             width="128"
             height="4"
           />
-          <div className="text-center title-size font-semibold text-5xl pb-10">
+          <div
+            id="software"
+            className="text-center title-size font-semibold text-5xl pb-10"
+          >
             Software Team
           </div>
           <Image
@@ -200,7 +231,16 @@ export default function Team() {
             height="700"
             priority
           />
-          <div className="max-w-screen-md text-center">We love CS</div>
+          <div className="max-w-screen-md text-center">
+            The software subteam is the brain behind the robot. Software is
+            working on a wide range of different challenges, working with the
+            code, logic, and technology needed to make the robot function. Some
+            of our current tasks include reading sensor data to detect our
+            robot’s location and monitor its health, implementing computer
+            vision models to allow for autonomous steering and obstacle
+            avoidance, and visualizing our robot’s data through simulated
+            animations.
+          </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
             {SoftwareSubteam.map((name, idx) => {
@@ -238,7 +278,10 @@ export default function Team() {
             width="128"
             height="4"
           />
-          <div className="text-center title-size font-semibold text-5xl pb-10">
+          <div
+            id="business"
+            className="text-center title-size font-semibold text-5xl pb-10"
+          >
             Business Team
           </div>
           <Image
@@ -250,14 +293,10 @@ export default function Team() {
             priority
           />
           <div className="max-w-screen-md text-center">
-            The business subteam team goes beyond finance and general business
-            operations in order to promote our team mission both locally and
-            globally. Aspects of business include social media, design,
-            marketing, fundraising, and community outreach. Right now our
-            primary focuses are raising money to help support our other subteams
-            and to increase overall presence on and off of campus. As a small
-            team, we have the opportunity to be well rounded and gain valuable
-            experience that can help accelerate career growth.
+            The business subteam manages the logistics behind making the
+            projects possible and actualizes the intended impact. This includes
+            getting funding, managing finances, assisting in internal
+            operations, marketing the organization, and more.
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">

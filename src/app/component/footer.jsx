@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-2xl text-center">
-        <p>Nexus at Cornell © 2024</p>
+        <p>Cornell Nexus Project Team © 2024</p>
       </div>
     </footer>
   );

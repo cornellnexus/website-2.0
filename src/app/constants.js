@@ -14,17 +14,17 @@ export const memberInfo = {
     year: "2027",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/ahan-mishra/",
-    email: "",
+    linkedin: "ahan-mishra",
+    netid: "abm247",
   },
 
   "Lin Jin": {
-    desc: "Lin is a Junior studying Computer Science and Mathematics at Cornell University College of Arts and Sciences. She is currently a software member and one of the Full Team lead at Cornell Nexus. Her recent professional roles include her position as a Software Engineer Intern at Flexcompute, Flight Software team member and Website Developer at Cornell Alpha CubeSat (2022), and Consultant for CS1110 (2021). In her spare time, Lin enjoys reading books, exploring new places, playing chess, and meeting new people.",
+    desc: "Lin is a Junior studying Computer Science and Mathematics at Cornell University College of Arts and Sciences. She is currently a software member at Cornell Nexus. Her recent professional roles include her position as a Software Engineer Intern at Flexcompute, Flight Software team member and Website Developer at Cornell Alpha CubeSat (2022), and Consultant for CS1110 (2021). In her spare time, Lin enjoys reading books, exploring new places, playing chess, and meeting new people.",
     year: "2025",
-    title: "Full Team Lead",
+    title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/lin-jin-32b008221/",
-    email: "",
+    linkedin: "lin-jin-32b008221",
+    netid: "lj233",
   },
 
   "Aaron Sucov": {
@@ -33,34 +33,34 @@ export const memberInfo = {
     title: "",
     emoji: "",
     linkedin: "",
-    email: "",
+    netid: "ans246",
   },
 
   "Amber Li": {
     desc: "Amber is a sophomore from Morgantown, West Virginia, majoring in Electrical and Computer Engineering with a minor in Computer Science. She is a member of Cornell's IEEE branch and Esports at Cornell. She interned in the semiconductor industry summer of 2023. In Amber's free time, she enjoys hanging out with friends, playing tennis and going rock climbing, and reading.",
     year: "2026",
-    title: "Electrical Team Lead",
+    title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/amber-li-a63155248",
-    email: "",
+    linkedin: "amber-li-a63155248",
+    netid: "adl94",
   },
 
   "Antranig Baghdassarian": {
     desc: "",
     year: "2027",
-    title: "",
+    title: "Electrical Team Lead",
     emoji: "🦅",
     linkedin: "",
-    email: "",
+    netid: "ab2864",
   },
 
   "Elaine Wu": {
     desc: "",
     year: "2026",
-    title: "",
+    title: "Full Team Lead",
     emoji: "",
     linkedin: "",
-    email: "ew457@cornell.edu",
+    netid: "ew457",
   },
 
   "Anamitra Rawat": {
@@ -69,7 +69,7 @@ export const memberInfo = {
     title: "",
     emoji: "",
     linkedin: "",
-    email: "",
+    netid: "ar2342",
   },
 
   "Gary Chen": {
@@ -78,16 +78,16 @@ export const memberInfo = {
     title: "",
     emoji: "",
     linkedin: "",
-    email: "",
+    netid: "gc558",
   },
 
   "Grace Wei": {
     desc: "",
     year: "2026",
-    title: "",
-    emoji: "",
+    title: "Software Team Lead",
+    emoji: "🦌",
     linkedin: "",
-    email: "",
+    netid: "gtw25",
   },
 
   "Luke Tao": {
@@ -95,8 +95,8 @@ export const memberInfo = {
     year: "2026",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/lukeytao/",
-    email: "lyt5@cornell.edu",
+    linkedin: "lukeytao/",
+    netid: "lyt5",
   },
 
   "Michael Wu": {
@@ -104,8 +104,8 @@ export const memberInfo = {
     year: "2026",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/michael-wu-136044198/",
-    email: "mw885@cornell.edu",
+    linkedin: "michael-wu-136044198/",
+    netid: "mw885",
   },
 
   "Akmal Rupasingha": {
@@ -114,16 +114,16 @@ export const memberInfo = {
     title: "",
     emoji: "",
     linkedin: "",
-    email: "",
+    netid: "ar2346",
   },
 
   "Vinny Huang": {
     desc: "Vincent is a sophomore from Pennington, New Jersey majoring in Computer Science in the College of Arts & Sciences. This past summer, he worked at his family's restaurant where he created their website. When he's not programming or studying, Vincent enjoys playing badminton, table tennis, and volleyball with his friends.",
     year: "2026",
-    title: "Software Team Lead",
+    title: "",
     emoji: "/mewmoji.svg",
     linkedin: "",
-    email: "",
+    netid: "vh222",
   },
 
   "Sophia Pan": {
@@ -132,7 +132,7 @@ export const memberInfo = {
     title: "",
     emoji: "",
     linkedin: "",
-    email: "",
+    netid: "sp2225",
   },
 
   "Andrew Lowitt": {
@@ -140,8 +140,8 @@ export const memberInfo = {
     year: "2026",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/andrew-lowitt-728462267",
-    email: "",
+    linkedin: "andrew-lowitt-728462267",
+    netid: "ael254",
   },
 
   "Natalie Leung": {
@@ -149,8 +149,8 @@ export const memberInfo = {
     year: "2027r",
     title: "",
     emoji: "",
-    linkedin: "",
-    email: "",
+    linkedin: "natalie-leung-60240a2a1",
+    netid: "nl455",
   },
 
   "Rose Basch": {
@@ -158,8 +158,8 @@ export const memberInfo = {
     year: "2025",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/rose-basch-rb753/",
-    email: "",
+    linkedin: "rose-basch-rb753",
+    netid: "",
   },
 
   "Vedaant Shah": {
@@ -168,7 +168,7 @@ export const memberInfo = {
     title: "",
     emoji: "",
     linkedin: "",
-    email: "",
+    netid: "",
   },
 
   "Allen Chen": {
@@ -177,7 +177,7 @@ export const memberInfo = {
     title: "",
     emoji: "",
     linkedin: "",
-    email: "",
+    netid: "",
   },
 
   "Shreya Kumar": {
@@ -185,8 +185,8 @@ export const memberInfo = {
     year: "2024",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/shreyak500/",
-    email: "",
+    linkedin: "shreyak500",
+    netid: "",
   },
 
   "Farah Achouri": {
@@ -194,17 +194,17 @@ export const memberInfo = {
     year: "2027",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/farah-achouri/",
-    email: "",
+    linkedin: "farah-achouri",
+    netid: "",
   },
 
   "Casey Kashishian": {
     desc: "I am a sophomore from Delaware majoring in Material Science and Engineering. I love playing soccer and have played for 15 years. In my free time I will go out and play soccer or watch the Premier League on the weekends. Outside sports I enjoy watching shows and reading. During this past summer I worked almost 40 hours every week at WaWa.",
     year: "2026",
-    title: "Social Chair",
+    title: "",
     emoji: "",
     linkedin: "",
-    email: "",
+    netid: "ck677",
   },
 
   "Cleo Hamilton": {
@@ -213,7 +213,7 @@ export const memberInfo = {
     title: "",
     emoji: "",
     linkedin: "",
-    email: "",
+    netid: "chh89",
   },
 
   "Katlynn Ryu": {
@@ -221,17 +221,17 @@ export const memberInfo = {
     year: "2026",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/katlynn-minseo-ryu-09440720a/",
-    email: "",
+    linkedin: "katlynn-minseo-ryu-09440720a",
+    netid: "kmr238",
   },
 
   "Mia Tarantini": {
     desc: "Mia is a sophomore from Pittsburgh, Pennsylvania majoring in Mechanical Engineering in the College of Engineering. She is interested in robotics, specifically in areas of sustainability and medical applications. She likes hand-on engineering with laser engraving and metal machining. In Mia’s free time, she likes to go indoor rock climbing with friends and listen to music.",
     year: "2026",
-    title: "Safety Lead",
+    title: "Full Team Lead",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/mia-tarantini-9a388b268",
-    email: "",
+    linkedin: "mia-tarantini-9a388b268",
+    netid: "mmt98",
   },
 
   "Christopher Bauer": {
@@ -240,7 +240,7 @@ export const memberInfo = {
     title: "Mechanical Team Lead",
     emoji: "",
     linkedin: "",
-    email: "",
+    netid: "cpb86",
   },
 
   "Ata Zavaro": {
@@ -248,8 +248,8 @@ export const memberInfo = {
     year: "2025",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/ata-zavaro/",
-    email: "",
+    linkedin: "ata-zavaro",
+    netid: "",
   },
 
   "Nicholas Papapanou": {
@@ -257,8 +257,8 @@ export const memberInfo = {
     year: "2025",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/nicholaspapapanou/",
-    email: "",
+    linkedin: "nicholaspapapanou",
+    netid: "",
   },
 
   "Tanay Nisar": {
@@ -266,8 +266,8 @@ export const memberInfo = {
     year: "2026",
     title: "Business Team Lead",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/tanay-nisar/",
-    email: "",
+    linkedin: "tanay-nisar",
+    netid: "tn349",
   },
 
   "Jasmine Si": {
@@ -276,16 +276,16 @@ export const memberInfo = {
     title: "",
     emoji: "",
     linkedin: "",
-    email: "",
+    netid: "js3296",
   },
 
   "Mona Wu": {
     desc: "Mona is a junior from Edison, New Jersey majoring in Economics within the College of Arts and Sciences. On-campus, she is a member of Cornell Marketing Club, Emerging Markets Society, and Cornell Current. In Mona's free time, she enjoys swimming, sketching, and hanging out with friends.",
     year: "2025",
-    title: "Full Team Lead",
+    title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/mona-wu1/",
-    email: "",
+    linkedin: "mona-wu1/",
+    netid: "mjw326",
   },
 
   "Lucca Correia": {
@@ -293,8 +293,8 @@ export const memberInfo = {
     year: "2026",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/luccaec/",
-    email: "",
+    linkedin: "luccaec",
+    netid: "lec254",
   },
 
   "Yujean Choi": {
@@ -303,7 +303,7 @@ export const memberInfo = {
     title: "",
     emoji: "",
     linkedin: "",
-    email: "",
+    netid: "yc2588",
   },
 
   "Jeana Han": {
@@ -312,34 +312,34 @@ export const memberInfo = {
     title: "",
     emoji: "",
     linkedin: "",
-    email: "",
+    netid: "jjh358",
   },
 
   "George Maidhof": {
-    desc: "George is a Junior studying Electrical and Computer Engineering with a CS Minor at Cornell University in the College of Engineering. He is a member of the Electrical Subteam and serves as a Full Team Lead at Cornell Nexus. On campus, George serves as an RA within the Jameson and High Rise Community, is on the Academic E-Board of IEEE, and is part of the Zhang Research Group at Cornell. Some extracurricular activities George enjoys outdoor activities including running, swimming, basketball, surfing. On top of that, I love to make projects, learning new skills and topics, and meeting people and having fun! To reach George, email at gpm58@cornell.edu!",
+    desc: "George is a Junior studying Electrical and Computer Engineering with a CS Minor at Cornell University in the College of Engineering. He is a member of the Electrical Subteam at Cornell Nexus. On campus, George serves as an RA within the Jameson and High Rise Community, is on the Academic E-Board of IEEE, and is part of the Zhang Research Group at Cornell. Some extracurricular activities George enjoys outdoor activities including running, swimming, basketball, surfing. On top of that, I love to make projects, learning new skills and topics, and meeting people and having fun! To reach George, netid at gpm58!",
     year: "2025",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/george-maidhof-70ab13249/",
-    email: "gpm58@cornell.edu",
+    linkedin: "george-maidhof-70ab13249",
+    netid: "gpm58",
   },
 
   "Oscar Lam": {
-    desc: "Oscar is a sophomore from Sydney, Australia majoring in Economics and Information Science within the college of Arts and Sciences. On-campus, he is also a member of Cornell Consulting Club, Cornell Data Journal and Cornell Undergraduate Asia Business Society. In Oscar's free time, he enjoys going to the gym, playing chess, and socializing with any living thing. He can be reached at ol56@cornell.edu. ",
+    desc: "Oscar is a sophomore from Sydney, Australia majoring in Economics and Information Science within the college of Arts and Sciences. On-campus, he is also a member of Cornell Consulting Club, Cornell Data Journal and Cornell Undergraduate Asia Business Society. In Oscar's free time, he enjoys going to the gym, playing chess, and socializing with any living thing. He can be reached at ol56. ",
     year: "2026",
     title: "",
     emoji: "",
     linkedin: "",
-    email: "ol56@cornell.edu",
+    netid: "ol56",
   },
 
   "Neha Jain": {
-    desc: "Neha is a freshman from Orlando, Florida majoring in Economics and Information Sciences in the College of Arts & Sciences. On campus, she is a part of Global Research and Consulting Group, Pi Sigma Epsilon, Women in Computing, and is a Milstein Scholar. Recently, she interned at a small business development agency in their financial services division. In Neha's free time, she enjoys going to the gym, rock climbing, and exploring the Ithaca area. She can be reached at nj253@cornell.edu",
+    desc: "Neha is a freshman from Orlando, Florida majoring in Economics and Information Sciences in the College of Arts & Sciences. On campus, she is a part of Global Research and Consulting Group, Pi Sigma Epsilon, Women in Computing, and is a Milstein Scholar. Recently, she interned at a small business development agency in their financial services division. In Neha's free time, she enjoys going to the gym, rock climbing, and exploring the Ithaca area. She can be reached at nj253",
     year: "2027",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/neha-jain-1798231a2/",
-    email: "nj253@cornell.edu",
+    linkedin: "neha-jain-1798231a2",
+    netid: "nj253",
   },
 
   "Ethan Sekiguchi": {
@@ -347,17 +347,17 @@ export const memberInfo = {
     year: "2026",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/ethan-sekiguchi-41459a22b",
-    email: "",
+    linkedin: "ethan-sekiguchi-41459a22b",
+    netid: "eks84",
   },
 
   "William Dignam": {
-    desc: "William is a freshman from Raleigh, North Carolina majoring in Environmental Engineering with a minor in Public Policy within CALS. On campus, he is doing CEE research with the Reid Lab group, working for the Lab of Ornithology, writing policy proposals with the Cornell Policy Group, and a member of the Tae Kwon Do club. He is interested in the realms of sustainable/green technology and infrastructure, environmental health (EHS), environmental consulting and policy, biogeochemistry/microbiology, and wastewater industries. In his free time, he enjoys playing piano, birdwatching, and appreciating nature. He can be reached at wed45@cornell.edu.",
+    desc: "William is a freshman from Raleigh, North Carolina majoring in Environmental Engineering with a minor in Public Policy within CALS. On campus, he is doing CEE research with the Reid Lab group, working for the Lab of Ornithology, writing policy proposals with the Cornell Policy Group, and a member of the Tae Kwon Do club. He is interested in the realms of sustainable/green technology and infrastructure, environmental health (EHS), environmental consulting and policy, biogeochemistry/microbiology, and wastewater industries. In his free time, he enjoys playing piano, birdwatching, and appreciating nature. He can be reached at wed45.",
     year: "2027",
     title: "",
     emoji: "",
     linkedin: "",
-    email: "wed45@cornell.edu",
+    netid: "wed45",
   },
 
   "Natalie Kaplan": {
@@ -365,25 +365,25 @@ export const memberInfo = {
     year: "2027",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/natalie-kaplan-294a65247",
-    email: "",
+    linkedin: "natalie-kaplan-294a65247",
+    netid: "njk82",
   },
 
   "Parishee Bajaj": {
-    desc: "Parishee is a freshman from Bentonville, Arkansas, majoring in Electrical & Computer Engineering in the College of Engineering. Parishee likes rock climbing and embroidering in her free time. She can be reached at pb587@cornell.edu.",
+    desc: "Parishee is a freshman from Bentonville, Arkansas, majoring in Electrical & Computer Engineering in the College of Engineering. Parishee likes rock climbing and embroidering in her free time. She can be reached at pb587.",
     year: "2027",
-    title: "",
+    title: "Electrical Team Lead",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/parishee-bajaj",
-    email: "pb587@cornell.edu",
+    linkedin: "parishee-bajaj",
+    netid: "pb587",
   },
 
   "Amishi Gupta": {
-    desc: "Amishi is a freshman from Raleigh, North Carolina majoring in Computer Science within the Engineering College. On-campus, she is a member of Cornell Data Journal in addition to being a part of Cornell Nazaqat Dance Club. In her free time, Amishi enjoys playing badminton, hanging out with friends, and solving NYT connections. She can be reached at ag2424@cornell.edu.",
+    desc: "Amishi is a freshman from Raleigh, North Carolina majoring in Computer Science within the Engineering College. On-campus, she is a member of Cornell Data Journal in addition to being a part of Cornell Nazaqat Dance Club. In her free time, Amishi enjoys playing badminton, hanging out with friends, and solving NYT connections. She can be reached at ag2424.",
     year: "2027",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/amishigupta",
-    email: "ag2424@cornell.edu",
+    linkedin: "amishigupta",
+    netid: "ag2424",
   },
 };
