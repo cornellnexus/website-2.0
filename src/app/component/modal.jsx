@@ -77,9 +77,11 @@ function Modal() {
 
                   <div className="flex flex-row pb-1 space-x-3 self-end emptyline">
                     <div>
-                      {memberInfo[name]["email"] !== "" ? (
+                      {memberInfo[name]["netid"] !== "" ? (
                         <Link
-                          href={`mailto:${memberInfo[name]["email"]}`}
+                          href={`mailto:${
+                            memberInfo[name]["netid"] + "@cornell.edu"
+                          }`}
                           title="Email me for a coffee chat!"
                           rel="noopener noreferrer"
                           target="_blank"
@@ -98,7 +100,10 @@ function Modal() {
                     <div>
                       {memberInfo[name]["linkedin"] !== "" ? (
                         <Link
-                          href={memberInfo[name]["linkedin"]}
+                          href={
+                            "https://www.linkedin.com/in/" +
+                            memberInfo[name]["linkedin"]
+                          }
                           rel="noopener noreferrer"
                           target="_blank"
                         >
