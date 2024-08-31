@@ -9,7 +9,7 @@ export default function Team() {
     "Katlynn Ryu",
     "Yujean Choi",
     "Mia Tarantini",
-    "Farah Achouri",
+    // "Farah Achouri",
     "Ethan Sekiguchi",
     "William Dignam",
     "Cleo Hamilton",
@@ -28,11 +28,11 @@ export default function Team() {
   ];
   const SoftwareSubteam = [
     "Lin Jin",
-    "Shreya Kumar",
+    // "Shreya Kumar",
     "Vinny Huang",
     "Sophia Pan",
     "Natalie Leung",
-    "Ahan Mishra",
+    // "Ahan Mishra",
     "Luke Tao",
     "Michael Wu",
     "Gary Chen",
@@ -44,7 +44,7 @@ export default function Team() {
     "Tanay Nisar",
     "Elaine Wu",
     "Jeana Han",
-    "Vedaant Shah",
+    // "Vedaant Shah",
     "Oscar Lam",
     "Neha Jain",
   ];
