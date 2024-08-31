@@ -16,7 +16,7 @@ export default function Apply() {
     {
       accordianTitle: "How can I apply?",
       accordianContent:
-        "If you are interested, begin by completing the General Project Team Application. Then, fill out the Cornell Nexus Project Team Application.",
+        "Applications are currently open! Click the appropriate link above to apply.",
     },
     {
       accordianTitle: "What does your application process look like?",

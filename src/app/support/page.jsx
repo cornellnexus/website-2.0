@@ -53,14 +53,15 @@ export default function Support() {
             transition={{ duration: 0.7, ease: "easeOut" }}
             className="max-w-screen-md text-center text-lg mb-4"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut morbi
-            tincidunt augue interdum velit euismod in pellentesque massa. Ut
-            tellus elementum sagittis vitae et leo duis ut. Massa sapien
-            faucibus et molestie. Tortor id aliquet lectus proin nibh nisl
-            condimentum id venenatis. Amet aliquam id diam maecenas ultricies mi
-            eget. Adipiscing elit pellentesque habitant morbi. Pulvinar
-            pellentesque habitant morbi tristique senectus et netus.
+            At Nexus, we have a team of talented engineers and business
+            professionals, but we are in need of additional financial resources
+            to complete our build and expand our presence. We seek advice on the
+            technical, business, and sustainability end of our project, and look
+            to gain valuable insight from professors and industry professionals
+            on how we can further make an impact. We hope to get the word out
+            about the amazing work we are doing at Nexus! Reach out if you or a
+            community you are a part of would be interested in learning more
+            about us.
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 30 }}

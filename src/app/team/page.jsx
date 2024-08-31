@@ -109,16 +109,13 @@ export default function Team() {
             priority
           />
           <div className="max-w-screen-md text-center">
-            The mechanical subteam develops an autonomous vehicle framework
-            capable of operating on a beach setting. The team has completed the
-            first prototype of the drivetrain to filter microplastics from the
-            sand. Members test to maximize the intake and the efficiency of our
-            filtration mechanism. The team is currently working on an improved
-            drivetrain which will feature four wheel drive technology with
-            swerving mechanism for turning. Furthermore, they are also
-            manufacturing a base station that will contain solar panels for
-            charging, allowing our system to be fully autonomous and
-            environmentally friendly.
+            The mechanical team is currently in the manufacturing stage of
+            building our beach-cleaning robot. This includes working on the
+            drivetrain and filtration assemblies, and using 3D modeling software
+            such as SolidWorks to model our robot. We are a small and personal
+            team—there are opportunities to work on many different components of
+            the robot and to tackle and solve new problems creatively and obtain
+            hands-on experience.
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
@@ -235,13 +232,14 @@ export default function Team() {
             priority
           />
           <div className="max-w-screen-md text-center">
-            The software subteam is developing the autonomous algorithm for our
-            robot, which determines the robot&apos;s traversal and environmental
-            interaction. While the main traversal algorithms, visualizations,
-            and graphical user interface have been established, the team is
-            actively refining these features. Currently the members are also
-            working on the obstacle avoidance and docking algorithm, building
-            the backend routes for the GUI, and testing.
+            The software subteam is the brain behind the robot. Software is
+            working on a wide range of different challenges, working with the
+            code, logic, and technology needed to make the robot function. Some
+            of our current tasks include reading sensor data to detect our
+            robot’s location and monitor its health, implementing computer
+            vision models to allow for autonomous steering and obstacle
+            avoidance, and visualizing our robot’s data through simulated
+            animations.
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">

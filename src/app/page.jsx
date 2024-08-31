@@ -106,11 +106,12 @@ export default function Home() {
           >
             <p className="text-white text-4xl font-medium">Our Mission</p>
             <p className="text-white">
-              Save the turtles with a turtle. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Senectus et netus et malesuada
-              fames ac. Magna fermentum iaculis eu non diam phasellus vestibulum
-              lorem. Vel facilisis volutpat est velit egestas dui id.
+              Nexus is focused on addressing environmental concerns associated
+              with plastic pollution. We are passionate about leveraging
+              technology to undertake societal and environmental issues. By
+              merging our diverse skill sets with knowledge gained from the
+              classroom, we believe we can create a sustainable future through
+              the power of technology.
             </p>
             <motion.div whileHover="hover" variants={buttonVariants}>
               <Button href="/about" text="Learn More" size="lg" color="green" />
@@ -142,11 +143,11 @@ export default function Home() {
           >
             <p className="text-white text-4xl font-medium">Who Are We?</p>
             <p className="text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Senectus et netus et malesuada fames ac. Magna fermentum iaculis
-              eu non diam phasellus vestibulum lorem. Vel facilisis volutpat est
-              velit egestas dui id.
+              Nexus is a diverse group of intellectually curious and driven
+              students building an autonomous robot that will work on filtering
+              out microplastics from beach shores. We’re a team of engineers,
+              scientists, and thinkers representing four different colleges and
+              ten different majors.
             </p>
             <motion.div whileHover="hover" variants={buttonVariants}>
               <Button
@@ -210,13 +211,12 @@ export default function Home() {
             variants={contentScrollVariants}
             className="max-w-sm"
           >
-            <p className="text-white text-4xl font-medium">Sponsors</p>
+            <p className="text-white text-4xl font-medium">Sponsorship</p>
             <p className="text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Senectus et netus et malesuada fames ac. Magna fermentum iaculis
-              eu non diam phasellus vestibulum lorem. Vel facilisis volutpat est
-              velit egestas dui id.
+              At Nexus, we’re seeking financial support and expert advice to
+              advance our mission and expand our network. Connect with us to
+              learn more about our impactful work and explore potential
+              collaborations.
             </p>
             <motion.div whileHover="hover" variants={buttonVariants}>
               <Button
