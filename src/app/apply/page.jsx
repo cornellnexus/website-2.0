@@ -73,7 +73,6 @@ export default function Apply() {
               height="300"
             />
           </motion.div>
-
           <motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -82,13 +81,40 @@ export default function Apply() {
           >
             <Button
               className="font-semibold"
-              href="https://docs.google.com/forms/d/e/1FAIpQLScYhg1SeyPxOobY6WgE7NoL5Ul_7MEmpjnGlYPDJcqBv5gC1w/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc3XxLSrhOzpdFBoUC6FptaaSDRyzfKtWvXB0--lc5PSnoy9A/viewform"
               color="navy"
               size="lg"
-              text="Apply"
+              text="Coffee Chat Form"
             />
           </motion.div>
-
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1, duration: 0.5, ease: "easeInOut" }}
+          >
+            <Button
+              className="font-semibold"
+              href="https://docs.google.com/forms/d/1Xt_Bki7JGAvic-S3Xw9NDhK-dP8KgbdWhbkx5PN8iSw/viewform?edit_requested=true"
+              color="navy"
+              size="lg"
+              text="Upperclassmen Application"
+            />
+          </motion.div>
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1, duration: 0.5, ease: "easeInOut" }}
+          >
+            <Button
+              className="font-semibold"
+              href="https://docs.google.com/forms/d/1aZWUe8IRotDey20-rHGgxtJEfxGTkEbdK1U9GaEinuE/viewform?edit_requested=true"
+              color="navy"
+              size="lg"
+              text="Freshman/Transfer Application"
+            />
+          </motion.div>
           <motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
