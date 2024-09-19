@@ -23,7 +23,6 @@ export default function Team() {
     "Aaron Sucov",
     "Antranig Baghdassarian",
     "Parishee Bajaj",
-    "Anamitra Rawat",
     "Akmal Rupasingha",
   ];
   const SoftwareSubteam = [
