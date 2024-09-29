@@ -9,6 +9,7 @@ export default function Team() {
     "Katlynn Ryu",
     "Yujean Choi",
     "Mia Tarantini",
+    "Rose Basch",
     // "Farah Achouri",
     "Ethan Sekiguchi",
     "William Dignam",

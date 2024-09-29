@@ -386,4 +386,11 @@ export const memberInfo = {
     linkedin: "amishigupta",
     netid: "ag2424",
   },
+  "Rose Basch": {
+    desc: "",
+    year: "2025",
+    title: "",
+    linkedin: "rose-basch-93615b189",
+    netid: "rb753",
+  }
 };
