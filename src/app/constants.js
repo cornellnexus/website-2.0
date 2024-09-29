@@ -146,7 +146,7 @@ export const memberInfo = {
 
   "Natalie Leung": {
     desc: "Natalie is a freshman from Los Angeles, California intending to major in Computer Science within the College of Engineering. She is also a recruited fencer for Cornell’s fencing team. Natalie has a strong interest in robotics as she has led her high school’s FTC robotics team for two years as the Head of Programming. She also enjoys to listening to music and exploring the world of 3D printing.",
-    year: "2027r",
+    year: "2027",
     title: "",
     emoji: "",
     linkedin: "natalie-leung-60240a2a1",
@@ -154,12 +154,12 @@ export const memberInfo = {
   },
 
   "Rose Basch": {
-    desc: "Rose is currently a junior studying mechanical engineering and she joined the Nexus team in the Fall of her freshman year. Based on her work on the team and her coursework in Design and Environmental Analysis she has become particularly interested in the intersection of mechanical solutions and the environment. Outside of school, she can often be found doing an extreme sport such as rock climbing or skiing. She is thrilled to find ways to make a positive impact on the outdoors she loves.",
+    desc: "Rose is a senior from Ann Arbor studying mechanical engineering with an interest in construction and sustainability. She can often be found in the outdoors climbing, hiking, skiing, swimming, or hammocking; she teaches rock climbing at Lindseth for Cornell Outdoor Education!",
     year: "2025",
     title: "",
     emoji: "",
     linkedin: "rose-basch-rb753",
-    netid: "",
+    netid: "rb753",
   },
 
   "Vedaant Shah": {
@@ -386,11 +386,4 @@ export const memberInfo = {
     linkedin: "amishigupta",
     netid: "ag2424",
   },
-  "Rose Basch": {
-    desc: "",
-    year: "2025",
-    title: "",
-    linkedin: "rose-basch-93615b189",
-    netid: "rb753",
-  }
 };
