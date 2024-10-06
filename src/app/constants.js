@@ -77,7 +77,7 @@ export const memberInfo = {
   },
 
   "Casey Kashishian": {
-    desc: "I am a junior from Delaware majoring in Material Science and Engineering. I love playing soccer and have played for 15 years. In my free time I will go out and play soccer or watch the Premier League on the weekends. Outside sports I enjoy watching shows and reading. During this past summer I worked almost 40 hours every week at WaWa.",
+    desc: "I am a junior from Wilmington, DE majoring in Material Science and Engineering. I have a lot of interests in ECE and AEP classes though and take classes in those majors when I get a chance. I am interested in working on something sustainability focused after college and after working in industry, I want to become a high school teacher. I played soccer for 15 years and like to play and watch it (Chelsea fan) in my free time. I can be reached at ck677@cornell.edu. ",
     year: "2026",
     title: "",
     emoji: "",
@@ -384,7 +384,7 @@ export const memberInfo = {
   },
 
   "Yujean Choi": {
-    desc: "Yujean is a junior from Seoul, Korea, majoring in Mechanical Engineering, and possibly Computer Sciecne, in College of Engineering. This past summer, she took a summer course from Yonsei university, and prepared and looked into internships for the coming winter/summer. In Yujean's free time, she enjoys listening to music, playing violin, and traveling.",
+    desc: "Yujean is a junior from Seoul, Korea, majoring in Mechanical Engineering, and possibly Computer Science, in College of Engineering. This past summer, she took a summer course from Yonsei university, and prepared and looked into internships for the coming winter/summer. In Yujean's free time, she enjoys listening to music, playing violin, and traveling.",
     year: "2026",
     title: "",
     emoji: "",
