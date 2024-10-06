@@ -3,6 +3,10 @@ import MemberCard from "../component/membercard";
 import { memberInfo } from "../constants";
 
 export default function Team() {
+  const TeamLeads = [
+    "Elaine Wu",
+    "Mia Tarantini",
+  ];
   const MechanicalSubteam = [
     "Christopher Bauer",
     "Lucca Correia",
@@ -15,6 +19,9 @@ export default function Team() {
     "William Dignam",
     "Cleo Hamilton",
     "Natalie Kaplan",
+    "Olivia Lee",
+    "Rebecca Gerola",
+    "Leo VanHouten",
   ];
   const ElectricalSubteam = [
     "George Maidhof",
@@ -28,25 +35,26 @@ export default function Team() {
   ];
   const SoftwareSubteam = [
     "Lin Jin",
-    // "Shreya Kumar",
     "Vinny Huang",
     "Sophia Pan",
     "Natalie Leung",
-    // "Ahan Mishra",
     "Luke Tao",
     "Michael Wu",
     "Gary Chen",
     "Amishi Gupta",
     "Grace Wei",
+    "Andrew Hu",
+    "Ethan Huang",
+    "Jillian Chong",
   ];
   const BusinessSubteam = [
     "Mona Wu",
     "Tanay Nisar",
     "Elaine Wu",
     "Jeana Han",
-    // "Vedaant Shah",
     "Oscar Lam",
     "Neha Jain",
+    "Shihan Gao",
   ];
 
   return (
@@ -86,6 +94,33 @@ export default function Team() {
             integration between these four teams is what allows us to work on
             the robot efficiently and allows members to learn about disciplines
             outside of their subteam.
+          </div>
+          <Image
+            className="my-10"
+            src={"/delimiter.svg"}
+            alt="separator"
+            width="128"
+            height="4"
+          />
+
+          <div
+            id="fullteam"
+            className="text-center title-size font-semibold text-5xl pb-10"
+          >
+            Team Leads
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {TeamLeads.map((name, idx) => {
+              return (
+                <MemberCard
+                  key={idx}
+                  src={memberInfo[name]["image"]}
+                  name={name}
+                  title={memberInfo[name]["title"]}
+                />
+              );
+              return null;
+            })}
           </div>
           <Image
             className="my-10"

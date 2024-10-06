@@ -112,7 +112,7 @@ export default function Apply() {
               href="https://docs.google.com/forms/d/1aZWUe8IRotDey20-rHGgxtJEfxGTkEbdK1U9GaEinuE/viewform?edit_requested=true"
               color="navy"
               size="lg"
-              text="Freshman/Transfer Application"
+              text="sophomore/Transfer Application"
             />
           </motion.div>
           <motion.div
