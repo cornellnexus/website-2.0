@@ -62,8 +62,8 @@ export const memberInfo = {
     desc: "Andrew is a sophomore from Columbus, New Jersey majoring in Computer Science in the College of Arts and Sciences. When not preoccupied with CS classes, he spends his time practicing with Cornell Men's Fencing Club team, doing volunteer work with Residential Sustainability Leaders, or clicking heads for the Valorant team(as the Valorant esports coordinator). In his free time, he enjoys finding good spots to eat, cooking, and taking long naps. ",
     year: "2027",
     title: "",
-    emoji: "",
-    linkedin: "",
+    emoji: "emojis/Minecraft_Camel.svg",
+    linkedin: "andrew-hu-2246b92a5",
     netid: "ajh365",
   },
 
@@ -72,7 +72,7 @@ export const memberInfo = {
     year: "2027",
     title: "Electrical Team Lead",
     emoji: "🦅",
-    linkedin: "",
+    linkedin: "antranig-baghdassarian",
     netid: "ab2864",
   },
 
@@ -107,7 +107,7 @@ export const memberInfo = {
     desc: "Elaine is a junior from Amherst, MA majoring in Computer Science in the College of Engineering with a minor in Psychology. On-campus, she is a TA for CS 2800 and a member of Project Hope. This past summer she worked in a research lab developing and optimizing ML models to predict the feasibility of zeolite structures. In Elaine's free time, she enjoys making Spotify playlists and eating Trader Joe's strawberry lemonade popsicles. She can be reached at ew457@cornell.edu.",
     year: "2026",
     title: "Full Team Lead",
-    emoji: "",
+    emoji: "emojis/keroppi.svg",
     linkedin: "",
     netid: "ew457",
   },
@@ -117,7 +117,7 @@ export const memberInfo = {
     year: "2027",
     title: "",
     emoji: "",
-    linkedin: "https://www.linkedin.com/in/ethan-huang-619365225/",
+    linkedin: "ethan-huang-619365225",
     netid: "ejh249",
   },
 
@@ -135,7 +135,7 @@ export const memberInfo = {
     year: "2025",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "gcgarychen25",
     netid: "gc558",
   },
 
@@ -152,8 +152,8 @@ export const memberInfo = {
     desc: "Grace is a junior from Albany, New York, majoring in Computer Science in the College of Arts and Sciences. On campus, she TAs for CS 2800, serves as social director for Women in Computing at Cornell, and does web development for the Alpha Cubesat mission. She enjoys cross country skiing, hiking, and playing Stardew Valley in her free time.",
     year: "2026",
     title: "Software Team Lead",
-    emoji: "🦌",
-    linkedin: "",
+    emoji: "emojis/Molang_coffee.svg",
+    linkedin: "gtwei",
     netid: "gtw25",
   },
 
@@ -184,13 +184,12 @@ export const memberInfo = {
     netid: "jjh358",
   },
 
-
   "Jillian Chong": {
     desc: "Jillian is a junior from Queens, New York majoring in Computer Science in the College of Engineering. Outside of Nexus, she is an AEW facilitator and a member of the Cornell ProYos. In her free time, she enjoys watching movies, catching up on sleep, and spending time with friends.",
-    year: "",
+    year: "2026",
     title: "",
-    emoji: "2026",
-    linkedin: "https://www.linkedin.com/in/jillian-chong-b5a0a41b4/",
+    emoji: "emojis/BabyElephant.svg",
+    linkedin: "jillian-chong-b5a0a41b4",
     netid: "jc2886",
   },
 
@@ -243,7 +242,7 @@ export const memberInfo = {
     desc: "Michael is a junior from Queens, New York majoring in Computer Science within the College of Engineering. He enjoys running, cooking, working out, and thinking in his free time. You can reach out to him at mw885@cornell.edu.",
     year: "2026",
     title: "",
-    emoji: "",
+    emoji: "emojis/thinking_gorilla.svg",
     linkedin: "michael-wu-136044198/",
     netid: "mw885",
   },
@@ -315,7 +314,7 @@ export const memberInfo = {
     desc: "Parishee is a sophomore from Bentonville, Arkansas, majoring in Electrical & Computer Engineering in the College of Engineering. Parishee likes rock climbing and embroidering in her free time. She can be reached at pb587.",
     year: "2027",
     title: "Electrical Team Lead",
-    emoji: "",
+    emoji: "emojis/JStarTurtle.svg",
     linkedin: "parishee-bajaj",
     netid: "pb587",
   },
@@ -348,11 +347,11 @@ export const memberInfo = {
   },
 
   "Sophia Pan": {
-    desc: "Sophia's a junior from Cranford, NJ (Central-ish Jersey!) majoring in Computer Science and minoring in Inequality Studies, Environment and Sustainability, and Data Science to focus on the application of computing and technology in developing solutions to societal and environmental issues. On campus, she's also involved in Women for Computing and Chinese Student Association. In her free time, she likes to crochet, look at the 5000+ photos of her dog, and go to the gym (where she also works!).",
+    desc: "Sophia's a junior from Cranford, NJ (Central-ish Jersey!) majoring in Computer Science and minoring in Inequality Studies, Environment and Sustainability, and Data Science to focus on the application of computing and technology in the development of solutions to societal and environmental issues. On campus, she's also involved in Women for Computing, GreenClub, and Chinese Student Association and is a consultant for CS 3110. In her free time, she likes to swim, hike, crochet, look at the 5000+ photos of her dog, and go to the gym (where she also works!).",
     year: "2026",
     title: "",
-    emoji: "",
-    linkedin: "",
+    emoji: "emojis/opossum.svg",
+    linkedin: "sophiapan26",
     netid: "sp2225",
   },
 
@@ -369,8 +368,8 @@ export const memberInfo = {
     desc: "Vinny is a junior from Pennington, New Jersey majoring in Computer Science in the College of Arts & Sciences. This past summer, he interned at Hyphenova working as a full-stack and native application intern. Additionally, Vinny is a visiting scholar at Rutger's Cai Lab where he works on evaluating gene therapy impact on degenerative diseases. Outside of coding and classwork, Vinny loves playing badminton, ping pong, and volleyball, listening to music, and doing all sorts of random things :^)",
     year: "2026",
     title: "",
-    emoji: "/mewmoji.svg",
-    linkedin: "",
+    emoji: "emojis/mewmoji.svg",
+    linkedin: "vinny-huang",
     netid: "vh222",
   },
 
