@@ -33,11 +33,11 @@ export const memberInfo = {
   },
 
   "Akmal Rupasingha": {
-    desc: "",
+    desc: "Akmal is a sophomore from Rockville, Maryland majoring in Computer Science with a minor in ECE. On campus he is a member of the Muslim Educational and Cultural Association in addition to being part of the Cornell Astronomical Society. In Akmal's free time, he enjoys working out, playing lacrosse, and watching the NFL. ",
     year: "2027",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "akmal-rupasingha-b2704820a",
     netid: "ar2346",
   },
 
@@ -95,11 +95,11 @@ export const memberInfo = {
   },
 
   "Cleo Hamilton": {
-    desc: "",
+    desc: "Cleo is a junior studying Biological Engineering. She is most interested in how engineering can be used to solve environmental issues and help people. In her spare time, Cleo loves to knit and spend time outdoors. ",
     year: "2026",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "cleo-hamilton-913134278",
     netid: "chh89",
   },
 
@@ -347,7 +347,7 @@ export const memberInfo = {
   },
 
   "Sophia Pan": {
-    desc: "Sophia's a junior from Cranford, NJ (Central-ish Jersey!) majoring in Computer Science and minoring in Inequality Studies, Environment and Sustainability, and Data Science to focus on the application of computing and technology in the development of solutions to societal and environmental issues. On campus, she's also involved in Women for Computing, GreenClub, and Chinese Student Association and is a consultant for CS 3110. In her free time, she likes to swim, hike, crochet, look at the 5000+ photos of her dog, and go to the gym (where she also works!).",
+    desc: "Sophia's a junior from Cranford, NJ (Central-ish Jersey!) majoring in Computer Science and minoring in Inequality Studies, Environment and Sustainability, and Data Science to focus on the application of computing and technology in the development of societal and environmental solutions. On campus, she's also involved in Women for Computing Club, GreenClub, and Chinese Student Association and is a consultant for CS 3110. In her free time, she likes to swim, hike, crochet, look at 5000+ photos of her dog, and go to the gym (where she also works!).",
     year: "2026",
     title: "",
     emoji: "emojis/opossum.svg",
