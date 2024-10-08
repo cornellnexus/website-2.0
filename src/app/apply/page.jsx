@@ -98,7 +98,7 @@ export default function Apply() {
               href="https://docs.google.com/forms/d/1Xt_Bki7JGAvic-S3Xw9NDhK-dP8KgbdWhbkx5PN8iSw/viewform?edit_requested=true"
               color="navy"
               size="lg"
-              text="Upperclassmen Application"
+              text="Upperclassman Application"
             />
           </motion.div>
           <motion.div
@@ -112,7 +112,7 @@ export default function Apply() {
               href="https://docs.google.com/forms/d/1aZWUe8IRotDey20-rHGgxtJEfxGTkEbdK1U9GaEinuE/viewform?edit_requested=true"
               color="navy"
               size="lg"
-              text="sophomore/Transfer Application"
+              text="Freshman/Transfer Application"
             />
           </motion.div>
           <motion.div
