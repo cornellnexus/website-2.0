@@ -22,7 +22,6 @@
 */
 
 export const memberInfo = {
-
   "Aaron Sucov": {
     desc: "Aaron is a sophomore from South Brunswick, New Jersey, studying Electrical and Computer Engineering in the College of Engineering. He is a member of the sports analytics team and the Cornell chess club. In Aaron's free time, he likes to practice the piano, play volleyball, and watch football.",
     year: "2027",
@@ -194,7 +193,7 @@ export const memberInfo = {
   },
 
   "Leo VanHouten": {
-    desc: "",
+    desc: "Leo is a sophomore from Rochester, New York, majoring in Engineering Physics. He is a member of Marginalia, Cornell’s undergraduate poetry review. Outside of academics, he spends his time listening to music, learning a variety of arts and crafts, being outside, or all of the above. He spends most of his time on campus near a chalkboard in Rockefeller and PSB. ",
     year: "2027",
     title: "",
     emoji: "",
@@ -230,11 +229,11 @@ export const memberInfo = {
   },
 
   "Mia Tarantini": {
-    desc: "Mia is a junior from Pittsburgh, Pennsylvania majoring in Mechanical Engineering in the College of Engineering. She is interested in robotics, specifically in areas of sustainability and medical applications. She likes hand-on engineering with laser engraving and metal machining. In Mia’s free time, she likes to go indoor rock climbing with friends and listen to music.",
+    desc: "Mia is a junior from Pittsburgh, Pennsylvania majoring in Mechanical Engineering in the College of Engineering. She is interested in robotics and sustainability. She enjoys hand-on engineering experience with laser engraving, metal machining and 3D printing. In Mia’s free time, she likes to go rock climbing with friends, go out for a coffee, and listen to music. She can be reached at mmt98@cornell.edu",
     year: "2026",
     title: "Full Team Lead",
     emoji: "",
-    linkedin: "mia-tarantini-9a388b268",
+    linkedin: "mia-tarantini",
     netid: "mmt98",
   },
 
@@ -293,11 +292,11 @@ export const memberInfo = {
   },
 
   "Olivia Lee": {
-    desc: "",
+    desc: "Olivia is a sophomore from Brooklyn, New York studying mechanical engineering. She is interested in designing sustainable systems and using skills in test-analysis to improve ideas. In addition to Nexus, she is also involved in Splash@Cornell as an admin member, Chinese Student Association, Cornell Pro-Yos, and works as a fitness monitor at various Cornell gyms. During her free time, she likes to play tennis, go on hikes, explore nyc, cook/bake, and get bubble tea with friends.  ",
     year: "2027",
     title: "",
-    emoji: "",
-    linkedin: "",
+    emoji: "🐣",
+    linkedin: "olivia-lee-32276a302",
     netid: "ol67",
   },
 
@@ -305,8 +304,8 @@ export const memberInfo = {
     desc: "Oscar is a junior from Sydney, Australia majoring in Economics and Information Science within the college of Arts and Sciences. On-campus, he is also a member of Cornell Consulting Club, Cornell Data Journal and Cornell Undergraduate Asia Business Society. In Oscar's free time, he enjoys going to the gym, playing chess, and socializing with any living thing. He can be reached at ol56. ",
     year: "2026",
     title: "",
-    emoji: "",
-    linkedin: "",
+    emoji: "emojis/oscar_frog.svg",
+    linkedin: "oscarmlam",
     netid: "ol56",
   },
 
