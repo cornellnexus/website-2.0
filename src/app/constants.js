@@ -94,7 +94,7 @@ export const memberInfo = {
   },
 
   "Cleo Hamilton": {
-    desc: "Cleo is a junior studying Biological Engineering. She is most interested in how engineering can be used to solve environmental issues and help people. In her spare time, Cleo loves to knit and spend time outdoors. ",
+    desc: "Cleo is a junior from South Jersey studying Biological Engineering with an interest in nonprofit engineering consulting and environmental remediation. Cleo loves the outdoors, especially mountain biking, rock climbing, and sitting in the sun. She is also passionate about her love of animals and discussing books and movies. Cleo can be reached at chh89@cornell.edu",
     year: "2026",
     title: "",
     emoji: "",
@@ -133,7 +133,7 @@ export const memberInfo = {
     desc: "Gary is a senior from Canton, China majoring in Computer Science and minoring in Mechanical Engineering within the College of Engineering. This past summer, he interned at Philips Healthcare R&D. In Gary's free time, he enjoys cooking, swimming, playing chess, and borrowing random books from Olin. He can be reached at gc558@cornell.edu.",
     year: "2025",
     title: "",
-    emoji: "",
+    emoji: "emojis/the_best_emoji.svg",
     linkedin: "gcgarychen25",
     netid: "gc558",
   },
@@ -211,8 +211,7 @@ export const memberInfo = {
   },
 
   "Lucca Correia": {
-    desc: "Lucca is a junior from New York City studying mechanical engineering with a plan of minoring in robotics. On campus he is on the Cornell United Club Soccer Team; off campus he enjoys being outdoors skiing, hiking with his dog, golfing, and mountain biking. Last summer he interned at DCC Automation where he worked on SolidWorks parts, assemblies, motion studies, and machining drawings as well as shadowing operation of five-axis Haas CNC mills and lathes.",
-    year: "2026",
+    desc: "Lucca is a junior from New York studying Mechanical Engineering with a focus in robotics. This past summer he interned at the MITRE Corporation as a mechanical engineering intern in Bedford MA. Here on campus Lucca is also on the Cornell United Club Soccer Team. In his free time he enjoys skiing, hiking, and golfing.",
     title: "",
     emoji: "",
     linkedin: "luccaec",
@@ -328,11 +327,11 @@ export const memberInfo = {
   },
 
   "Rebecca Gerola": {
-    desc: "",
+    desc: "Rebecca is a sophomore from Los Angeles, California majoring in Mechanical Engineering. On campus, she is involved in Society of Women Engineers and works at Olin Library. In Rebecca's free time, she loves to rock climb, run, and read! ",
     year: "2027",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "rebecca-gerola",
     netid: "rdg245",
   },
 
