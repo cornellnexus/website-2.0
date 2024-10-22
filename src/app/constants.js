@@ -22,7 +22,6 @@
 */
 
 export const memberInfo = {
-
   "Aaron Sucov": {
     desc: "Aaron is a sophomore from South Brunswick, New Jersey, studying Electrical and Computer Engineering in the College of Engineering. He is a member of the sports analytics team and the Cornell chess club. In Aaron's free time, he likes to practice the piano, play volleyball, and watch football.",
     year: "2027",
@@ -95,7 +94,7 @@ export const memberInfo = {
   },
 
   "Cleo Hamilton": {
-    desc: "Cleo is a junior studying Biological Engineering. She is most interested in how engineering can be used to solve environmental issues and help people. In her spare time, Cleo loves to knit and spend time outdoors. ",
+    desc: "Cleo is a junior from South Jersey studying Biological Engineering with an interest in nonprofit engineering consulting and environmental remediation. Cleo loves the outdoors, especially mountain biking, rock climbing, and sitting in the sun. She is also passionate about her love of animals and discussing books and movies. Cleo can be reached at chh89@cornell.edu",
     year: "2026",
     title: "",
     emoji: "",
@@ -134,7 +133,7 @@ export const memberInfo = {
     desc: "Gary is a senior from Canton, China majoring in Computer Science and minoring in Mechanical Engineering within the College of Engineering. This past summer, he interned at Philips Healthcare R&D. In Gary's free time, he enjoys cooking, swimming, playing chess, and borrowing random books from Olin. He can be reached at gc558@cornell.edu.",
     year: "2025",
     title: "",
-    emoji: "",
+    emoji: "emojis/the_best_emoji.svg",
     linkedin: "gcgarychen25",
     netid: "gc558",
   },
@@ -194,7 +193,7 @@ export const memberInfo = {
   },
 
   "Leo VanHouten": {
-    desc: "",
+    desc: "Leo is a sophomore from Rochester, New York, majoring in Engineering Physics. He is a member of Marginalia, Cornell’s undergraduate poetry review. Outside of academics, he spends his time listening to music, learning a variety of arts and crafts, being outside, or all of the above. He spends most of his time on campus near a chalkboard in Rockefeller and PSB. ",
     year: "2027",
     title: "",
     emoji: "",
@@ -212,8 +211,7 @@ export const memberInfo = {
   },
 
   "Lucca Correia": {
-    desc: "Lucca is a junior from New York City studying mechanical engineering with a plan of minoring in robotics. On campus he is on the Cornell United Club Soccer Team; off campus he enjoys being outdoors skiing, hiking with his dog, golfing, and mountain biking. Last summer he interned at DCC Automation where he worked on SolidWorks parts, assemblies, motion studies, and machining drawings as well as shadowing operation of five-axis Haas CNC mills and lathes.",
-    year: "2026",
+    desc: "Lucca is a junior from New York studying Mechanical Engineering with a focus in robotics. This past summer he interned at the MITRE Corporation as a mechanical engineering intern in Bedford MA. Here on campus Lucca is also on the Cornell United Club Soccer Team. In his free time he enjoys skiing, hiking, and golfing.",
     title: "",
     emoji: "",
     linkedin: "luccaec",
@@ -230,11 +228,11 @@ export const memberInfo = {
   },
 
   "Mia Tarantini": {
-    desc: "Mia is a junior from Pittsburgh, Pennsylvania majoring in Mechanical Engineering in the College of Engineering. She is interested in robotics, specifically in areas of sustainability and medical applications. She likes hand-on engineering with laser engraving and metal machining. In Mia’s free time, she likes to go indoor rock climbing with friends and listen to music.",
+    desc: "Mia is a junior from Pittsburgh, Pennsylvania majoring in Mechanical Engineering in the College of Engineering. She is interested in robotics and sustainability. She enjoys hand-on engineering experience with laser engraving, metal machining and 3D printing. In Mia’s free time, she likes to go rock climbing with friends, go out for a coffee, and listen to music. She can be reached at mmt98@cornell.edu",
     year: "2026",
     title: "Full Team Lead",
     emoji: "",
-    linkedin: "mia-tarantini-9a388b268",
+    linkedin: "mia-tarantini",
     netid: "mmt98",
   },
 
@@ -293,11 +291,11 @@ export const memberInfo = {
   },
 
   "Olivia Lee": {
-    desc: "",
+    desc: "Olivia is a sophomore from Brooklyn, New York studying mechanical engineering. She is interested in designing sustainable systems and using skills in test-analysis to improve ideas. In addition to Nexus, she is also involved in Splash@Cornell as an admin member, Chinese Student Association, Cornell Pro-Yos, and works as a fitness monitor at various Cornell gyms. During her free time, she likes to play tennis, go on hikes, explore nyc, cook/bake, and get bubble tea with friends.  ",
     year: "2027",
     title: "",
-    emoji: "",
-    linkedin: "",
+    emoji: "🐣",
+    linkedin: "olivia-lee-32276a302",
     netid: "ol67",
   },
 
@@ -305,8 +303,8 @@ export const memberInfo = {
     desc: "Oscar is a junior from Sydney, Australia majoring in Economics and Information Science within the college of Arts and Sciences. On-campus, he is also a member of Cornell Consulting Club, Cornell Data Journal and Cornell Undergraduate Asia Business Society. In Oscar's free time, he enjoys going to the gym, playing chess, and socializing with any living thing. He can be reached at ol56. ",
     year: "2026",
     title: "",
-    emoji: "",
-    linkedin: "",
+    emoji: "emojis/oscar_frog.svg",
+    linkedin: "oscarmlam",
     netid: "ol56",
   },
 
@@ -329,11 +327,11 @@ export const memberInfo = {
   },
 
   "Rebecca Gerola": {
-    desc: "",
+    desc: "Rebecca is a sophomore from Los Angeles, California majoring in Mechanical Engineering. On campus, she is involved in Society of Women Engineers and works at Olin Library. In Rebecca's free time, she loves to rock climb, run, and read! ",
     year: "2027",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "rebecca-gerola",
     netid: "rdg245",
   },
 
