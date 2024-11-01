@@ -142,12 +142,22 @@ export default function Support() {
             Thank you to our sponsors!
           </div>
           <div className="flex justify-center bg-ash rounded p-8 mt-8 mb-16 w-full max-w-[58rem]">
-            <Image
-              src={"/altium_logo.svg"}
-              alt="Altium Logo"
-              width="500"
-              height="500"
-            />
+            <div className="flex justify-center bg-ash rounded p-8 w-1/2">
+              <Image
+                src={"sponsors/altium_logo.svg"}
+                alt="Altium Logo"
+                width="500"
+                height="500"
+              />
+            </div>
+            <div className="flex justify-center bg-ash rounded p-8 w-1/2">
+              <Image
+                src={"sponsors/solidworks.svg"}
+                alt="Solidworks Logo"
+                width="500"
+                height="500"
+              />
+            </div>
           </div>
         </div>
       </div>

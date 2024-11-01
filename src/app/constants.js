@@ -318,7 +318,7 @@ export const memberInfo = {
   },
 
   "Shihan Gao": {
-    desc: "",
+    desc: "Shihan is a junior from Queens, New York majoring in Information Science in A&S. She is a Milstein scholar, the Graphics Co-lead for ACSU and an artist in DGA. She can be reached at tg329@cornell.edu",
     year: "2026",
     title: "",
     emoji: "",
