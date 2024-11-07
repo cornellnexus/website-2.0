@@ -303,7 +303,7 @@ export const memberInfo = {
     desc: "Oscar is a junior from Sydney, Australia majoring in Economics and Information Science within the college of Arts and Sciences. On-campus, he is also a member of Cornell Consulting Club, Cornell Data Journal and Cornell Undergraduate Asia Business Society. In Oscar's free time, he enjoys going to the gym, playing chess, and socializing with any living thing. He can be reached at ol56. ",
     year: "2026",
     title: "",
-    emoji: "emojis/oscar_frog.svg",
+    emoji: "emojis/froge.svg",
     linkedin: "oscarmlam",
     netid: "ol56",
   },
