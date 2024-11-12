@@ -87,7 +87,7 @@ export const memberInfo = {
   "Christopher Bauer": {
     desc: "Chris is a senior from Mount Laurel, NJ studying Mechanical Engineering. In addition to being a part of Cornell Nexus, he studied Italian in high school and at Cornell and is a member of Cornell’s Italian Club. Chris spent the past summer as a Mechanical Engineer Intern at OPEX Corporation, working on the Infinity AS/RS which is an automated robotic warehouse system. He enjoys watching football, listening to music, hiking, and relaxing at the beach in his free time.",
     year: "2025",
-    title: "Mechanical Team Lead",
+    title: "",
     emoji: "",
     linkedin: "",
     netid: "cpb86",
@@ -212,7 +212,7 @@ export const memberInfo = {
 
   "Lucca Correia": {
     desc: "Lucca is a junior from New York studying Mechanical Engineering with a focus in robotics. This past summer he interned at the MITRE Corporation as a mechanical engineering intern in Bedford MA. Here on campus Lucca is also on the Cornell United Club Soccer Team. In his free time he enjoys skiing, hiking, and golfing.",
-    title: "",
+    title: "Mechanical Team Lead",
     emoji: "",
     linkedin: "luccaec",
     netid: "lec254",
