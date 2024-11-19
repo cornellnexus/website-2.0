@@ -14,7 +14,6 @@ export default function Team() {
     "Yujean Choi",
     "Mia Tarantini",
     "Rose Basch",
-    // "Farah Achouri",
     "Ethan Sekiguchi",
     "William Dignam",
     "Cleo Hamilton",
@@ -22,6 +21,9 @@ export default function Team() {
     "Olivia Lee",
     "Rebecca Gerola",
     "Leo VanHouten",
+    "Ece Kumcuoglu",
+    "Bradley Reiff",
+    "Derek Yang",
   ];
   const ElectricalSubteam = [
     "George Maidhof",
@@ -32,6 +34,8 @@ export default function Team() {
     "Antranig Baghdassarian",
     "Parishee Bajaj",
     "Akmal Rupasingha",
+    "Lizeth Montemayor",
+    "Saywer Brown",
   ];
   const SoftwareSubteam = [
     "Lin Jin",
@@ -46,6 +50,8 @@ export default function Team() {
     "Andrew Hu",
     "Ethan Huang",
     "Jillian Chong",
+    "Dora Zhang",
+    "Julian Meinke",
   ];
   const BusinessSubteam = [
     "Mona Wu",
@@ -55,6 +61,9 @@ export default function Team() {
     "Oscar Lam",
     "Neha Jain",
     "Shihan Gao",
+    "Nick Park",
+    "Sanika Sharma",
+    "Annika Terezakis",
   ];
 
   return (
