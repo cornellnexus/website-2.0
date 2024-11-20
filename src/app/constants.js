@@ -51,6 +51,7 @@ export const memberInfo = {
 
   "Amishi Gupta": {
     desc: "Amishi is a sophomore from Raleigh, North Carolina majoring in Computer Science within the Engineering College. On-campus, she is a member of Cornell Tech Consulting and Cornell Data Journal in addition to being a part of Cornell Nazaqat Dance Club. In her free time, Amishi enjoys playing badminton, hanging out with friends, and solving NYT connections. She can be reached at ag2424@cornell.edu.", year: "2027",
+    year: "2027",
     title: "",
     emoji: "",
     linkedin: "amishigupta",
@@ -66,6 +67,15 @@ export const memberInfo = {
     netid: "ajh365",
   },
 
+  "Annika Terezakis": {
+    desc: "Annika is a freshman from Westchester, New York planning on majoring in Mechanical Engineering with a minor in Business. On-campus, she works at the RPL and is a member of the Cornell Filipino Association. In her free time, Annika enjoys playing guitar, piano, hiking, baking, and weight lifting. She can be reached at art226@cornell.edu.",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "annika-terezakis",
+    netid: "art226",
+  },
+
   "Antranig Baghdassarian": {
     desc: "Antranig (class of 2027) is majoring in Biomedical Engineering (BME), with a minor in Electrical and Computer Engineering (ECE). He’s an Armenian Christian who’s really interested in the intersection of engineering with human health and making the world a better place. On-campus, he is on the Events & Planning E-Board of the Maker Club and an E-Board member on the corporate team of IEEE. In his free time he enjoys volleyball, tennis, jogging, chess, DIY, watching engineering YouTube videos, and meeting new people! If you see him on campus feel free to say hi! He can be reached at ab2864@cornell.edu",
     year: "2027",
@@ -73,6 +83,15 @@ export const memberInfo = {
     emoji: "🦅",
     linkedin: "antranig-baghdassarian",
     netid: "ab2864",
+  },
+
+  "Bradley Reiff": {
+    desc: "Bradley is a freshman going into ChemE. He loves to rock climb and weight lift. He interned over the summer at Echo. Bradley comes from Lake Zurich Illinois (1 hour from Chicago). In his free time he also enjoys drawing.",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "bradley-reiff-825478312",
+    netid: "bjr235",
   },
 
   "Casey Kashishian": {
@@ -102,6 +121,33 @@ export const memberInfo = {
     netid: "chh89",
   },
 
+  "Derek Yang": {
+    desc: "Derek is a freshman from Newark, Delaware, planning on majoring in Materials Science and Engineering in the College of Engineering. On campus, he is a member of Project Hope and the Chinese Student Association. This past summer, he worked in a research facility at the Center for Clean Hydrogen, creating PEM fuel cells and generating green hydrogen through electrolysis of water. In Derek's free time, he likes to play tennis, play video games, listen to music, hiking, and watch TV! He can be reached at dly24@cornell.edu. ",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "derek-yang-908a1b242",
+    netid: "dly24",
+  },
+
+  "Dora Zhang": {
+    desc: "Dora is a freshman from San Diego, CA majoring in Computer Science in the College of Engineering with the intention of pursuing a 3+1 M.Eng degree. Outside of Nexus, she is also a member of Project Hope, Chinese Student Association, Taiwanese American Student Association, and the Cornell Undergraduate Research Board. In her free time, she loves playing badminton, cafe hopping, talking about how much she misses San Diego, and playing Word Hunt! Feel free to reach out to her at dz366@cornell.edu.",
+    year: "2028",
+    title: "",
+    emoji: "emojis/catsmile.svg",
+    linkedin: "dora-zhang-b1b451294",
+    netid: "dz366",
+  },
+
+  "Ece Kumcuoglu": {
+    desc: "Ece is a freshman from London, UK majoring in Materials Science and Engineering within the College of Engineering and minoring in Public Policy. In her free time, she enjoys going on long walks with friends, baking banana bread, oil painting, and lifting.",
+    year: "2028",
+    title: "",
+    emoji: "emojis/Flower.svg",
+    linkedin: "ece-kumcuoglu",
+    netid: "enk34",
+  },
+
   "Elaine Wu": {
     desc: "Elaine is a junior from Amherst, MA majoring in Computer Science in the College of Engineering with a minor in Psychology. On-campus, she is a TA for CS 2800 and a member of Project Hope. This past summer she worked in a research lab developing and optimizing ML models to predict the feasibility of zeolite structures. In Elaine's free time, she enjoys making Spotify playlists and eating Trader Joe's strawberry lemonade popsicles. She can be reached at ew457@cornell.edu.",
     year: "2026",
@@ -115,7 +161,7 @@ export const memberInfo = {
     desc: "Ethan is a sophomore from North Carolina majoring in Computer Science within the College of Arts and Sciences. On campus, he is a member of Project Hope. In Ethan's free time, he enjoys hiking, playing video games, and exploring restaurants in college town. He can be reached at ejh249@cornell.edu.",
     year: "2027",
     title: "",
-    emoji: "",
+    emoji: "emojis/tft.svg",
     linkedin: "ethan-huang-619365225",
     netid: "ejh249",
   },
@@ -192,6 +238,15 @@ export const memberInfo = {
     netid: "jc2886",
   },
 
+  "Julian Meinke": {
+    desc: "Julian is a freshman from Scotch Plains, New Jersey majoring in either Computer Science or Civil Engineering within the College of Engineering. Outside of Nexus Julian is part of the Cornell Reserve Tennis Club and Cornell Cyber Security Club. He enjoys spending time playing tennis, running, watching movies, hiking, and spending time with friends. Last summer, he worked as a tennis coach. He can be reached at jm2874@cornell.edu.",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "julian-meinke-9b7388335",
+    netid: "jm2874",
+  },
+
   "Leo VanHouten": {
     desc: "Leo is a sophomore from Rochester, New York, majoring in Engineering Physics. He is a member of Marginalia, Cornell’s undergraduate poetry review. Outside of academics, he spends his time listening to music, learning a variety of arts and crafts, being outside, or all of the above. He spends most of his time on campus near a chalkboard in Rockefeller and PSB. ",
     year: "2027",
@@ -210,8 +265,18 @@ export const memberInfo = {
     netid: "lj233",
   },
 
+  "Lizeth Montemayor": {
+    desc: "Lizeth is a freshman from Clarksville, Maryland, majoring in Chemical Engineering in the College of Engineering. She is interested in clean energy and sustainability. In her free time, she likes to listen to music, watch movies with friends, and play soccer. She can be reached at lm945@cornell.edu",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "lm945",
+  },
+
   "Lucca Correia": {
     desc: "Lucca is a junior from New York studying Mechanical Engineering with a focus in robotics. This past summer he interned at the MITRE Corporation as a mechanical engineering intern in Bedford MA. Here on campus Lucca is also on the Cornell United Club Soccer Team. In his free time he enjoys skiing, hiking, and golfing.",
+    year: "2026",
     title: "Mechanical Team Lead",
     emoji: "",
     linkedin: "luccaec",
@@ -281,13 +346,13 @@ export const memberInfo = {
     netid: "nj253",
   },
 
-  "Nicholas Papapanou": {
-    desc: "Nick is a senior from Irvington, New York majoring in electrical and computer engineering. He is interested in the applications of ECE in the realm of environmental sustainability. This past summer, he worked at Cornell University's Planetary Habitability and Technology Lab on an oceanography ROV that explores the icy oceans underneath Antarctica's glaciers. Nick’s hobbies and interests include playing the piano and ukulele, cooking, playing chess, and working out!",
-    year: "2025",
+  "Nick Park": {
+    desc: "",
+    year: "2028",
     title: "",
     emoji: "",
-    linkedin: "nicholaspapapanou",
-    netid: "",
+    linkedin: "",
+    netid: "nsp58",
   },
 
   "Olivia Lee": {
@@ -315,6 +380,24 @@ export const memberInfo = {
     emoji: "emojis/JStarTurtle.svg",
     linkedin: "parishee-bajaj",
     netid: "pb587",
+  },
+
+  "Sanika Sharma": {
+    desc: "",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "ss4298",
+  },
+
+  "Saywer Brown": {
+    desc: "Sawyer is a Freshman from Syracuse, New York, considering a major in either Electrical and Computer Engineering or Operations Research and Information Engineering. On campus, he is a part of the American Cancer Society. This past summer, he was a tennis camp counselor and worked at a brewery. In his free time, Sawyer enjoys playing his violin, as well as staying active with spikeball, tennis, golf, and skiing. He can be reached at sdb263@cornell.edu. ",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "/sawyer-brown-15aba9324",
+    netid: "sdb263",
   },
 
   "Shihan Gao": {
@@ -388,7 +471,6 @@ export const memberInfo = {
     linkedin: "",
     netid: "yc2588",
   },
-
 };
 
 
@@ -428,4 +510,14 @@ export const memberInfo = {
     linkedin: "",
     netid: "",
   },
+
+  "Nicholas Papapanou": {
+    desc: "Nick is a senior from Irvington, New York majoring in electrical and computer engineering. He is interested in the applications of ECE in the realm of environmental sustainability. This past summer, he worked at Cornell University's Planetary Habitability and Technology Lab on an oceanography ROV that explores the icy oceans underneath Antarctica's glaciers. Nick’s hobbies and interests include playing the piano and ukulele, cooking, playing chess, and working out!",
+    year: "2025",
+    title: "",
+    emoji: "",
+    linkedin: "nicholaspapapanou",
+    netid: "",
+  },
+
 */
