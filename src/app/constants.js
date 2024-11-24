@@ -347,7 +347,7 @@ export const memberInfo = {
   },
 
   "Nick Park": {
-    desc: "",
+    desc: "Nick is a freshman.",
     year: "2028",
     title: "",
     emoji: "",
@@ -383,7 +383,7 @@ export const memberInfo = {
   },
 
   "Sanika Sharma": {
-    desc: "",
+    desc: "Sanika is a freshman.",
     year: "2028",
     title: "",
     emoji: "",
