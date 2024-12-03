@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Head from "next/head";
 import { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
@@ -27,6 +28,12 @@ export default function AboutUs() {
   return (
     <>
       {/* Main page content */}
+      <Head>
+        <link rel="preload" href="/robot.png" as="image" />
+        <link rel="preload" href="/ell.jpg" as="image" />
+        <link rel="preload" href="/arduino.jpg" as="image" />
+        <link rel="preload" href="/work.jpg" as="image" />
+      </Head>
       <div id="ourmission" className="bg-grey space-y-5 px-4">
         <div className="flex flex-col items-center pb-12">
           <motion.div
@@ -34,7 +41,7 @@ export default function AboutUs() {
             whileInView={{
               y: [-23, -6, 0],
               opacity: [0, 0.4, 1],
-              transition: { delay: 0.15, duration: 0.6, times: [0, 0.5, 1] },
+              transition: { delay: 0, duration: 0.3, times: [0, 0.5, 1] },
             }}
             viewport={{ once: true }}
             className="text-center title-size font-semibold text-5xl my-10"
@@ -65,6 +72,7 @@ export default function AboutUs() {
                 src={images[index]}
                 alt="progress image"
                 fill={true}
+                priority={true}
               />
             </motion.div>
             <button
