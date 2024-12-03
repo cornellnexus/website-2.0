@@ -16,7 +16,7 @@ export default function Apply() {
     {
       accordianTitle: "How can I apply?",
       accordianContent:
-        "Applications are currently closed.",
+        "Applications are currently closed. Keep an eye out, however, as they will open back up in the Spring!",
     },
     {
       accordianTitle: "What does your application process look like?",
