@@ -31,7 +31,7 @@ export default function Apply() {
     {
       accordianTitle: "How can I show interest?",
       accordianContent:
-        "Before recruitment, we always hold an information session as well as host a booth at club fest. Attending these events, as well as setting up a coffee chat with one of our members are great ways to show interest in our team",
+        "Before recruitment, we always hold an information session as well as host a booth at club fest. Attending these events, as well as setting up a coffee chat with one of our members are great ways to show interest in our team.",
     },
     {
       accordianTitle: "Can non-engineering majors apply?",
