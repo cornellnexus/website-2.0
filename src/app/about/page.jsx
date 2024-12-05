@@ -34,7 +34,7 @@ export default function AboutUs() {
             whileInView={{
               y: [-23, -6, 0],
               opacity: [0, 0.4, 1],
-              transition: { delay: 0.15, duration: 0.6, times: [0, 0.5, 1] },
+              transition: { delay: 0, duration: 0.3, times: [0, 0.5, 1] },
             }}
             viewport={{ once: true }}
             className="text-center title-size font-semibold text-5xl my-10"

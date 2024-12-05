@@ -146,7 +146,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/mechanical.jpg"}
+            src={"/mechanical-team.jpg"}
             alt="fullteam image"
             width="700"
             height="700"
