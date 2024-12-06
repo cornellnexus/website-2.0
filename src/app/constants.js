@@ -347,11 +347,11 @@ export const memberInfo = {
   },
 
   "Nick Park": {
-    desc: "",
+    desc: "Nick is a Freshman from Irvine, California majoring in Environment & Sustainability and Information Science within the College of Arts and Sciences. On-campus, he is a member of Cornell University Asian Business Society, Social Enterprise Group at Cornell, Club Volleyball, and KASA. This past summer, he interned with Irvine’s Vice-Mayor Tammy Kim on Environmental Policy. In Nick’s free time, he enjoys A24 Movies, Poker, Sports, Conservation, and Daniel Caesar. He can be reached at nsp58@cornell.edu.",
     year: "2028",
     title: "",
-    emoji: "",
-    linkedin: "",
+    emoji: "🐘",
+    linkedin: "nicholas-park-",
     netid: "nsp58",
   },
 
@@ -383,7 +383,7 @@ export const memberInfo = {
   },
 
   "Sanika Sharma": {
-    desc: "",
+    desc: "Sanika is a freshman from Fremont, California majoring in Computer Science in Arts and Sciences with a Business minor at Dyson. On campus, she is also involved with Cornell Technology Consulting Club. In Sanika’s free time, she enjoys playing tennis, hiking, and drinking coffee! She can be reached at ss4298@cornell.edu.",
     year: "2028",
     title: "",
     emoji: "",
@@ -391,7 +391,7 @@ export const memberInfo = {
     netid: "ss4298",
   },
 
-  "Saywer Brown": {
+  "Sawyer Brown": {
     desc: "Sawyer is a Freshman from Syracuse, New York, considering a major in either Electrical and Computer Engineering or Operations Research and Information Engineering. On campus, he is a part of the American Cancer Society. This past summer, he was a tennis camp counselor and worked at a brewery. In his free time, Sawyer enjoys playing his violin, as well as staying active with spikeball, tennis, golf, and skiing. He can be reached at sdb263@cornell.edu. ",
     year: "2028",
     title: "",

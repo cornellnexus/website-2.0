@@ -35,7 +35,7 @@ export default function Team() {
     "Parishee Bajaj",
     "Akmal Rupasingha",
     "Lizeth Montemayor",
-    "Saywer Brown",
+    "Sawyer Brown",
   ];
   const SoftwareSubteam = [
     "Lin Jin",
