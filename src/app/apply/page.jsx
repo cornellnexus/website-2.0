@@ -16,7 +16,7 @@ export default function Apply() {
     {
       accordianTitle: "How can I apply?",
       accordianContent:
-        "Applications are currently closed. Keep an eye out, however, as they will open back up in the Spring!",
+        "Click the link above! For Spring 2025, we will be recruiting for our business, electrical, and software subteams.",
     },
     {
       accordianTitle: "What does your application process look like?",
@@ -31,7 +31,7 @@ export default function Apply() {
     {
       accordianTitle: "How can I show interest?",
       accordianContent:
-        "Before recruitment, we always hold an information session as well as host a booth at club fest. Attending these events, as well as setting up a coffee chat with one of our members are great ways to show interest in our team.",
+        "Before recruitment, we always hold an information session as well as host a booth at club fest. Attending these events, as well as setting up a coffee chat with one of our members are great ways to show interest in our team. Follow us on social media or check this site to stay up to date with the team.",
     },
     {
       accordianTitle: "Can non-engineering majors apply?",
@@ -40,7 +40,7 @@ export default function Apply() {
     },
     {
       accordianTitle: "Do I need experience to join?",
-      accordianContent: "No! ",
+      accordianContent: "No!",
     },
   ];
 
@@ -51,7 +51,7 @@ export default function Apply() {
           <div className="py-10">
             <AnimatedTitle text="Join Our Team" />
           </div>
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
@@ -72,7 +72,7 @@ export default function Apply() {
               width="1200"
               height="300"
             />
-          </motion.div>
+          </motion.div> */}
           <motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -81,13 +81,13 @@ export default function Apply() {
           >
             <Button
               className="font-semibold"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSc3XxLSrhOzpdFBoUC6FptaaSDRyzfKtWvXB0--lc5PSnoy9A/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfoBmf7kxjre8Qgxtp2IRG3WpoVtOIkUHGqiX_xg7LG6T5rGg/viewform"
               color="navy"
               size="lg"
               text="Coffee Chat Form"
             />
           </motion.div>
-          <motion.div
+          {/* <motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -100,7 +100,7 @@ export default function Apply() {
               size="lg"
               text="Upperclassman Application"
             />
-          </motion.div>
+          </motion.div> */}
           <motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -109,10 +109,10 @@ export default function Apply() {
           >
             <Button
               className="font-semibold"
-              href="https://docs.google.com/forms/d/1aZWUe8IRotDey20-rHGgxtJEfxGTkEbdK1U9GaEinuE/viewform?edit_requested=true"
+              href="https://docs.google.com/forms/d/15zk3o6K1rKuvSrj-qVizpjARsEVQ_WFMX1IjJAmpV_c/viewform"
               color="navy"
               size="lg"
-              text="Freshman/Transfer Application"
+              text="Spring Application"
             />
           </motion.div>
           <motion.div
