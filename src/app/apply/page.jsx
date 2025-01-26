@@ -84,7 +84,7 @@ export default function Apply() {
               href="https://docs.google.com/forms/d/e/1FAIpQLSfoBmf7kxjre8Qgxtp2IRG3WpoVtOIkUHGqiX_xg7LG6T5rGg/viewform"
               color="navy"
               size="lg"
-              text="Coffee Chat Form (1/28)"
+              text="Coffee Chat Form (closes 1/28)"
             />
           </motion.div>
           {/* <motion.div
@@ -112,7 +112,7 @@ export default function Apply() {
               href="https://docs.google.com/forms/d/15zk3o6K1rKuvSrj-qVizpjARsEVQ_WFMX1IjJAmpV_c/viewform"
               color="navy"
               size="lg"
-              text="Spring Application (1/30)"
+              text="Spring Application (due 1/30)"
             />
           </motion.div>
           <motion.div
