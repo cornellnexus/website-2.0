@@ -16,7 +16,7 @@ export default function Apply() {
     {
       accordianTitle: "How can I apply?",
       accordianContent:
-        "Click the link above! For Spring 2025, we will be recruiting for our business, electrical, and software subteams.",
+        "Recruitment for Spring 2025 has closed. Please check back in the Fall for more information, and follow us on social media to stay updated!",
     },
     {
       accordianTitle: "What does your application process look like?",
@@ -73,7 +73,7 @@ export default function Apply() {
               height="300"
             />
           </motion.div> */}
-          <motion.div
+          {/* <motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -86,7 +86,7 @@ export default function Apply() {
               size="lg"
               text="Coffee Chat Form (closes 1/28)"
             />
-          </motion.div>
+          </motion.div> */}
           {/* <motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -101,7 +101,7 @@ export default function Apply() {
               text="Upperclassman Application"
             />
           </motion.div> */}
-          <motion.div
+          {/* <motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -114,8 +114,8 @@ export default function Apply() {
               size="lg"
               text="Spring Application (due 1/30)"
             />
-          </motion.div>
-          <motion.div
+          </motion.div> */}
+          {/* <motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -128,7 +128,7 @@ export default function Apply() {
               width="128"
               height="4"
             />
-          </motion.div>
+          </motion.div> */}
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
