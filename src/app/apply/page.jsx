@@ -16,7 +16,7 @@ export default function Apply() {
     {
       accordianTitle: "How can I apply?",
       accordianContent:
-        "Click the link above! For Spring 2025, we will be recruiting for our business, electrical, and software subteams.",
+        "Recruitment for Spring 2025 has closed. Please check back in the Fall for more information, and follow us on social media to stay updated!",
     },
     {
       accordianTitle: "What does your application process look like?",
