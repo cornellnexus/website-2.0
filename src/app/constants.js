@@ -545,8 +545,8 @@ export const memberInfo = {
   },
 
   "Trinity Kong": {
-    desc: "2028",
-    year: "",
+    desc: "",
+    year: "2028",
     title: "",
     emoji: "",
     linkedin: "",

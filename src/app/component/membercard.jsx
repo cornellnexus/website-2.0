@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function MemberCard(props) {
-  const [firstName, lastName] = props.name.split(" ");
+  const firstName = props.name.split(" ").slice(0, 1)
+  const lastName = props.name.split(" ").slice(1).join("_")
   const [imageSrc, setImageSrc] = useState(`/headshots/${firstName}_${lastName}.jpg`);
   const placeholderSrc = "/headshots/placeholder.jpg"; // Path to your placeholder image
 
