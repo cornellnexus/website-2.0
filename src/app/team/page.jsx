@@ -45,6 +45,7 @@ export default function Team() {
     "Lin Jin",
     "Vinny Huang",
     "Sophia Pan",
+    "Elaine Wu",
     "Natalie Leung",
     "Luke Tao",
     "Michael Wu",
