@@ -36,6 +36,10 @@ export default function Team() {
     "Akmal Rupasingha",
     "Lizeth Montemayor",
     "Sawyer Brown",
+    "Daniel Penas Varela",
+    "Raymond Shan",
+    "Sazidur Rashid",
+    "Trinity Kong",
   ];
   const SoftwareSubteam = [
     "Lin Jin",
@@ -52,6 +56,9 @@ export default function Team() {
     "Jillian Chong",
     "Dora Zhang",
     "Julian Meinke",
+    "Alex Saccone",
+    "Renee Gowda",
+    "Sajal Sabat",
   ];
   const BusinessSubteam = [
     "Mona Wu",
@@ -64,6 +71,11 @@ export default function Team() {
     "Nick Park",
     "Sanika Sharma",
     "Annika Terezakis",
+    "Brendan Shek",
+    "Charles Lee",
+    "Inae Kim",
+    "Megi Bare",
+    "Sebastian Lai",
   ];
 
   return (
