@@ -12,10 +12,17 @@ function Modal() {
   // nameOfPage/?modal=_&name=_
   // to add more params just add &varName=__ to the end
 
+  function intoName(name) {
+    if (!name) {
+      return "Name not found";
+    }
+    return name.split("_").join(" ");
+  }
+  
   const modal = searchParams.get("modal");
   const firstname = searchParams.get("firstname");
   const lastname = searchParams.get("lastname");
-  const name = firstname + " " + lastname;
+  const name = firstname + " " + intoName(lastname);
   const pathname = usePathname();
 
   return (
@@ -43,7 +50,7 @@ function Modal() {
                 <div className="flex flex-row justify-between mt-4">
                   <div className="flex flex-row self-start  text-3xl">
                     <div className="line leading-normal  flex flex-row truncate">
-                      <p> {firstname + " " + lastname} </p>
+                      <p> {name} </p>
                       <div
                         className={
                           memberInfo[name]["emoji"] !== ""
@@ -79,9 +86,8 @@ function Modal() {
                     <div>
                       {memberInfo[name]["netid"] !== "" ? (
                         <Link
-                          href={`mailto:${
-                            memberInfo[name]["netid"] + "@cornell.edu"
-                          }`}
+                          href={`mailto:${memberInfo[name]["netid"] + "@cornell.edu"
+                            }`}
                           title="Email me for a coffee chat!"
                           rel="noopener noreferrer"
                           target="_blank"
