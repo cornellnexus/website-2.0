@@ -32,13 +32,13 @@ export const memberInfo = {
   },
 
   "Alex Saccone": {
-    desc: "",
+    desc: "Alex is a freshman from Allentown, Pennsylvania majoring in Computer Science and Mathematics in the College of Arts and Sciences. On-campus, he is a member of the Cornell Rock Climbing Club and the Information and Decision Science Lab, where he works on software to improve autonomous vehicles. In his free time, Alex enjoys rock climbing and hiking at spots around campus. He can be reached at acs376@cornell.edu.",
     year: "2028",
     title: "",
-    emoji: "",
-    linkedin: "",
+    emoji: "emojis/hahahjoe.svg",
+    linkedin: "alexander-saccone",
     netid: "acs376",
-  }, 
+  },
 
   "Akmal Rupasingha": {
     desc: "Akmal is a sophomore from Rockville, Maryland majoring in Computer Science with a minor in ECE. On campus he is a member of the Muslim Educational and Cultural Association in addition to being part of the Cornell Astronomical Society. In Akmal's free time, he enjoys working out, playing lacrosse, and watching the NFL. ",
@@ -104,13 +104,13 @@ export const memberInfo = {
   },
 
   "Brendan Shek": {
-    desc: "",
+    desc: "Brendan is a freshman from Long Island, NY studying Agricultural Sciences and Global Development in CALS. On-campus, he is involved in a number of student organizations, including the Emerging Markets Institute Club, Business Club for Emerging Economies, and Cornell Science Olympiad, and also serves as a CALS ambassador and a Cornell Dyson SMART fellow. In his free time, Brendan enjoys playing sports (soccer, tennis, mountain biking), playing chess, and doing anything that isn’t class work. Feel free to reach out at bs863@cornell.edu!",
     year: "2028",
     title: "",
-    emoji: "",
-    linkedin: "",
+    emoji: "emojis/Confused.svg",
+    linkedin: "brendan-shek-955ba8326",
     netid: "bs863",
-  }, 
+  },
 
   "Casey Kashishian": {
     desc: "I am a junior from Wilmington, DE majoring in Material Science and Engineering. I have a lot of interests in ECE and AEP classes though and take classes in those majors when I get a chance. I am interested in working on something sustainability focused after college and after working in industry, I want to become a high school teacher. I played soccer for 15 years and like to play and watch it (Chelsea fan) in my free time. I can be reached at ck677@cornell.edu. ",
@@ -122,13 +122,13 @@ export const memberInfo = {
   },
 
   "Charles Lee": {
-    desc: "",
+    desc: "Charles is a freshman from Irvine, California majoring in Industrial and Labor Relations. On-campus, he is a part of Kasa, Emmaus Road, and Cornell Ski and Snowboard Club. This past summer, he interned at a local labor law firm. In Charles's free time, he enjoys listening to and producing music, skiing, watching sports, and hanging out with friends at BCD tofu. He can be reached at csl236@cornell.edu.",
     year: "2028",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "charles-s-lee-",
     netid: "csl236",
-  }, 
+  },
 
   "Christopher Bauer": {
     desc: "Chris is a senior from Mount Laurel, NJ studying Mechanical Engineering. In addition to being a part of Cornell Nexus, he studied Italian in high school and at Cornell and is a member of Cornell’s Italian Club. Chris spent the past summer as a Mechanical Engineer Intern at OPEX Corporation, working on the Infinity AS/RS which is an automated robotic warehouse system. He enjoys watching football, listening to music, hiking, and relaxing at the beach in his free time.",
@@ -149,13 +149,13 @@ export const memberInfo = {
   },
 
   "Daniel Penas Varela": {
-    desc: "",
+    desc: "Daniel is a freshman from Spain. He is a member of Cornell Consulting Club and the Blockchain Club. In his free time he enjoys to play guitar, run and play soccer",
     year: "2028",
     title: "",
     emoji: "",
     linkedin: "",
     netid: "dp665",
-  }, 
+  },
 
   "Derek Yang": {
     desc: "Derek is a freshman from Newark, Delaware, planning on majoring in Materials Science and Engineering in the College of Engineering. On campus, he is a member of Project Hope and the Chinese Student Association. This past summer, he worked in a research facility at the Center for Clean Hydrogen, creating PEM fuel cells and generating green hydrogen through electrolysis of water. In Derek's free time, he likes to play tennis, play video games, listen to music, hiking, and watch TV! He can be reached at dly24@cornell.edu. ",
@@ -245,7 +245,7 @@ export const memberInfo = {
     emoji: "",
     linkedin: "",
     netid: "ik339",
-  }, 
+  },
 
   "Katlynn Ryu": {
     desc: "Katlynn is a junior from Seoul, South Korea Va majoring in Computer Science/MechE in the College of Engineering. On campus, she is part of a Society of Women Engineers group in the Prospective Student- Outreach subteam. She also interned for two years at CUDAA (Cornell University Diversity Admissions Ambassadors). In Katlynn’s free time, she enjoys walking around, making vlog, and spending time with her friends.",
@@ -338,13 +338,13 @@ export const memberInfo = {
   },
 
   "Megi Bare": {
-    desc: "",
+    desc: "Megi is a sophomore from Tirana, Albania double majoring in Applied Economics & Management and in Information Science within CALS. On campus she is the treasurer for the Albanian Student Association, and a member of WICC, SWIB, and sometimes the Cornell Bee Club. This past summer she interned as a financial advisor at Deloitte. In Megi's free time she enjoys travelling, board games, and going on walks. She can be reached at mb2754@cornell.edu.",
     year: "2027",
     title: "",
-    emoji: "",
-    linkedin: "",
+    emoji: "emojis/Flying_pig.svg",
+    linkedin: "megi-bare",
     netid: "mb2754",
-  }, 
+  },
 
   "Mia Tarantini": {
     desc: "Mia is a junior from Pittsburgh, Pennsylvania majoring in Mechanical Engineering in the College of Engineering. She is interested in robotics and sustainability. She enjoys hand-on engineering experience with laser engraving, metal machining and 3D printing. In Mia’s free time, she likes to go rock climbing with friends, go out for a coffee, and listen to music. She can be reached at mmt98@cornell.edu",
@@ -443,8 +443,8 @@ export const memberInfo = {
     emoji: "",
     linkedin: "",
     netid: "rs2626",
-  }, 
-  
+  },
+
   "Rebecca Gerola": {
     desc: "Rebecca is a sophomore from Los Angeles, California majoring in Mechanical Engineering. On campus, she is involved in Society of Women Engineers and works at Olin Library. In Rebecca's free time, she loves to rock climb, run, and read! ",
     year: "2027",
@@ -455,13 +455,13 @@ export const memberInfo = {
   },
 
   "Renee Gowda": {
-    desc: "",
+    desc: "Renee is a freshman from Boston, Massachusetts, studying Computer Science at Cornell University’s College of Arts and Sciences. She joined Nexus in the spring of her freshman year. She serves as the Outreach Director on the WICC E-Board, writes for the Cornell Daily Sun, contributes to the Collegetown Magazine, and works at the fitness center. Her dream is to work in biotech, where she can combine her passion for technology with making an impact. Outside of academics, Renee is a published fiction author and loves listening to music, dancing, reading, and spending time with friends. Feel free to reach out to her at rsg276@cornell.edu!",
     year: "2028",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "reneegowda",
     netid: "rsg276",
-  }, 
+  },
 
   "Rose Basch": {
     desc: "Rose is currently a junior studying mechanical engineering and she joined the Nexus team in the Fall of her freshman year. Based on her work on the team and her coursework in Design and Environmental Analysis she has become particularly interested in the intersection of mechanical solutions and the environment. Outside of school, she can often be found doing an extreme sport such as rock climbing or skiing. She is thrilled to find ways to make a positive impact on the outdoors she loves.",
@@ -473,13 +473,13 @@ export const memberInfo = {
   },
 
   "Sajal Sabat": {
-    desc: "",
+    desc: "Sajal is a freshman from Atlanta, Georgia majoring in Computer Science in the College of Engineering. Outside of Nexus, he is also a part of the Finals Scheduling Team. This past summer, he was a basketball coach at his community recreation center. In Sajal's free time, he enjoys eating food, playing basketball, and hanging out with friends. He can be reached at ss4369@cornell.edu.",
     year: "2028",
     title: "",
-    emoji: "",
+    emoji: "🐠",
     linkedin: "",
     netid: "ss4369",
-  }, 
+  },
 
   "Sanika Sharma": {
     desc: "Sanika is a freshman from Fremont, California majoring in Computer Science in Arts and Sciences with a Business minor at Dyson. On campus, she is also involved with Cornell Technology Consulting Club. In Sanika’s free time, she enjoys playing tennis, hiking, and drinking coffee! She can be reached at ss4298@cornell.edu.",
@@ -500,22 +500,22 @@ export const memberInfo = {
   },
 
   "Sazidur Rashid": {
-    desc: "",
+    desc: "Sazidur is a freshman from Brooklyn, New York, majoring in Electrical and Computer Engineering in the College of Engineering. He is interested in the biomedical applications of technology and electrical components. He enjoys technology, and specifically hardware related experiences, and spent most of junior and senior year in high school building computers and gaming PCs, while also researching how different parts worked. In Sazi's free time, he like to play basketball with friends, ice skate, go to the gym, and listen to music.",
     year: "2028",
     title: "",
     emoji: "",
     linkedin: "",
     netid: "sr2379",
-  }, 
+  },
 
   "Sebastian Lai": {
-    desc: "",
+    desc: "Sebastian is a freshman from Westchester, New York in the College of Engineering. In Sebastian's free time, he enjoys playing soccer, running, going to the gym, and traveling. ",
     year: "2028",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "sebastian-lai-4b2892324",
     netid: "srl228",
-  }, 
+  },
 
   "Shihan Gao": {
     desc: "Shihan is a junior from Queens, New York majoring in Information Science in A&S. She is a Milstein scholar, the Graphics Co-lead for ACSU and an artist in DGA. She can be reached at tg329@cornell.edu",
@@ -536,7 +536,7 @@ export const memberInfo = {
   },
 
   "Tanay Nisar": {
-    desc: "Tanay is a junior from Newton, MA majoring in Industrial Labor Relations in the ILR School. On campus, he is a member of Cornell Coffee Club in addition to being part of Cornell Nexus. In Tanay's free time, he enjoys rowing, playing poker, and traveling.",
+    desc: "Tanay is a junior from Newton, MA majoring in Industrial Labor Relations in the ILR School. On campus, he is a member of Cornell Coffee Club in addition to being part of Cornell Nexus. In Tanay's free time, he enjoys rowing, playing poker, and traveling. He can be reached at tn349@cornell.edu.",
     year: "2026",
     title: "Business Team Lead",
     emoji: "",
@@ -551,7 +551,7 @@ export const memberInfo = {
     emoji: "",
     linkedin: "",
     netid: "txk2",
-  }, 
+  },
 
   "Vinny Huang": {
     desc: "Vinny is a junior from Pennington, New Jersey majoring in Computer Science in the College of Arts & Sciences. This past summer, he interned at Hyphenova working as a full-stack and native application intern. Additionally, Vinny is a visiting scholar at Rutger's Cai Lab where he works on evaluating gene therapy impact on degenerative diseases. Outside of coding and classwork, Vinny loves playing badminton, ping pong, and volleyball, listening to music, and doing all sorts of random things :^)",
