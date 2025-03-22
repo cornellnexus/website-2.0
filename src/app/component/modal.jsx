@@ -18,7 +18,7 @@ function Modal() {
     }
     return name.split("_").join(" ");
   }
-  
+
   const modal = searchParams.get("modal");
   const firstname = searchParams.get("firstname");
   const lastname = searchParams.get("lastname");
@@ -39,7 +39,7 @@ function Modal() {
                     <Image
                       className="rounded"
                       id="x"
-                      src={"x-white.svg"}
+                      src={"/candids/x-white.svg"}
                       alt="closeButton"
                       width="20"
                       height="20"

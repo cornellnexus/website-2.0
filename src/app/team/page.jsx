@@ -119,7 +119,7 @@ export default function Team() {
           </div>
           <Image
             className="my-10"
-            src={"/delimiter.svg"}
+            src={"/icons/delimiter.svg"}
             alt="separator"
             width="128"
             height="4"
@@ -146,7 +146,7 @@ export default function Team() {
           </div>
           <Image
             className="my-10"
-            src={"/delimiter.svg"}
+            src={"/icons/delimiter.svg"}
             alt="separator"
             width="128"
             height="4"
@@ -206,7 +206,7 @@ export default function Team() {
           </div>
           <Image
             className="my-10"
-            src={"/delimiter.svg"}
+            src={"/icons/delimiter.svg"}
             alt="separator"
             width="128"
             height="4"
@@ -269,7 +269,7 @@ export default function Team() {
           </div>
           <Image
             className="my-10"
-            src={"/delimiter.svg"}
+            src={"/icons/delimiter.svg"}
             alt="separator"
             width="128"
             height="4"
@@ -330,7 +330,7 @@ export default function Team() {
           </div>
           <Image
             className="my-10"
-            src={"/delimiter.svg"}
+            src={"/icons/delimiter.svg"}
             alt="separator"
             width="128"
             height="4"

@@ -30,7 +30,7 @@ export default function Contact() {
               }}
             >
               <Image
-                src={"/silly-fullteam.jpeg"}
+                src={"/team/silly-fullteam.jpeg"}
                 width="500"
                 height="700"
                 alt="silly full team"
@@ -116,7 +116,7 @@ export default function Contact() {
                       }}
                     >
                       <Image
-                        src={"/instagram.svg"}
+                        src={"/icons/instagram.svg"}
                         width="40"
                         height="40"
                         alt="instagram icon"
@@ -150,7 +150,7 @@ export default function Contact() {
                       }}
                     >
                       <Image
-                        src={"/linkedin.svg"}
+                        src={"/icons/linkedin.svg"}
                         width="40"
                         height="40"
                         alt="linkedin icon"

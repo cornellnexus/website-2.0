@@ -57,7 +57,7 @@ export default function Home() {
             transition={{ delay: 0.45, duration: 0.75, ease: "easeOut" }}
           >
             <Image
-              src={"/nexus-robot.svg"}
+              src={"graphics/nexus-robot.svg"}
               width="500"
               height="500"
               alt="Nexus Robot"
@@ -71,7 +71,7 @@ export default function Home() {
         >
           <Image
             priority
-            src={"beach.svg"}
+            src={"graphics/beach.svg"}
             width={0}
             height={0}
             sizes="100vw"
@@ -91,7 +91,7 @@ export default function Home() {
             <Image
               className="rounded shadow"
               priority
-              src={"/robot-render.svg"}
+              src={"graphics/robot-render.svg"}
               width="400"
               height="400"
               alt="Robot"
@@ -128,7 +128,7 @@ export default function Home() {
             <Image
               className="rounded shadow"
               priority
-              src={"/fullteam.jpeg"}
+              src={"/team/fullteam.jpeg"}
               width="400"
               height="400"
               alt="Team"
@@ -168,7 +168,7 @@ export default function Home() {
         >
           <Image
             priority
-            src={"bubbles.svg"}
+            src={"graphics/bubbles.svg"}
             width={0}
             height={0}
             sizes="100vw"
@@ -198,7 +198,7 @@ export default function Home() {
             <Image
               className="rounded shadow"
               priority
-              src={"/fullteam.jpeg"}
+              src={"/team/fullteam.jpeg"}
               width="400"
               height="400"
               alt="Team"
