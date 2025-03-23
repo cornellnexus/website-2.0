@@ -39,7 +39,7 @@ function Modal() {
                     <Image
                       className="rounded"
                       id="x"
-                      src={"/candids/x-white.svg"}
+                      src={"/icons/x-white.svg"}
                       alt="closeButton"
                       width="20"
                       height="20"
@@ -95,7 +95,7 @@ function Modal() {
                           <Image
                             className="rounded justify-center"
                             id="carouselImage"
-                            src={"/coffee-white.svg"}
+                            src={"/icons/coffee-white.svg"}
                             alt="progressimage"
                             width="35"
                             height="35"
@@ -116,7 +116,7 @@ function Modal() {
                           <Image
                             className="rounded"
                             id="carouselImage"
-                            src={"/linkedin-white.svg"}
+                            src={"/icons/linkedin-white.svg"}
                             alt="progressimage"
                             width="35"
                             height="35"

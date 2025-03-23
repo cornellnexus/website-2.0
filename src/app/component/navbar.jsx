@@ -28,7 +28,7 @@ export default function Navbar() {
           <Image
             id="nexus-logo"
             priority
-            src={"graphics/nexus-logo.svg"}
+            src={"/graphics/nexus-logo.svg"}
             width="100"
             height="100"
             alt="Nexus Logo"

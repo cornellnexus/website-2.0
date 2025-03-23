@@ -12,7 +12,7 @@ export default function Footer() {
           >
             <Image
               id="insta-icon"
-              src={"icons/instagram.svg"}
+              src={"/icons/instagram.svg"}
               width="30"
               height="30"
               alt="Instagram"
@@ -27,7 +27,7 @@ export default function Footer() {
           >
             <Image
               id="github-icon"
-              src={"icons/github.svg"}
+              src={"/icons/github.svg"}
               width="30"
               height="30"
               alt="Github"
@@ -40,7 +40,7 @@ export default function Footer() {
           >
             <Image
               id="email-icon"
-              src={"icons/email.svg"}
+              src={"/icons/email.svg"}
               width="30"
               height="30"
               alt="E-mail"
