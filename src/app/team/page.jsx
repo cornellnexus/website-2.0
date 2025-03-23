@@ -88,7 +88,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/fullteam.jpeg"}
+            src={"/team/fullteam.jpeg"}
             alt="fullteam image"
             width="700"
             height="700"
@@ -119,7 +119,7 @@ export default function Team() {
           </div>
           <Image
             className="my-10"
-            src={"/delimiter.svg"}
+            src={"/icons/delimiter.svg"}
             alt="separator"
             width="128"
             height="4"
@@ -146,7 +146,7 @@ export default function Team() {
           </div>
           <Image
             className="my-10"
-            src={"/delimiter.svg"}
+            src={"/icons/delimiter.svg"}
             alt="separator"
             width="128"
             height="4"
@@ -159,7 +159,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/mechanical-team.jpg"}
+            src={"/team/mechanical-team.jpg"}
             alt="fullteam image"
             width="700"
             height="700"
@@ -206,7 +206,7 @@ export default function Team() {
           </div>
           <Image
             className="my-10"
-            src={"/delimiter.svg"}
+            src={"/icons/delimiter.svg"}
             alt="separator"
             width="128"
             height="4"
@@ -219,7 +219,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/electrical.jpeg"}
+            src={"/team/electrical.jpeg"}
             alt="fullteam image"
             width="700"
             height="700"
@@ -269,7 +269,7 @@ export default function Team() {
           </div>
           <Image
             className="my-10"
-            src={"/delimiter.svg"}
+            src={"/icons/delimiter.svg"}
             alt="separator"
             width="128"
             height="4"
@@ -282,7 +282,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/software.jpeg"}
+            src={"/team/software.jpeg"}
             alt="fullteam image"
             width="700"
             height="700"
@@ -330,7 +330,7 @@ export default function Team() {
           </div>
           <Image
             className="my-10"
-            src={"/delimiter.svg"}
+            src={"/icons/delimiter.svg"}
             alt="separator"
             width="128"
             height="4"
@@ -343,7 +343,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/business.jpeg"}
+            src={"/team/business.jpeg"}
             alt="fullteam image"
             width="700"
             height="700"

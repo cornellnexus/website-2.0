@@ -40,7 +40,7 @@ export default function Support() {
           >
             <Image
               className="rounded pb-5"
-              src={"/fullteam.jpeg"}
+              src={"/team/fullteam.jpeg"}
               alt="fullteam image"
               width="700"
               height="700"
@@ -84,7 +84,7 @@ export default function Support() {
           >
             <Image
               className="mb-10 mt-6"
-              src={"/delimiter.svg"}
+              src={"/icons/delimiter.svg"}
               alt="separator"
               width="128"
               height="4"
@@ -133,7 +133,7 @@ export default function Support() {
           </div>
           <Image
             className="mb-10 mt-6"
-            src={"/delimiter.svg"}
+            src={"/icons/delimiter.svg"}
             alt="separator"
             width="128"
             height="4"

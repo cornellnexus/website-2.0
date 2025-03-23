@@ -171,7 +171,7 @@ export default function Apply() {
                 <Image
                   className="rounded m-1"
                   id="x"
-                  src={"/turtle-think.svg"}
+                  src={"/graphics/turtle-think.svg"}
                   alt="closeButton"
                   width="30"
                   height="30"
