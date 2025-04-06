@@ -28,7 +28,7 @@ export default function Navbar() {
           <Image
             id="nexus-logo"
             priority
-            src={"/nexus-logo.svg"}
+            src={"/graphics/nexus-logo.svg"}
             width="100"
             height="100"
             alt="Nexus Logo"
@@ -51,14 +51,14 @@ export default function Navbar() {
         <div onClick={handleBurger} className="block md:hidden">
           {burger ? (
             <Image
-              src={"x.svg"}
+              src={"/icons/x.svg"}
               width="20"
               height="20"
               alt="burger-menu-close"
             />
           ) : (
             <Image
-              src={"burger-menu.svg"}
+              src={"/icons/burger-menu.svg"}
               width="20"
               height="20"
               alt="burger-menu-open"

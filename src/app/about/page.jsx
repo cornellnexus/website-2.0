@@ -13,7 +13,7 @@ export default function AboutUs() {
   const storyDesc =
     "Starting off with just 6 original members — united under a single mission towards using technology for sustainability — Nexus grew to become a team of 30+ talented and passionate individuals who want to help make the world a better place. We hope to increase our enthusiasm for people, product, and innovation through a collaborative environment within our team.";
   const [index, setIndex] = useState(0);
-  const images = ["/robot.png", "/ell.jpg", "/arduino.jpg", "/work.jpg"];
+  const images = ["/candids/robot.png", "/candids/ell.jpg", "/candids/arduino.jpg", "/candids/work.jpg"];
 
   function handlePrev() {
     setDirection("left");
@@ -102,7 +102,7 @@ export default function AboutUs() {
           >
             <Image
               className="rounded shadow"
-              src={"/progress.png"}
+              src={"/candids/progress.png"}
               alt="progress image"
               width="400"
               height="400"
@@ -129,7 +129,7 @@ export default function AboutUs() {
           >
             <Image
               className="rounded shadow"
-              src={"/story.png"}
+              src={"/candids/story.png"}
               alt="story image"
               width="400"
               height="400"
