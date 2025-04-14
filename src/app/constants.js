@@ -239,11 +239,11 @@ export const memberInfo = {
   },
 
   "Inae Kim": {
-    desc: "",
+    desc: "Hi! I am a sophomore majoring in Information Science. I’m from Seoul, South Korea and is interested in data science. I enjoy trying new food and traveling. Reach out to me at ik339@cornell.edu. ",
     year: "2027",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "inaekim1203",
     netid: "ik339",
   },
 
@@ -437,7 +437,7 @@ export const memberInfo = {
   },
 
   "Raymond Shan": {
-    desc: "",
+    desc: "Raymond is a freshman from Queens, New York majoring in ECE within the College of Engineering. He is part of Lion Dance and Yamatai, Cornell's Taiko drumming group. He really likes listening to music, playing sports, cooking, and watching random videos that he finds on YT. If there are any questions for him, he can be reached at rs2626@cornell.edu.",
     year: "2028",
     title: "",
     emoji: "",
@@ -545,11 +545,11 @@ export const memberInfo = {
   },
 
   "Trinity Kong": {
-    desc: "",
+    desc: "Trinity is a freshman from Dallas, PA majoring in Electrical and Computer Engineering. Aside from Nexus, she is a member of Cornell University Sustainable Design and The Steminist Movement. In Trinity's free time, she likes to hike, crochet, and try new foods. She can be reached at txk2@cornell.edu.",
     year: "2028",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "trinity-kong-bb2b7128b",
     netid: "txk2",
   },
 
