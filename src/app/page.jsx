@@ -198,7 +198,7 @@ export default function Home() {
             <Image
               className="rounded shadow"
               priority
-              src={"/team/fullteam.jpeg"}
+              src={"/team/cute-fullteam.jpeg"}
               width="400"
               height="400"
               alt="Team"

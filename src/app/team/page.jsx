@@ -88,8 +88,8 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/team/fullteam.jpeg"}
-            alt="fullteam image"
+            src={"/team/silly-fullteam.jpeg"}
+            alt="silly fullteam image"
             width="700"
             height="700"
             priority
@@ -159,7 +159,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/team/mechanical-team.jpg"}
+            src={"/team/mechanical.jpeg"}
             alt="fullteam image"
             width="700"
             height="700"

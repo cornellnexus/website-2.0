@@ -40,8 +40,8 @@ export default function Support() {
           >
             <Image
               className="rounded pb-5"
-              src={"/team/fullteam.jpeg"}
-              alt="fullteam image"
+              src={"/team/cute-fullteam.jpeg"}
+              alt="cute fullteam image"
               width="700"
               height="700"
             />
@@ -105,7 +105,7 @@ export default function Support() {
                 sponsorship package below!
               </div>
               <div className="flex justify-center">
-                <Button href="" text="View" size="xs" color="navy" />
+                <Button href="/sponsors/Sponsorship_Packet.pdf" text="View" size="xs" color="navy" />
               </div>
             </motion.div>
             <motion.div
