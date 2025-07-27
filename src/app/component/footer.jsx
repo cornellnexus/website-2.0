@@ -48,8 +48,9 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className="text-2xl text-center">
-        <p>Cornell Nexus Project Team © 2024</p>
+      <div className="text-2xl text-right">
+        <p>Cornell Nexus Project Team © 2025</p>
+        <p className="text-sm">This organization is a registered student organization of Cornell University</p>
       </div>
     </footer>
   );
