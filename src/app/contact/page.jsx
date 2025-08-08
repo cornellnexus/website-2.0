@@ -159,6 +159,30 @@ export default function Contact() {
                   </a>
                 </motion.div>
               </div>
+              <div className="text-sm text-[#555555ff] mt-3">
+                <motion.div
+                  initial={{ opacity: 0}}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 2.65, duration: 0.45, ease: "easeOut" }}
+                  className="flex flex-row items-center"
+                >
+                  <motion.div
+                  initial={{color: "#555555ff"}}
+                  whileHover={{color: "teal"}}
+                  transition={{
+                    type: "spring",
+                    stiffness: 400,
+                    damping: 13,
+                  }}
+                >
+                <a href="https://hr.cornell.edu/about/workplace-rights/equal-education-and-employment">
+                  Equal Education & Employment&nbsp;
+                </a>
+                </motion.div>
+                | Working at Cornell
+                </motion.div>
+              </div>
             </div>
           </div>
         </div>
@@ -166,3 +190,4 @@ export default function Contact() {
     </>
   );
 }
+
