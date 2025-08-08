@@ -51,6 +51,29 @@ export default function Apply() {
           <div className="py-10">
             <AnimatedTitle text="Join Our Team" />
           </div>
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1, duration: 0.5, ease: "easeInOut" }}
+          >
+            <div className="text-xl">
+              <div>Check back soon for our recruitment timeline! Our application opens on <b>August 18th</b>.</div>
+              <div className="flex flex-row justify-center">
+                <div className="my-4 mr-1">
+                  In the meantime... sign up for a coffee chat below.
+                </div>
+                <Image
+                  className="rounded m-1"
+                  id="x"
+                  src={"/graphics/turtle-smirk.png"}
+                  alt="Smirking turtle"
+                  width="50"
+                  height="50"
+                />
+              </div>
+            </div>
+          </motion.div> 
           {/* <motion.div
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -73,7 +96,7 @@ export default function Apply() {
               height="300"
             />
           </motion.div> */}
-          {/* <motion.div
+          { <motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -81,12 +104,12 @@ export default function Apply() {
           >
             <Button
               className="font-semibold"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfoBmf7kxjre8Qgxtp2IRG3WpoVtOIkUHGqiX_xg7LG6T5rGg/viewform"
+              href="https://forms.gle/WrQd3D12gaH86Pbs5"
               color="navy"
               size="lg"
-              text="Coffee Chat Form (closes 1/28)"
+              text="Coffee Chat Sign-Up"
             />
-          </motion.div> */}
+          </motion.div>}
           {/* <motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -136,7 +159,7 @@ export default function Apply() {
             viewport={{ once: true }}
             transition={{ delay: 0.1, duration: 0.5, ease: "easeInOut" }}
           >
-            <div className="h-auto max-w-screen-md justify-center mx-auto">
+            <div className="h-auto max-w-screen-md justify-center mx-auto pt-10">
               <div className="font-semibold text-center w-full text-4xl">
                 Frequently Asked Questions (FAQ)
               </div>
@@ -172,7 +195,7 @@ export default function Apply() {
                   className="rounded m-1"
                   id="x"
                   src={"/graphics/turtle-think.svg"}
-                  alt="closeButton"
+                  alt="Thinking turtle"
                   width="30"
                   height="30"
                 />
