@@ -25,7 +25,7 @@ export const memberInfo = {
   "Aaron Sucov": {
     desc: "Aaron is a sophomore from South Brunswick, New Jersey, studying Electrical and Computer Engineering in the College of Engineering. He is a member of the sports analytics team and the Cornell chess club. In Aaron's free time, he likes to practice the piano, play volleyball, and watch football.",
     year: "2027",
-    title: "",
+    title: "Full Team Lead",
     emoji: "",
     linkedin: "",
     netid: "ans246",
@@ -70,7 +70,7 @@ export const memberInfo = {
   "Andrew Hu": {
     desc: "Andrew is a sophomore from Columbus, New Jersey majoring in Computer Science in the College of Arts and Sciences. When not preoccupied with CS classes, he spends his time practicing with Cornell Men's Fencing Club team, doing volunteer work with Residential Sustainability Leaders, or clicking heads for the Valorant team(as the Valorant esports coordinator). In his free time, he enjoys finding good spots to eat, cooking, and taking long naps. ",
     year: "2027",
-    title: "",
+    title: "Software Team Lead",
     emoji: "emojis/Minecraft_Camel.svg",
     linkedin: "andrew-hu-2246b92a5",
     netid: "ajh365",
@@ -130,15 +130,6 @@ export const memberInfo = {
     netid: "csl236",
   },
 
-  "Christopher Bauer": {
-    desc: "Chris is a senior from Mount Laurel, NJ studying Mechanical Engineering. In addition to being a part of Cornell Nexus, he studied Italian in high school and at Cornell and is a member of Cornell’s Italian Club. Chris spent the past summer as a Mechanical Engineer Intern at OPEX Corporation, working on the Infinity AS/RS which is an automated robotic warehouse system. He enjoys watching football, listening to music, hiking, and relaxing at the beach in his free time.",
-    year: "2025",
-    title: "",
-    emoji: "",
-    linkedin: "",
-    netid: "cpb86",
-  },
-
   "Cleo Hamilton": {
     desc: "Cleo is a junior from South Jersey studying Biological Engineering with an interest in nonprofit engineering consulting and environmental remediation. Cleo loves the outdoors, especially mountain biking, rock climbing, and sitting in the sun. She is also passionate about her love of animals and discussing books and movies. Cleo can be reached at chh89@cornell.edu",
     year: "2026",
@@ -187,7 +178,7 @@ export const memberInfo = {
   "Elaine Wu": {
     desc: "Elaine is a junior from Amherst, MA majoring in Computer Science in the College of Engineering with a minor in Psychology. On-campus, she is a TA for CS 2800 and a member of Project Hope. This past summer she worked in a research lab developing and optimizing ML models to predict the feasibility of zeolite structures. In Elaine's free time, she enjoys making Spotify playlists and eating Trader Joe's strawberry lemonade popsicles. She can be reached at ew457@cornell.edu.",
     year: "2026",
-    title: "Full Team Lead",
+    title: "",
     emoji: "emojis/keroppi.svg",
     linkedin: "",
     netid: "ew457",
@@ -196,7 +187,7 @@ export const memberInfo = {
   "Ethan Huang": {
     desc: "Ethan is a sophomore from North Carolina majoring in Computer Science within the College of Arts and Sciences. On campus, he is a member of Project Hope. In Ethan's free time, he enjoys hiking, playing video games, and exploring restaurants in college town. He can be reached at ejh249@cornell.edu.",
     year: "2027",
-    title: "",
+    title: "Software Team Lead",
     emoji: "emojis/tft.svg",
     linkedin: "ethan-huang-619365225",
     netid: "ejh249",
@@ -211,35 +202,17 @@ export const memberInfo = {
     netid: "eks84",
   },
 
-  "Gary Chen": {
-    desc: "Gary is a senior from Canton, China majoring in Computer Science and minoring in Mechanical Engineering within the College of Engineering. This past summer, he interned at Philips Healthcare R&D. In Gary's free time, he enjoys cooking, swimming, playing chess, and borrowing random books from Olin. He can be reached at gc558@cornell.edu.",
-    year: "2025",
-    title: "",
-    emoji: "emojis/the_best_emoji.svg",
-    linkedin: "gcgarychen25",
-    netid: "gc558",
-  },
-
-  "George Maidhof": {
-    desc: "George is a senior studying Electrical and Computer Engineering with a CS Minor at Cornell University in the College of Engineering. He is a member of the Electrical Subteam at Cornell Nexus. On campus, George serves as an RA within the Jameson and High Rise Community, is on the Academic E-Board of IEEE, and is part of the Zhang Research Group at Cornell. Some extracurricular activities George enjoys outdoor activities including running, swimming, basketball, surfing. On top of that, I love to make projects, learning new skills and topics, and meeting people and having fun! To reach George, netid at gpm58!",
-    year: "2025",
-    title: "",
-    emoji: "",
-    linkedin: "george-maidhof-70ab13249",
-    netid: "gpm58",
-  },
-
   "Grace Wei": {
     desc: "Grace is a junior from Albany, New York, majoring in Computer Science in the College of Arts and Sciences. On campus, she TAs for CS 2800, serves as social director for Women in Computing at Cornell, and does web development for the Alpha Cubesat mission. She enjoys cross country skiing, hiking, and playing Stardew Valley in her free time.",
     year: "2026",
-    title: "Software Team Lead",
+    title: "",
     emoji: "emojis/Molang_coffee.svg",
     linkedin: "gtwei",
     netid: "gtw25",
   },
 
   "Inae Kim": {
-    desc: "Hi! I am a sophomore majoring in Information Science. I’m from Seoul, South Korea and is interested in data science. I enjoy trying new food and traveling. Reach out to me at ik339@cornell.edu. ",
+    desc: "Hi! I am a sophomore majoring in Information Science. I'm from Seoul, South Korea and is interested in data science. I enjoy trying new food and traveling. Reach out to me at ik339@cornell.edu. ",
     year: "2027",
     title: "",
     emoji: "",
@@ -268,7 +241,7 @@ export const memberInfo = {
   "Jeana Han": {
     desc: "Jeana is a junior from Seattle, Washington in the College of Engineering. This past summer, she had the opportunity to intern as an Estimating Engineering Intern, allowing her to explore the interdisciplinary fields of engineering and business. In Jeana's free time, she enjoys listening to music, watching movies, and hanging out with friends.",
     year: "2026",
-    title: "",
+    title: "Business Team Lead",
     emoji: "",
     linkedin: "",
     netid: "jjh358",
@@ -322,7 +295,7 @@ export const memberInfo = {
   "Lucca Correia": {
     desc: "Lucca is a junior from New York studying Mechanical Engineering with a focus in robotics. This past summer he interned at the MITRE Corporation as a mechanical engineering intern in Bedford MA. Here on campus Lucca is also on the Cornell United Club Soccer Team. In his free time he enjoys skiing, hiking, and golfing.",
     year: "2026",
-    title: "Mechanical Team Lead",
+    title: "",
     emoji: "",
     linkedin: "luccaec",
     netid: "lec254",
@@ -349,7 +322,7 @@ export const memberInfo = {
   "Mia Tarantini": {
     desc: "Mia is a junior from Pittsburgh, Pennsylvania majoring in Mechanical Engineering in the College of Engineering. She is interested in robotics and sustainability. She enjoys hand-on engineering experience with laser engraving, metal machining and 3D printing. In Mia’s free time, she likes to go rock climbing with friends, go out for a coffee, and listen to music. She can be reached at mmt98@cornell.edu",
     year: "2026",
-    title: "Full Team Lead",
+    title: "",
     emoji: "",
     linkedin: "mia-tarantini",
     netid: "mmt98",
@@ -364,19 +337,10 @@ export const memberInfo = {
     netid: "mw885",
   },
 
-  "Mona Wu": {
-    desc: "Mona is a senior from Edison, New Jersey majoring in Economics within the College of Arts and Sciences. On-campus, she is a member of Cornell Marketing Club, Emerging Markets Society, and Cornell Current. In Mona's free time, she enjoys swimming, sketching, and hanging out with friends.",
-    year: "2025",
-    title: "",
-    emoji: "",
-    linkedin: "mona-wu1/",
-    netid: "mjw326",
-  },
-
   "Natalie Kaplan": {
     desc: "Natalie is a sophomore from Long Island majoring in Mechanical Engineering within the College of Engineering. On campus, she is Head of New Member Education for the Cybersecurity club and works as a peer advisor. In Natalie’s free time, she likes reading, rock climbing, crocheting, and listening to music. ",
     year: "2027",
-    title: "",
+    title: "Mechanical Team Lead",
     emoji: "",
     linkedin: "natalie-kaplan-294a65247",
     netid: "njk82",
@@ -454,24 +418,6 @@ export const memberInfo = {
     netid: "rdg245",
   },
 
-  "Renee Gowda": {
-    desc: "Renee is a freshman from Boston, Massachusetts, studying Computer Science at Cornell University’s College of Arts and Sciences. She joined Nexus in the spring of her freshman year. She serves as the Outreach Director on the WICC E-Board, writes for the Cornell Daily Sun, contributes to the Collegetown Magazine, and works at the fitness center. Her dream is to work in biotech, where she can combine her passion for technology with making an impact. Outside of academics, Renee is a published fiction author and loves listening to music, dancing, reading, and spending time with friends. Feel free to reach out to her at rsg276@cornell.edu!",
-    year: "2028",
-    title: "",
-    emoji: "",
-    linkedin: "reneegowda",
-    netid: "rsg276",
-  },
-
-  "Rose Basch": {
-    desc: "Rose is currently a junior studying mechanical engineering and she joined the Nexus team in the Fall of her freshman year. Based on her work on the team and her coursework in Design and Environmental Analysis she has become particularly interested in the intersection of mechanical solutions and the environment. Outside of school, she can often be found doing an extreme sport such as rock climbing or skiing. She is thrilled to find ways to make a positive impact on the outdoors she loves.",
-    year: "2025",
-    title: "",
-    emoji: "",
-    linkedin: "rose-basch-rb753",
-    netid: "rb753",
-  },
-
   "Sajal Sabat": {
     desc: "Sajal is a freshman from Atlanta, Georgia majoring in Computer Science in the College of Engineering. Outside of Nexus, he is also a part of the Finals Scheduling Team. This past summer, he was a basketball coach at his community recreation center. In Sajal's free time, he enjoys eating food, playing basketball, and hanging out with friends. He can be reached at ss4369@cornell.edu.",
     year: "2028",
@@ -538,7 +484,7 @@ export const memberInfo = {
   "Tanay Nisar": {
     desc: "Tanay is a junior from Newton, MA majoring in Industrial Labor Relations in the ILR School. On campus, he is a member of Cornell Coffee Club in addition to being part of Cornell Nexus. In Tanay's free time, he enjoys rowing, playing poker, and traveling. He can be reached at tn349@cornell.edu.",
     year: "2026",
-    title: "Business Team Lead",
+    title: "",
     emoji: "",
     linkedin: "tanay-nisar",
     netid: "tn349",
@@ -565,7 +511,7 @@ export const memberInfo = {
   "William Dignam": {
     desc: "William is a sophomore from Raleigh, North Carolina majoring in Environmental Engineering with a minor in Public Policy within CALS. On campus, he is doing CEE research with the Reid Lab group, working for the Lab of Ornithology, writing policy proposals with the Cornell Policy Group, and a member of the Tae Kwon Do club. He is interested in the realms of sustainable/green technology and infrastructure, environmental health (EHS), environmental consulting and policy, biogeochemistry/microbiology, and wastewater industries. In his free time, he enjoys playing piano, birdwatching, and appreciating nature. He can be reached at wed45.",
     year: "2027",
-    title: "",
+    title: "Full Team Lead",
     emoji: "",
     linkedin: "",
     netid: "wed45",
@@ -619,6 +565,42 @@ export const memberInfo = {
     netid: "",
   },
 
+  "Christopher Bauer": {
+    desc: "Chris is a senior from Mount Laurel, NJ studying Mechanical Engineering. In addition to being a part of Cornell Nexus, he studied Italian in high school and at Cornell and is a member of Cornell’s Italian Club. Chris spent the past summer as a Mechanical Engineer Intern at OPEX Corporation, working on the Infinity AS/RS which is an automated robotic warehouse system. He enjoys watching football, listening to music, hiking, and relaxing at the beach in his free time.",
+    year: "2025",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "cpb86",
+  },
+
+  "Gary Chen": {
+    desc: "Gary is a senior from Canton, China majoring in Computer Science and minoring in Mechanical Engineering within the College of Engineering. This past summer, he interned at Philips Healthcare R&D. In Gary's free time, he enjoys cooking, swimming, playing chess, and borrowing random books from Olin. He can be reached at gc558@cornell.edu.",
+    year: "2025",
+    title: "",
+    emoji: "emojis/the_best_emoji.svg",
+    linkedin: "gcgarychen25",
+    netid: "gc558",
+  },
+
+  "George Maidhof": {
+    desc: "George is a senior studying Electrical and Computer Engineering with a CS Minor at Cornell University in the College of Engineering. He is a member of the Electrical Subteam at Cornell Nexus. On campus, George serves as an RA within the Jameson and High Rise Community, is on the Academic E-Board of IEEE, and is part of the Zhang Research Group at Cornell. Some extracurricular activities George enjoys outdoor activities including running, swimming, basketball, surfing. On top of that, I love to make projects, learning new skills and topics, and meeting people and having fun! To reach George, netid at gpm58!",
+    year: "2025",
+    title: "",
+    emoji: "",
+    linkedin: "george-maidhof-70ab13249",
+    netid: "gpm58",
+  },
+
+  "Mona Wu": {
+    desc: "Mona is a senior from Edison, New Jersey majoring in Economics within the College of Arts and Sciences. On-campus, she is a member of Cornell Marketing Club, Emerging Markets Society, and Cornell Current. In Mona's free time, she enjoys swimming, sketching, and hanging out with friends.",
+    year: "2025",
+    title: "",
+    emoji: "",
+    linkedin: "mona-wu1/",
+    netid: "mjw326",
+  },
+
   "Nicholas Papapanou": {
     desc: "Nick is a senior from Irvington, New York majoring in electrical and computer engineering. He is interested in the applications of ECE in the realm of environmental sustainability. This past summer, he worked at Cornell University's Planetary Habitability and Technology Lab on an oceanography ROV that explores the icy oceans underneath Antarctica's glaciers. Nick’s hobbies and interests include playing the piano and ukulele, cooking, playing chess, and working out!",
     year: "2025",
@@ -627,5 +609,24 @@ export const memberInfo = {
     linkedin: "nicholaspapapanou",
     netid: "",
   },
+
+  "Renee Gowda": {
+    desc: "Renee is a freshman from Boston, Massachusetts, studying Computer Science at Cornell University’s College of Arts and Sciences. She joined Nexus in the spring of her freshman year. She serves as the Outreach Director on the WICC E-Board, writes for the Cornell Daily Sun, contributes to the Collegetown Magazine, and works at the fitness center. Her dream is to work in biotech, where she can combine her passion for technology with making an impact. Outside of academics, Renee is a published fiction author and loves listening to music, dancing, reading, and spending time with friends. Feel free to reach out to her at rsg276@cornell.edu!",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "reneegowda",
+    netid: "rsg276",
+  },
+
+  "Rose Basch": {
+    desc: "Rose is currently a junior studying mechanical engineering and she joined the Nexus team in the Fall of her freshman year. Based on her work on the team and her coursework in Design and Environmental Analysis she has become particularly interested in the intersection of mechanical solutions and the environment. Outside of school, she can often be found doing an extreme sport such as rock climbing or skiing. She is thrilled to find ways to make a positive impact on the outdoors she loves.",
+    year: "2025",
+    title: "",
+    emoji: "",
+    linkedin: "rose-basch-rb753",
+    netid: "rb753",
+  },
+
 
 */

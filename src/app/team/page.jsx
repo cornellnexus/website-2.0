@@ -4,16 +4,14 @@ import { memberInfo } from "../constants";
 
 export default function Team() {
   const TeamLeads = [
-    "Elaine Wu",
-    "Mia Tarantini",
+    "Aaron Sucov",
+    "William Dignam",
   ];
   const MechanicalSubteam = [
-    "Christopher Bauer",
     "Lucca Correia",
     "Katlynn Ryu",
     "Yujean Choi",
     "Mia Tarantini",
-    "Rose Basch",
     "Ethan Sekiguchi",
     "William Dignam",
     "Cleo Hamilton",
@@ -26,7 +24,6 @@ export default function Team() {
     "Derek Yang",
   ];
   const ElectricalSubteam = [
-    "George Maidhof",
     "Amber Li",
     "Jasmine Si",
     "Casey Kashishian",
@@ -49,7 +46,6 @@ export default function Team() {
     "Natalie Leung",
     "Luke Tao",
     "Michael Wu",
-    "Gary Chen",
     "Amishi Gupta",
     "Grace Wei",
     "Andrew Hu",
@@ -58,11 +54,9 @@ export default function Team() {
     "Dora Zhang",
     "Julian Meinke",
     "Alex Saccone",
-    "Renee Gowda",
     "Sajal Sabat",
   ];
   const BusinessSubteam = [
-    "Mona Wu",
     "Tanay Nisar",
     "Elaine Wu",
     "Jeana Han",
