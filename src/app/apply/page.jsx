@@ -16,7 +16,7 @@ export default function Apply() {
     {
       accordianTitle: "How can I apply?",
       accordianContent:
-        "Recruitment for Spring 2025 has closed. Please check back in the Fall for more information, and follow us on social media to stay updated!",
+        "Check out the links posted above.",
     },
     {
       accordianTitle: "What does your application process look like?",
@@ -26,7 +26,7 @@ export default function Apply() {
     {
       accordianTitle: "When is Cornell Nexus recruiting?",
       accordianContent:
-        "Applications open in the Fall (August) and Spring (January) and we will be recruiting for subteams that still need to fill their teams.",
+        "Fall 2025 applications are open! Applications open in the Fall (August) and Spring (January) and we will be recruiting for subteams that still need to fill their teams.",
     },
     {
       accordianTitle: "How can I show interest?",
@@ -58,7 +58,7 @@ export default function Apply() {
             transition={{ delay: 0.1, duration: 0.5, ease: "easeInOut" }}
           >
             <div className="text-xl">
-              <div>Check back soon for our recruitment timeline! Our application opens on <b>August 18th</b>.</div>
+              <div>Check back soon for our recruitment timeline and details on our info sessions!</div>
               <div className="flex flex-row justify-center">
                 <div className="my-4 mr-1">
                   In the meantime... sign up for a coffee chat below.
@@ -73,7 +73,7 @@ export default function Apply() {
                 />
               </div>
             </div>
-          </motion.div> 
+          </motion.div>
           {/* <motion.div
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -96,7 +96,7 @@ export default function Apply() {
               height="300"
             />
           </motion.div> */}
-          { <motion.div
+          {<motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -110,7 +110,7 @@ export default function Apply() {
               text="Coffee Chat Sign-Up"
             />
           </motion.div>}
-          {/* <motion.div
+          {<motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -118,13 +118,13 @@ export default function Apply() {
           >
             <Button
               className="font-semibold"
-              href="https://docs.google.com/forms/d/1Xt_Bki7JGAvic-S3Xw9NDhK-dP8KgbdWhbkx5PN8iSw/viewform?edit_requested=true"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf8zF_wlfvICItLtU9jmBOQPdQY8T2z0MYzZg599ku6Lq57mA/viewform?usp=dialog"
               color="navy"
               size="lg"
               text="Upperclassman Application"
             />
-          </motion.div> */}
-          {/* <motion.div
+          </motion.div>}
+          {<motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -132,13 +132,13 @@ export default function Apply() {
           >
             <Button
               className="font-semibold"
-              href="https://docs.google.com/forms/d/15zk3o6K1rKuvSrj-qVizpjARsEVQ_WFMX1IjJAmpV_c/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfBuZfYpPgFa-nxe0xedHq2zLrQORRMadHBlUin9cr3tZla5A/viewform?usp=dialog"
               color="navy"
               size="lg"
-              text="Spring Application (due 1/30)"
+              text="Freshman/Transfer Application"
             />
-          </motion.div> */}
-          {/* <motion.div
+          </motion.div>}
+          {<motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -146,12 +146,12 @@ export default function Apply() {
           >
             <Image
               className="mb-10 mt-6"
-              src={"/delimiter.svg"}
+              src={"/icons/delimiter.svg"}
               alt="separator"
               width="128"
               height="4"
             />
-          </motion.div> */}
+          </motion.div>}
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
