@@ -206,7 +206,7 @@ export default function Apply() {
               <div className="flex justify-center">
                 <Button
                   className="font-semibold"
-                  href=""
+                  href="/contact"
                   color="navy"
                   size="lg"
                   text="Contact"
