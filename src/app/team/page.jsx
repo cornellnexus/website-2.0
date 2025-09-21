@@ -379,8 +379,60 @@ export default function Team() {
               return null;
             })}
           </div>
+          <div>
+            {/* Placements Section */}
+            <Image
+              className="my-10 mx-auto"
+              src={"/icons/delimiter.svg"}
+              alt="separator"
+              width={128}
+              height={4}
+            />
+
+            <div
+              id="placements"
+              className="text-center title-size font-semibold text-5xl pb-10"
+            >
+              Placements
+            </div>
+
+            <div className="max-w-screen-md text-center mb-12">
+              Nexus members and alumni have gone on to intern and work at leading
+              companies, research labs, and startups. We’re proud that the skills
+              developed here help our members make an impact globally.
+            </div>
+
+            {/* Background rectangle for logos */}
+            <div className="bg-white rounded-2xl shadow-lg px-6 py-10 max-w-5xl mx-auto">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 place-items-center">
+                {[
+                  { src: "/placements/amazon.svg", alt: "Amazon" },
+                  { src: "/placements/microsoft.svg", alt: "Microsoft" },
+                  { src: "/placements/millennium.svg", alt: "Millennium" },
+                  { src: "/placements/capital_one.svg", alt: "Capital One" },
+                  { src: "/placements/apple.svg", alt: "Apple" },
+                  { src: "/placements/meta.svg", alt: "Meta" },
+                  { src: "/placements/tesla.svg", alt: "Tesla" },
+                  { src: "/placements/marvell.svg", alt: "Marvell" },
+                  { src: "/placements/jpmc.svg", alt: "J.P. Morgan Chase" },
+                  { src: "/placements/yext.jpg", alt: "Yext" },
+                ].map((logo, idx) => (
+                  <div key={idx} className="flex items-center justify-center w-32 h-20">
+                    <Image
+                      src={logo.src}
+                      alt={logo.alt}
+                      width={128}
+                      height={80}
+                      className="object-contain max-h-full max-w-full"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
   );
 }
+ 
