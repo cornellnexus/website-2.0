@@ -9,8 +9,6 @@ export default function Team() {
   ];
   const MechanicalSubteam = [
     "Lucca Correia",
-    "Katlynn Ryu",
-    "Yujean Choi",
     "Mia Tarantini",
     "Ethan Sekiguchi",
     "William Dignam",
@@ -32,19 +30,15 @@ export default function Team() {
     "Parishee Bajaj",
     "Akmal Rupasingha",
     "Lizeth Montemayor",
-    "Sawyer Brown",
-    "Daniel Penas Varela",
     "Raymond Shan",
     "Sazidur Rashid",
     "Trinity Kong",
+    "Spencer Hadlock",
   ];
   const SoftwareSubteam = [
-    "Lin Jin",
-    "Vinny Huang",
     "Sophia Pan",
     "Elaine Wu",
     "Natalie Leung",
-    "Luke Tao",
     "Michael Wu",
     "Amishi Gupta",
     "Grace Wei",
@@ -55,22 +49,21 @@ export default function Team() {
     "Julian Meinke",
     "Alex Saccone",
     "Sajal Sabat",
+    "Yujean Choi",
+    "Gabriella Seifert",
+    "Arnav Bansal",
   ];
   const BusinessSubteam = [
-    "Tanay Nisar",
-    "Elaine Wu",
     "Jeana Han",
-    "Oscar Lam",
-    "Neha Jain",
     "Shihan Gao",
-    "Nick Park",
     "Sanika Sharma",
     "Annika Terezakis",
-    "Brendan Shek",
-    "Charles Lee",
     "Inae Kim",
     "Megi Bare",
+    "Brendan Shek",
+    "Charles Lee",
     "Sebastian Lai",
+    "Sidney Nam",
   ];
 
   return (
@@ -413,8 +406,11 @@ export default function Team() {
                   { src: "/placements/apple.svg", alt: "Apple" },
                   { src: "/placements/meta.svg", alt: "Meta" },
                   { src: "/placements/tesla.svg", alt: "Tesla" },
-                  { src: "/placements/marvell.svg", alt: "Marvell" },
                   { src: "/placements/jpmc.svg", alt: "J.P. Morgan Chase" },
+                  { src: "/placements/deloitte.svg", alt: "Deloitte" },
+                  { src: "/placements/marvell.svg", alt: "Marvell" },
+                  { src: "/placements/tokyo_electron.svg", alt: "Tokyo Electron" },
+                  { src: "/placements/stv.png", alt: "STV" },
                   { src: "/placements/yext.jpg", alt: "Yext" },
                 ].map((logo, idx) => (
                   <div key={idx} className="flex items-center justify-center w-32 h-20">
