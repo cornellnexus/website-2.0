@@ -20,6 +20,7 @@ export default function Team() {
     "Ece Kumcuoglu",
     "Bradley Reiff",
     "Derek Yang",
+    "Miguel Manalang",
   ];
   const ElectricalSubteam = [
     "Amber Li",

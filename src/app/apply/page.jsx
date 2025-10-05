@@ -16,22 +16,22 @@ export default function Apply() {
     {
       accordianTitle: "How can I apply?",
       accordianContent:
-        "Check out the links posted above.",
+        "Check out the links posted above! We are currently recruiting freshmen and transfers.",
     },
     {
       accordianTitle: "What does your application process look like?",
       accordianContent:
-        "The application consists of a short essay and a resume drop. After applying, all you have to do is wait for next steps.",
+        "The application consists of a short essay and a resume drop. After applying, all you have to do is wait to hear back from us.",
     },
     {
       accordianTitle: "When is Cornell Nexus recruiting?",
       accordianContent:
-        "Fall 2025 applications are open! Applications open in the Fall (August) and Spring (January) and we will be recruiting for subteams that still need to fill their teams.",
+        "Fall 2025 applications are open! Applications open in the Fall (August) and Spring (January), and we will be recruiting for sub-teams that still need to fill their teams.",
     },
     {
       accordianTitle: "How can I show interest?",
       accordianContent:
-        "Before recruitment, we always hold an information session as well as host a booth at club fest. Attending these events, as well as setting up a coffee chat with one of our members are great ways to show interest in our team. Follow us on social media or check this site to stay up to date with the team.",
+        "Before recruitment, we always hold information sessions as well as host booths at ClubFest, EcoFest, and Project Team Fest. Attending these events, as well as setting up a coffee chat with one of our members are great ways to show interest in our team. Follow us on social media or check this site to stay up to date with the team.",
     },
     {
       accordianTitle: "Can non-engineering majors apply?",
@@ -40,7 +40,7 @@ export default function Apply() {
     },
     {
       accordianTitle: "Do I need experience to join?",
-      accordianContent: "No!",
+      accordianContent: "No! Prior technical background is always a plus, but it's not required to join. We'll teach you everything you need to know!",
     },
   ];
 
@@ -110,7 +110,7 @@ export default function Apply() {
               text="Coffee Chat Sign-Up"
             />
           </motion.div>}
-          {<motion.div
+          {/* {<motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -123,7 +123,7 @@ export default function Apply() {
               size="lg"
               text="Upperclassman Application"
             />
-          </motion.div>}
+          </motion.div>} */}
           {<motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
