@@ -131,7 +131,7 @@ export const memberInfo = {
   },
 
   "Charles Lee": {
-    desc: "Charles is a freshman from Irvine, California majoring in Industrial and Labor Relations. On-campus, he is a part of Kasa, Emmaus Road, and Cornell Ski and Snowboard Club. This past summer, he interned at a local labor law firm. In Charles's free time, he enjoys listening to and producing music, skiing, watching sports, and hanging out with friends at BCD tofu. He can be reached at csl236@cornell.edu.",
+    desc: "Charles is a sophomore from Irvine, California majoring in Industrial and Labor Relations. On-campus, he is a part of Cornell Media Guild and Cornell Fashion Collective. This past summer, he interned under a general counsel and worked on an equity capital markets offering. In Charles's free time, he enjoys listening to new albums, golfing, watching sports, and eating BCD Tofu with friends. He can be reached at csl236@cornell.edu.",
     year: "2028",
     title: "",
     emoji: "",
@@ -149,7 +149,7 @@ export const memberInfo = {
   },
 
   "Derek Yang": {
-    desc: "Derek is a freshman from Newark, Delaware, planning on majoring in Materials Science and Engineering in the College of Engineering. On campus, he is a member of Project Hope and the Chinese Student Association. This past summer, he worked in a research facility at the Center for Clean Hydrogen, creating PEM fuel cells and generating green hydrogen through electrolysis of water. In Derek's free time, he likes to play tennis, play video games, listen to music, hiking, and watch TV! He can be reached at dly24@cornell.edu. ",
+    desc: "Derek is a sophomore from Newark, Delaware majoring in Materials Science and Engineering in the College of Engineering. On-campus, he is a Project Hope EBoard member. This past summer, he spent time with family and traveled through Hong Kong, China, and Macau. In Derek's free time, he enjoys playing tennis, video games, and listening to music. He can be reached at dly24@cornell.edu.",
     year: "2028",
     title: "",
     emoji: "",
@@ -167,7 +167,7 @@ export const memberInfo = {
   },
 
   "Ece Kumcuoglu": {
-    desc: "Ece is a freshman from London, UK majoring in Materials Science and Engineering within the College of Engineering and minoring in Public Policy. In her free time, she enjoys going on long walks with friends, baking banana bread, oil painting, and lifting.",
+    desc: "Ece is a sophomore from London, UK, majoring in Materials Science and Engineering with a strong interest in clean energy and public policy. This past summer, she worked in a recycled polymer materials lab and interned at a startup focused on battery cathode materials in Turkey. In her free time, she loves to play volleyball, hike with friends, and do arts and crafts. She can be reached at enk34@cornell.edu.",
     year: "2028",
     title: "",
     emoji: "emojis/Flower.svg",
@@ -266,7 +266,7 @@ export const memberInfo = {
   },
 
   "Leo VanHouten": {
-    desc: "Leo is a sophomore from Rochester, New York, majoring in Engineering Physics. He is a member of Marginalia, Cornell’s undergraduate poetry review. Outside of academics, he spends his time listening to music, learning a variety of arts and crafts, being outside, or all of the above. He spends most of his time on campus near a chalkboard in Rockefeller and PSB. ",
+    desc: "Leo is a junior from Rochester, NY, majoring in Engineering Physics. On campus, he works in Bethe and is a member of Marginalia. Leo also works doing mechanical design for the Schlom lab. He can often be found doing physics in PSB and CAD in Upson. He loves music and being outside, and can be reached at lv247@cornell.edu.",
     year: "2027",
     title: "",
     emoji: "",
@@ -328,6 +328,15 @@ export const memberInfo = {
     netid: "mw885",
   },
 
+  "Miguel Manalang": {
+    desc: "Miguel is a sophomore from Tenafly, NJ majoring in Materials Science and Engineering in the College of Engineering with a minor in Business. On-campus, he is a Peer Advisor for ENGRG 1050, a member of CIPEC, and a member of Club Lacrosse. This past summer he worked at Sika USA as a R&D intern for their Technical Mortars team. In Miguel's free time, he enjoys playing basketball, going to the gym, and listening to music. He can be reached at mcm422@cornell.edu.",
+    year: "2028",
+    title: "",
+    emoji: "🦦",
+    linkedin: "miguel-manalang/",
+    netid: "mcm422",
+  },
+
   "Natalie Kaplan": {
     desc: "Natalie is a junior from Long Island majoring in Mechanical Engineering in the College of Engineering with a minor in robotics. On campus, she is a researcher in the HAPPI Lab, an Autodesk ambassador, and a peer advisor. This past summer she worked at the HAPPI Lab building toolkit components for people to train robotic arms to do tasks in their homes. In Natalie’s free time, she likes rock climbing, crocheting, and playing video games. She can be reached at njk82@cornell.edu.",
     year: "2027",
@@ -344,15 +353,6 @@ export const memberInfo = {
     emoji: "",
     linkedin: "natalie-leung-60240a2a1",
     netid: "nl455",
-  },
-
-  "Neha Jain": {
-    desc: "Neha is a sophomore from Orlando, Florida majoring in Economics and Information Sciences in the College of Arts & Sciences. On campus, she is a part of Global Research and Consulting Group, Pi Sigma Epsilon, Women in Computing, and is a Milstein Scholar. Recently, she interned at a small business development agency in their financial services division. In Neha's free time, she enjoys going to the gym, rock climbing, and exploring the Ithaca area. She can be reached at nj253",
-    year: "2027",
-    title: "",
-    emoji: "",
-    linkedin: "neha-jain-1798231a2",
-    netid: "nj253",
   },
 
   "Olivia Lee": {
@@ -500,7 +500,7 @@ export const memberInfo = {
   },
 
   "William Dignam": {
-    desc: "William is a sophomore from Raleigh, North Carolina majoring in Environmental Engineering with a minor in Public Policy within CALS. On campus, he is doing CEE research with the Reid Lab group, working for the Lab of Ornithology, writing policy proposals with the Cornell Policy Group, and a member of the Tae Kwon Do club. He is interested in the realms of sustainable/green technology and infrastructure, environmental health (EHS), environmental consulting and policy, biogeochemistry/microbiology, and wastewater industries. In his free time, he enjoys playing piano, birdwatching, and appreciating nature. He can be reached at wed45.",
+    desc: "William is a junior from Raleigh, North Carolina majoring in Environmental Engineering with a minor in Public Policy within CALS. On campus, he is doing CEE research with the Reid Lab group, working for the Lab of Ornithology, writing policy proposals with the Cornell Policy Group, and a member of the Tae Kwon Do club. He is interested in the realms of sustainable/green technology and infrastructure, environmental health (EHS), environmental consulting and policy, biogeochemistry/microbiology, and water resource management. In his free time, he enjoys playing piano, birdwatching, and appreciating nature. He can be reached at wed45@cornell.edu.",
     year: "2027",
     title: "Full Team Lead",
     emoji: "",
@@ -617,6 +617,15 @@ export const memberInfo = {
     emoji: "",
     linkedin: "mona-wu1/",
     netid: "mjw326",
+  },
+
+  "Neha Jain": {
+    desc: "Neha is a sophomore from Orlando, Florida majoring in Economics and Information Sciences in the College of Arts & Sciences. On campus, she is a part of Global Research and Consulting Group, Pi Sigma Epsilon, Women in Computing, and is a Milstein Scholar. Recently, she interned at a small business development agency in their financial services division. In Neha's free time, she enjoys going to the gym, rock climbing, and exploring the Ithaca area. She can be reached at nj253",
+    year: "2027",
+    title: "",
+    emoji: "",
+    linkedin: "neha-jain-1798231a2",
+    netid: "nj253",
   },
 
   "Nicholas Papapanou": {
