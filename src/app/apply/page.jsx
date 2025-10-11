@@ -96,7 +96,7 @@ export default function Apply() {
               height="300"
             />
           </motion.div>
-          {<motion.div
+          {/* {<motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -109,7 +109,7 @@ export default function Apply() {
               size="lg"
               text="Coffee Chat Sign-Up"
             />
-          </motion.div>}
+          </motion.div>} */}
           {/* {<motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
