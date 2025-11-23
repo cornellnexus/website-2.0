@@ -387,7 +387,7 @@ export default function Team() {
               id="placements"
               className="text-center title-size font-semibold text-5xl pb-10"
             >
-              Placements
+              Beyond Nexus
             </div>
 
             <div className="max-w-screen-md text-center mb-12">
@@ -432,4 +432,3 @@ export default function Team() {
     </>
   );
 }
- 
