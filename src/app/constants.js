@@ -139,6 +139,15 @@ export const memberInfo = {
     netid: "csl236",
   },
 
+  "Claire Kim": {
+    desc: "Claire is a sophomore from Great Falls, VA majoring in Mechanical Engineering in the College of Engineering with an interest in Aerospace Engineering. On campus, she is a member of the Space Systems Design Studio, on the Sailing to the Stars and Alpha CubeSat projects, and involved in SWE and SASE. This past summer she worked at the US Naval Research Laboratory in DC, in the Spacecraft Mechanisms Section, working on test instrumentation anomaly resolution for upcoming hypersonic flight testing with sounding rockets. In her free time, she enjoys cafe hopping and exploring new restaurants with friends, and listening to music.",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "claire-kim-3a2a26258",
+    netid: "cwk66",
+  },
+
   "Cleo Hamilton": {
     desc: "Cleo is a junior from South Jersey studying Biological Engineering with an interest in nonprofit engineering consulting and environmental remediation. Cleo loves the outdoors, especially mountain biking, rock climbing, and sitting in the sun. She is also passionate about her love of animals and discussing books and movies. Cleo can be reached at chh89@cornell.edu",
     year: "2026",
@@ -479,6 +488,15 @@ export const memberInfo = {
     emoji: "",
     linkedin: "",
     netid: "sdh228",
+  },
+
+  "Stephanie Cheng": {
+    desc: "Stephanie is a sophomore from Allentown, PA majoring in Mechanical Engineering in the College of Engineering. This past summer she traveled in Asia (Japan, China, Singapore, etc.) with family. In Stephanie’s free time, she enjoys baking, journaling, and drawing. She can be reached at sc3384@cornell.edu.",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "sc3384",
   },
 
   "Trinity Kong": {

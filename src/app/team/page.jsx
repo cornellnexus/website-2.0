@@ -8,7 +8,6 @@ export default function Team() {
     "William Dignam",
   ];
   const MechanicalSubteam = [
-    "Lucca Correia",
     "Mia Tarantini",
     "Ethan Sekiguchi",
     "William Dignam",
@@ -21,6 +20,8 @@ export default function Team() {
     "Bradley Reiff",
     "Derek Yang",
     "Miguel Manalang",
+    "Claire Kim",
+    "Stephanie Cheng",
   ];
   const ElectricalSubteam = [
     "Amber Li",
