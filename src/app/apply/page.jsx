@@ -16,7 +16,7 @@ export default function Apply() {
     {
       accordianTitle: "How can I apply?",
       accordianContent:
-        "Check out the links posted above! We are currently recruiting freshmen and transfers.",
+        "Our applications have closed for Fall 2025. Check back next semester!",
     },
     {
       accordianTitle: "What does your application process look like?",
@@ -26,7 +26,7 @@ export default function Apply() {
     {
       accordianTitle: "When is Cornell Nexus recruiting?",
       accordianContent:
-        "Fall 2025 applications are open! Applications open in the Fall (August) and Spring (January), and we will be recruiting for sub-teams that still need to fill their teams.",
+        "Applications open in the Fall (August) and Spring (January), and we will be recruiting for sub-teams that still need to fill their teams.",
     },
     {
       accordianTitle: "How can I show interest?",
@@ -124,7 +124,7 @@ export default function Apply() {
               text="Upperclassman Application"
             />
           </motion.div>} */}
-          {<motion.div
+          {/* {<motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -137,7 +137,7 @@ export default function Apply() {
               size="lg"
               text="Freshman/Transfer Application"
             />
-          </motion.div>}
+          </motion.div>} */}
           {<motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
