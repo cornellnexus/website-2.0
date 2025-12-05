@@ -8,7 +8,6 @@ export default function Team() {
     "William Dignam",
   ];
   const MechanicalSubteam = [
-    "Lucca Correia",
     "Mia Tarantini",
     "Ethan Sekiguchi",
     "William Dignam",
@@ -21,6 +20,11 @@ export default function Team() {
     "Bradley Reiff",
     "Derek Yang",
     "Miguel Manalang",
+    "Claire Kim",
+    "Stephanie Cheng",
+    "Yebon Kim",
+    "Addison Purcell",
+    "Anumita Kohli",
   ];
   const ElectricalSubteam = [
     "Amber Li",
@@ -35,6 +39,9 @@ export default function Team() {
     "Sazidur Rashid",
     "Trinity Kong",
     "Spencer Hadlock",
+    "Eli Pratt",
+    "Josh Jung",
+    "Chloe Kim"
   ];
   const SoftwareSubteam = [
     "Sophia Pan",
@@ -53,6 +60,8 @@ export default function Team() {
     "Yujean Choi",
     "Gabriella Seifert",
     "Arnav Bansal",
+    "Kevin Lu",
+    "Chris Zhang",
   ];
   const BusinessSubteam = [
     "Jeana Han",
@@ -76,7 +85,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/team/silly-fullteam.jpeg"}
+            src={"/team/silly-fullteam.jpg"}
             alt="silly fullteam image"
             width="700"
             height="700"
@@ -147,7 +156,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/team/mechanical.jpeg"}
+            src={"/team/mechanical.jpg"}
             alt="fullteam image"
             width="700"
             height="700"
@@ -207,7 +216,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/team/electrical.jpeg"}
+            src={"/team/electrical.jpg"}
             alt="fullteam image"
             width="700"
             height="700"
@@ -270,7 +279,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/team/software.jpeg"}
+            src={"/team/software.jpg"}
             alt="fullteam image"
             width="700"
             height="700"
@@ -331,7 +340,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/team/business.jpeg"}
+            src={"/team/business.jpg"}
             alt="fullteam image"
             width="700"
             height="700"
@@ -402,15 +411,19 @@ export default function Team() {
                 {[
                   { src: "/placements/amazon.svg", alt: "Amazon" },
                   { src: "/placements/microsoft.svg", alt: "Microsoft" },
-                  { src: "/placements/millennium.svg", alt: "Millennium" },
-                  { src: "/placements/capital_one.svg", alt: "Capital One" },
-                  { src: "/placements/apple.svg", alt: "Apple" },
+                  { src: "/placements/spacex.svg", alt: "SpaceX" },
                   { src: "/placements/meta.svg", alt: "Meta" },
+                  { src: "/placements/apple.svg", alt: "Apple" },
                   { src: "/placements/tesla.svg", alt: "Tesla" },
-                  { src: "/placements/jpmc.svg", alt: "J.P. Morgan Chase" },
-                  { src: "/placements/deloitte.svg", alt: "Deloitte" },
+                  { src: "/placements/roblox.svg", alt: "Roblox" },
                   { src: "/placements/marvell.svg", alt: "Marvell" },
                   { src: "/placements/tokyo_electron.svg", alt: "Tokyo Electron" },
+                  { src: "/placements/westinghouse.svg", alt: "Westinghouse Electric Company" },
+                  { src: "/placements/capital_one.svg", alt: "Capital One" },
+                  { src: "/placements/millennium.svg", alt: "Millennium" },
+                  { src: "/placements/jpmc.svg", alt: "J.P. Morgan Chase" },
+                  { src: "/placements/deloitte.svg", alt: "Deloitte" },
+                  { src: "/placements/plug.png", alt: "PlugPower" },
                   { src: "/placements/stv.png", alt: "STV" },
                   { src: "/placements/yext.jpg", alt: "Yext" },
                 ].map((logo, idx) => (

@@ -40,7 +40,7 @@ export default function Support() {
           >
             <Image
               className="rounded pb-5"
-              src={"/team/cute-fullteam.jpeg"}
+              src={"/team/cute-fullteam.jpg"}
               alt="cute fullteam image"
               width="700"
               height="700"

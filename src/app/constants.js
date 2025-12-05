@@ -31,6 +31,15 @@ export const memberInfo = {
     netid: "ans246",
   },
 
+  "Addison Purcell": {
+    desc: "Addison is a freshman from Erie, PA. She intends to major in Mechanical Engineering in the College of Engineering with a minor in Business. On-campus, she is a member of Cru and the Community of Rural Engineers. In Addison's free time, she enjoys reading and spending time outdoors. She can be reached at ap2537@cornell.edu.",
+    year: "2029",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "",
+  },
+
   "Alex Saccone": {
     desc: "Alex is a sophomore from Allentown, Pennsylvania majoring in Computer Science and Mathematics in the College of Arts and Sciences. On-campus, he is a member of the Cornell Rock Climbing Club and the Information and Decision Science Lab, where he works on software to improve autonomous vehicles. In his free time, Alex enjoys rock climbing and hiking at spots around campus. He can be reached at acs376@cornell.edu.",
     year: "2028",
@@ -94,6 +103,15 @@ export const memberInfo = {
     netid: "ab2864",
   },
 
+  "Anumita Kohli": {
+    desc: "Anumita is a freshman from Woodbine, MD majoring in Chemical Engineering in the College of Engineering. On-campus, she is a member of  the Energy Transition Club, the Intellectual Property Club, and Cornell Sustainable Design. In her free time, Anumita likes to go backpacking and read. She can be reached at ak2784@cornell.edu.",
+    year: "2029",
+    title: "",
+    emoji: "",
+    linkedin: "anumita-kohli-086401319",
+    netid: "ak2784",
+  },
+
   "Arnav Bansal": {
     desc: "Arnav is a sophomore from New Jersey studying Information Science and Statistics in the College of Agriculture and Life Sciences. On-campus, he is a member of Poker Club. In Arnav's free time, he enjoys playing tennis, pickleball, long walks, watching movies, and spending time with friends. He can be reached at ab3229@cornell.edu.",
     year: "2028",
@@ -139,6 +157,33 @@ export const memberInfo = {
     netid: "csl236",
   },
 
+  "Chloe Kim": {
+    desc: "Chloe is a freshman from Cupertino, CA, planning to major in Electrical and Computer Engineering in the College of Engineering. She is interested in sustainability and energy optimization. In her free time, she likes to take walks around campus, hop on calls, and go on movie marathons with her friends. ",
+    year: "2029",
+    title: "",
+    emoji: "emojis/valo-penguin.svg",
+    linkedin: "",
+    netid: "ck838",
+  },
+
+  "Chris Zhang": {
+    desc: "Chris is a freshman from Long Island, NY majoring in Computer Science in the College of Engineering. On-campus, he is a member of Cornell Armada and CSA. This past summer, he worked at small tech startup Omni Wellness AI where he streamlined frontend components to improve data visualization for clinics. In Chris's free time, he enjoys going to the gym, playing pickleball, getting boba, and eating good food. He can be reached at cz585@cornell.edu",
+    year: "2029",
+    title: "",
+    emoji: "emojis/yooyay.svg",
+    linkedin: "chriszhang83",
+    netid: "cz585",
+  },
+
+  "Claire Kim": {
+    desc: "Claire is a sophomore from Great Falls, VA majoring in Mechanical Engineering in the College of Engineering with an interest in Aerospace Engineering. On campus, she is a member of the Space Systems Design Studio, on the Sailing to the Stars and Alpha CubeSat projects, and involved in SWE and SASE. This past summer she worked at the US Naval Research Laboratory in DC, in the Spacecraft Mechanisms Section, working on test instrumentation anomaly resolution for upcoming hypersonic flight testing with sounding rockets. In her free time, she enjoys cafe hopping and exploring new restaurants with friends, and listening to music.",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "claire-kim-3a2a26258",
+    netid: "cwk66",
+  },
+
   "Cleo Hamilton": {
     desc: "Cleo is a junior from South Jersey studying Biological Engineering with an interest in nonprofit engineering consulting and environmental remediation. Cleo loves the outdoors, especially mountain biking, rock climbing, and sitting in the sun. She is also passionate about her love of animals and discussing books and movies. Cleo can be reached at chh89@cornell.edu",
     year: "2026",
@@ -180,8 +225,17 @@ export const memberInfo = {
     year: "2026",
     title: "",
     emoji: "emojis/keroppi.svg",
-    linkedin: "",
+    linkedin: "elainelwu",
     netid: "ew457",
+  },
+
+  "Eli Pratt": {
+    desc: "Eli is a freshman from Far Hills, NJ with an intended major in Civil Engineering in the College of Engineering. On campus, she also volunteers with REACH at BJM Elementary and is part of SWE. In her free time, she loves drinking coffee, watching Twilight, and doing the NYT Spelling Bee.",
+    year: "2029",
+    title: "",
+    emoji: "🧛🏻‍♀️",
+    linkedin: "eli-pratt-1b56a0249",
+    netid: "esp93",
   },
 
   "Ethan Huang": {
@@ -256,6 +310,15 @@ export const memberInfo = {
     netid: "jc2886",
   },
 
+  "Josh Jung": {
+    desc: "Josh (Class of '29) is from Palisades Park, NJ majoring in ECE in the College of Engineering. He's interested in clean energy and power distribution. When he's not doing work, he loves to bake/cook, play guitar, and push ladder in Clash. Contact him at jj826@cornell.edu or DM @josh.jung_ on Instagram!",
+    year: "2029",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "jj826",
+  },
+
   "Julian Meinke": {
     desc: "Julian is a sophomore from Scotch Plains, NJ majoring in Computer Science in the College of Engineering. On-campus, he is part of the Bindel Lab Group and Cornell Reserve Club tennis. This past summer he was in Cornell working with the Bindel Lab Group researching Bayesian optimization. In Julian's free time, he enjoys bothering his friends, playing tennis, and watching movies. He can be reached at jm2874@cornell.edu.",
     year: "2028",
@@ -264,6 +327,15 @@ export const memberInfo = {
     linkedin: "julian-meinke-9b7388335",
     netid: "jm2874",
   },
+
+  "Kevin Lu": {
+    desc: "Kevin is a first-year from Albany, New York who's planning to major in Mathematics and Computer Science in the College of Arts and Sciences. On-campus, he works at the Mui Ho Fine Arts Library. In his free time, he likes playing jazz, listening to music, running, hiking, playing videogames, and spending time with friends. You can reach him at kml356@cornell.edu.",
+    year: "2029",
+    title: "",
+    emoji: "emojis/red-panda-relax.svg",
+    linkedin: "",
+    netid: "kml356",
+  }, 
 
   "Leo VanHouten": {
     desc: "Leo is a junior from Rochester, NY, majoring in Engineering Physics. On campus, he works in Bethe and is a member of Marginalia. Leo also works doing mechanical design for the Schlom lab. He can often be found doing physics in PSB and CAD in Upson. He loves music and being outside, and can be reached at lv247@cornell.edu.",
@@ -481,6 +553,33 @@ export const memberInfo = {
     netid: "sdh228",
   },
 
+  "Spencer Rudolph": {
+    desc: "Spencer is a freshman from Chicago, IL majoring in mechanical engineering in the College of Engineering. Outside of Nexus, he is apart of the Mediocre Melodies and Run Club. He likes to spend his free time running, playing sports, and listening to music. A fun fact about Spencer is that the only pet he ever had was a mechanical fish his mom bought him. He can be reached at smr363@cornell.edu.",
+    year: "2029",
+    title: "",
+    emoji: "",
+    linkedin: "spencer-rudolph",
+    netid: "smr363",
+  },
+
+  "Stephanie Cheng": {
+    desc: "Stephanie is a sophomore from Allentown, PA majoring in Mechanical Engineering in the College of Engineering. This past summer she traveled in Asia (Japan, China, Singapore, etc.) with family. In Stephanie’s free time, she enjoys baking, journaling, and drawing. She can be reached at sc3384@cornell.edu.",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "sc3384",
+  },
+
+  "Talia Wilson": {
+    desc: "Talia is a sophomore from Asheville, NC, majoring in environmental engineering in the College of Agriculture and Life Sciences. She is interested in bioremediation, carbon capture technologies, water quality, and environmental advocacy and policy. On campus, she is a member of Sunrise Cornell, and in her free time, she likes hiking, making epoxy crafts, and print blocking. She can be reached at trw73@cornell.edu.",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "trw73",
+  },
+
   "Trinity Kong": {
     desc: "Trinity is a sophomore from Dallas, PA majoring in Electrical and Computer Engineering. On campus, she works as a barista and is a member of The Steminist Movement. Last summer she worked at Vielight Inc. processing and analyzing EEG and EKG data using Python. In Trinity's free time, she enjoys hiking, eating good food, and listening to new music. She can be reached at txk2@cornell.edu.",
     year: "2028",
@@ -506,6 +605,15 @@ export const memberInfo = {
     emoji: "",
     linkedin: "william-dignam",
     netid: "wed45",
+  },
+
+  "Yebon Kim": {
+    desc: "Yebon is a freshman from South Korea majoring in Chemical Engineering in the College of Engineering. On campus, she is a member of the Korean American Student Association. This past summer, she enjoyed traveling across Japan and Hong Kong with her friends and family. In her free time, Yebon loves working out, listening to music, and watching Formula 1.",
+    year: "2029",
+    title: "",
+    emoji: "emojis/babypinksparklies.svg",
+    linkedin: "yebon-kim-9262aa382",
+    netid: "yk838",
   },
 
   "Yujean Choi": {
