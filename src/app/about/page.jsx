@@ -103,7 +103,7 @@ export default function AboutUs() {
           >
             <Image
               className="rounded shadow"
-              src={"/candids/electrical_working.jpg"}
+              src={"/candids/ece_work.jpg"}
               alt="progress image"
               width="400"
               height="400"
