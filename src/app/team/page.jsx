@@ -41,7 +41,8 @@ export default function Team() {
     "Spencer Hadlock",
     "Eli Pratt",
     "Josh Jung",
-    "Chloe Kim"
+    "Chloe Kim",
+    "Danielle Gilbert",
   ];
   const SoftwareSubteam = [
     "Sophia Pan",
