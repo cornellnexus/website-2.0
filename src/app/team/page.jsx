@@ -417,6 +417,7 @@ export default function Team() {
                   { src: "/placements/tesla.svg", alt: "Tesla" },
                   { src: "/placements/roblox.svg", alt: "Roblox" },
                   { src: "/placements/marvell.svg", alt: "Marvell" },
+                  { src: "/placements/ge_aerospace.svg", alt: "GE Aerospace" },
                   { src: "/placements/tokyo_electron.svg", alt: "Tokyo Electron" },
                   { src: "/placements/westinghouse.svg", alt: "Westinghouse Electric Company" },
                   { src: "/placements/capital_one.svg", alt: "Capital One" },
