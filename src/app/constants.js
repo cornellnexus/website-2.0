@@ -193,6 +193,15 @@ export const memberInfo = {
     netid: "chh89",
   },
 
+  "Danielle Gilbert": {
+    desc: "Danielle is a freshman from Palo Alto, CA majoring Electrical and Computer Engineering. On-campus, she is in Cornell Ballet Club and is interested in sustainability and fashion. In her free time she loves exploring campus and hanging out with friends. She can be reached at dgg86@cornell.edu.",
+    year: "2029",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "dgg86",
+  },
+
   "Derek Yang": {
     desc: "Derek is a sophomore from Newark, Delaware majoring in Materials Science and Engineering in the College of Engineering. On-campus, he is a Project Hope EBoard member. This past summer, he spent time with family and traveled through Hong Kong, China, and Macau. In Derek's free time, he enjoys playing tennis, video games, and listening to music. He can be reached at dly24@cornell.edu.",
     year: "2028",
