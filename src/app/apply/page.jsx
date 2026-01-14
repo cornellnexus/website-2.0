@@ -14,9 +14,9 @@ import { motion } from "framer-motion";
 export default function Apply() {
   const accordianSection = [
     {
-      accordianTitle: "How can I apply?",
+      accordianTitle: "How/where can I apply?",
       accordianContent:
-        "Our applications have closed for Fall 2025. Check back next semester!",
+        "You can apply using the button above!",
     },
     {
       accordianTitle: "What does your application process look like?",
@@ -74,7 +74,7 @@ export default function Apply() {
               </div>
             </div>
           </motion.div> */}
-          <motion.div
+          {/*<motion.div
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
@@ -95,35 +95,65 @@ export default function Apply() {
               width="1200"
               height="300"
             />
-          </motion.div>
-          {/* {<motion.div
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1, duration: 0.5, ease: "easeInOut" }}
-          >
-            <Button
-              className="font-semibold"
-              href="https://forms.gle/WrQd3D12gaH86Pbs5"
-              color="navy"
-              size="lg"
-              text="Coffee Chat Sign-Up"
-            />
-          </motion.div>} */}
-          {/* {<motion.div
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1, duration: 0.5, ease: "easeInOut" }}
-          >
-            <Button
-              className="font-semibold"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSf8zF_wlfvICItLtU9jmBOQPdQY8T2z0MYzZg599ku6Lq57mA/viewform?usp=dialog"
-              color="navy"
-              size="lg"
-              text="Upperclassman Application"
-            />
-          </motion.div>} */}
+          </motion.div> */}
+          <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center my-12">
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="relative overflow-hidden border-1 border-navy rounded-xl p-10 lg:p-14 transparent"
+        >
+          <div className="space-y-6">
+            
+            <div className="overflow-hidden py-2">
+              <div className="space-y-6">
+                <div className="py-2">
+                  <div className="flex items-baseline">
+                    <span className="text-5xl lg:text-6xl font-black text-navy mr-4">
+                      SPRING
+                    </span>
+                    <span className="text-7xl lg:text-8xl font-black text-navy">
+                      2026
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
+              <span className="text-navy text-xl font-semibold">
+                Applications Now Open!
+              </span>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Right Column: Action Buttons */}
+        <motion.div
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="flex flex-col gap-6"
+        >
+          <Button
+            className="font-semibold"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScO-g2SHE_NWyPuVfY-s42BTexYCTTTxie565bClSO1Um0h8g/viewform"
+            color="navy"
+            size="lg"
+            text="Apply"
+          />
+          <Button
+            className="font-semibold"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSePDdMlVye_eZz7cHaVzNK0WSdUxiw57ZxSVRcJObBznNOr7Q/viewform"
+            color="navy"
+            size="lg"
+            text="Coffee Chat Sign-Up"
+          />
+        </motion.div>
+        </div>
           {/* {<motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
