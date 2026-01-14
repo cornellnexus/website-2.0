@@ -113,7 +113,7 @@ export default function Apply() {
                     <span className="text-5xl lg:text-6xl font-black text-navy mr-4">
                       SPRING
                     </span>
-                    <span className="text-7xl lg:text-8xl font-black text-navy">
+                    <span className="text-5xl lg:text-6xl font-black text-navy">
                       2026
                     </span>
                   </div>
