@@ -48,10 +48,9 @@ export default function Team() {
     "Danielle Gilbert",
   ];
   const SoftwareSubteam = [
-    "Sophia Pan",
-    "Elaine Wu",
     "Natalie Leung",
     "Grace Wei",
+    "Elaine Wu",
     "Michael Wu",
     "Amishi Gupta",
     "Andrew Hu",
