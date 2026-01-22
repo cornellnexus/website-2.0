@@ -49,6 +49,15 @@ export const memberInfo = {
     netid: "acs376",
   },
 
+  "Alexis Lee": {
+    desc: "Alexis is a freshman from Wellesley, MA majoring in Chemical Engineering in the College of Engineering. Outside of classes (and Nexus), she is involved the Cornell Piano Society and Asian American InterVarsity. In her free time, she likes to play piano, tennis, bake, climb, and read. She can be reached at al2676@cornell.edu.",
+    year: "2029",
+    title: "",
+    emoji: "",
+    linkedin: "alexis-lee-35070236a",
+    netid: "al2676",
+  },
+
   "Akmal Rupasingha": {
     desc: "Akmal is a sophomore from Rockville, Maryland majoring in Computer Science with a minor in ECE. On campus he is a member of the Muslim Educational and Cultural Association in addition to being part of the Cornell Astronomical Society. In Akmal's free time, he enjoys working out, playing lacrosse, and watching the NFL. ",
     year: "2027",
@@ -230,7 +239,7 @@ export const memberInfo = {
   },
 
   "Elaine Wu": {
-    desc: "Elaine is a senior from Amherst, MA majoring in Computer Science in the College of Engineering with a minor in Psychology. On-campus, she is a TA for CS 2800 and a member of Project Hope. This past summer she worked at the NeuroAI Lab @ Cornell redeveloping a Python library for processing calcium imaging data. In Elaine's free time, she enjoys making Spotify playlists and collecting Smiskis. She can be reached at ew457@cornell.edu.",
+    desc: "Elaine is a senior from Amherst, MA majoring in Computer Science in the College of Engineering with a minor in Psychology. On-campus, she is a TA for CS 2800 and a member of Project Hope. In Elaine's free time, she enjoys making Spotify playlists and collecting Smiskis. She can be reached at ew457@cornell.edu.",
     year: "2026",
     title: "",
     emoji: "emojis/keroppi.svg",
@@ -614,6 +623,15 @@ export const memberInfo = {
     emoji: "",
     linkedin: "william-dignam",
     netid: "wed45",
+  },
+
+  "Winston Wang": {
+    desc: "Winston is a freshman from Fairfax, Virginia, majoring in Statistics and Data Science in the College of Arts and Sciences. In his free time, he enjoys playing basketball and watching sports and movies with friends. He can be reached at waw73@cornell.edu.",
+    year: "2029",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "",
   },
 
   "Yebon Kim": {

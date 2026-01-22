@@ -23,8 +23,10 @@ export default function Team() {
     "Claire Kim",
     "Stephanie Cheng",
     "Yebon Kim",
+    "Talia Wilson",
     "Addison Purcell",
     "Anumita Kohli",
+    "Spencer Rudolph",
   ];
   const ElectricalSubteam = [
     "Amber Li",
@@ -40,6 +42,7 @@ export default function Team() {
     "Trinity Kong",
     "Spencer Hadlock",
     "Eli Pratt",
+    "Alexis Lee",
     "Josh Jung",
     "Chloe Kim",
     "Danielle Gilbert",
@@ -48,9 +51,9 @@ export default function Team() {
     "Sophia Pan",
     "Elaine Wu",
     "Natalie Leung",
+    "Grace Wei",
     "Michael Wu",
     "Amishi Gupta",
-    "Grace Wei",
     "Andrew Hu",
     "Ethan Huang",
     "Jillian Chong",
@@ -75,6 +78,7 @@ export default function Team() {
     "Charles Lee",
     "Sebastian Lai",
     "Sidney Nam",
+    "Winston Wang",
   ];
 
   return (
