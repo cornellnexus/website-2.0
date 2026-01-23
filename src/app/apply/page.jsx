@@ -16,7 +16,7 @@ export default function Apply() {
     {
       accordianTitle: "How/where can I apply?",
       accordianContent:
-        "You can apply using the button above!",
+        "You can apply using the link above!",
     },
     {
       accordianTitle: "What does your application process look like?",
@@ -96,64 +96,46 @@ export default function Apply() {
               height="300"
             />
           </motion.div> */}
-          <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center my-12">
-        <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="relative overflow-hidden border-1 border-navy rounded-xl p-10 lg:p-14 transparent"
-        >
-          <div className="space-y-6">
-            
-            <div className="overflow-hidden py-2">
-              <div className="space-y-6">
-                <div className="py-2">
-                  <div className="flex items-baseline">
-                    <span className="text-5xl lg:text-6xl font-black text-navy mr-4">
-                      SPRING
-                    </span>
-                    <span className="text-5xl lg:text-6xl font-black text-navy">
-                      2026
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="w-full max-w-5xl flex flex-col items-center gap-8 my-12">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="w-full"
+            >
+              <Image
+                className="rounded-xl shadow-lg w-full h-auto object-contain"
+                src={"/graphics/recruitment_timeline.png"}
+                alt="Recruitment timeline"
+                width="960"
+                height="400"
+              />
+            </motion.div>
 
-            <div className="flex items-center gap-3">
-              <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-              <span className="text-navy text-xl font-semibold">
-                Applications Now Open!
-              </span>
-            </div>
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+              className="w-full flex flex-col items-center gap-6"
+            >
+                <Button
+                  className="font-semibold"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScO-g2SHE_NWyPuVfY-s42BTexYCTTTxie565bClSO1Um0h8g/viewform"
+                  color="navy"
+                  size="lg"
+                  text="Apply"
+                />
+                <Button
+                  className="font-semibold w-full"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSePDdMlVye_eZz7cHaVzNK0WSdUxiw57ZxSVRcJObBznNOr7Q/viewform"
+                  color="navy"
+                  size="lg"
+                  text="Coffee Chat Sign-Up"
+                />
+            </motion.div>
           </div>
-        </motion.div>
-
-        {/* Right Column: Action Buttons */}
-        <motion.div
-          initial={{ opacity: 0, x: 50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex flex-col gap-6"
-        >
-          <Button
-            className="font-semibold"
-            href="https://docs.google.com/forms/d/e/1FAIpQLScO-g2SHE_NWyPuVfY-s42BTexYCTTTxie565bClSO1Um0h8g/viewform"
-            color="navy"
-            size="lg"
-            text="Apply"
-          />
-          <Button
-            className="font-semibold"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSePDdMlVye_eZz7cHaVzNK0WSdUxiw57ZxSVRcJObBznNOr7Q/viewform"
-            color="navy"
-            size="lg"
-            text="Coffee Chat Sign-Up"
-          />
-        </motion.div>
-        </div>
           {/* {<motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
