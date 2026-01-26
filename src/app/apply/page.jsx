@@ -122,6 +122,22 @@ export default function Apply() {
             >
                 <Button
                   className="font-semibold"
+                  href="https://cornell.zoom.us/j/3862263688?pwd=ZDViUVBDSHFHcXo0Y3I4cys0SXc3UT09"
+                  color="green"
+                  size="lg"
+                  text="Info Session 1/26 has been moved online! Zoom link here"
+                />
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+              className="w-full flex flex-col items-center gap-6"
+            >
+                <Button
+                  className="font-semibold"
                   href="https://docs.google.com/forms/d/e/1FAIpQLScO-g2SHE_NWyPuVfY-s42BTexYCTTTxie565bClSO1Um0h8g/viewform"
                   color="navy"
                   size="lg"
