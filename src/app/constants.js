@@ -313,7 +313,7 @@ export const memberInfo = {
   "Jeana Han": {
     desc: "Jeana is a junior from Seattle, Washington in the College of Engineering. This past summer, she had the opportunity to intern as an Estimating Engineering Intern, allowing her to explore the interdisciplinary fields of engineering and business. In Jeana's free time, she enjoys listening to music, watching movies, and hanging out with friends.",
     year: "2026",
-    title: "Business Sub-team Lead",
+    title: "",
     emoji: "",
     linkedin: "",
     netid: "jjh358",
