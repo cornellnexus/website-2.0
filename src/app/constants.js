@@ -25,7 +25,7 @@ export const memberInfo = {
   "Aaron Sucov": {
     desc: "Aaron is a junior from South Brunswick, New Jersey, studying Electrical and Computer Engineering in the College of Engineering. In addition to Cornell Nexus, Aaron is involved with the Cornell Piano Society, and plays IM volleyball. In Aaron's free time, he likes to practice the piano, play volleyball, cook, and watch football.",
     year: "2027",
-    title: "Full Team Lead",
+    title: "",
     emoji: "",
     linkedin: "",
     netid: "ans246",
@@ -232,7 +232,7 @@ export const memberInfo = {
   "Ece Kumcuoglu": {
     desc: "Ece is a sophomore from London, UK, majoring in Materials Science and Engineering with a strong interest in clean energy and public policy. This past summer, she worked in a recycled polymer materials lab and interned at a startup focused on battery cathode materials in Turkey. In her free time, she loves to play volleyball, hike with friends, and do arts and crafts. She can be reached at enk34@cornell.edu.",
     year: "2028",
-    title: "",
+    title: "Full Team Lead",
     emoji: "emojis/Flower.svg",
     linkedin: "ece-kumcuoglu",
     netid: "enk34",

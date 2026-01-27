@@ -4,8 +4,8 @@ import { memberInfo } from "../constants";
 
 export default function Team() {
   const TeamLeads = [
-    "Aaron Sucov",
     "William Dignam",
+    "Ece Kumcuoglu"
   ];
   const MechanicalSubteam = [
     "Mia Tarantini",
@@ -38,7 +38,6 @@ export default function Team() {
     "Akmal Rupasingha",
     "Lizeth Montemayor",
     "Raymond Shan",
-    "Sazidur Rashid",
     "Trinity Kong",
     "Spencer Hadlock",
     "Eli Pratt",
