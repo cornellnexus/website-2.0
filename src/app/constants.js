@@ -142,7 +142,7 @@ export const memberInfo = {
   "Brendan Shek": {
     desc: "Brendan is a freshman from Long Island, NY studying Agricultural Sciences and Global Development in CALS. On-campus, he is involved in a number of student organizations, including the Emerging Markets Institute Club, Business Club for Emerging Economies, and Cornell Science Olympiad, and also serves as a CALS ambassador and a Cornell Dyson SMART fellow. In his free time, Brendan enjoys playing sports (soccer, tennis, mountain biking), playing chess, and doing anything that isn’t class work. Feel free to reach out at bs863@cornell.edu!",
     year: "2028",
-    title: "",
+    title: "Business Sub-team Lead",
     emoji: "emojis/Confused.svg",
     linkedin: "brendan-shek-955ba8326",
     netid: "bs863",
