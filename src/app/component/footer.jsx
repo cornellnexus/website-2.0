@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-2xl text-right">
-        <p>Cornell Nexus Project Team © 2025</p>
+        <p>Cornell Nexus Project Team © 2026</p>
         <p className="text-sm">This organization is a registered student organization of Cornell University | <a href="https://hr.cornell.edu/about/workplace-rights/equal-education-and-employment">
           Equal Education & Employment
         </a></p>
