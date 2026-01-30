@@ -66,7 +66,6 @@ export default function Team() {
     "Chris Zhang",
   ];
   const BusinessSubteam = [
-    "Jeana Han",
     "Shihan Gao",
     "Sanika Sharma",
     "Annika Terezakis",
