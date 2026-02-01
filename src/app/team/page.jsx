@@ -4,12 +4,10 @@ import { memberInfo } from "../constants";
 
 export default function Team() {
   const TeamLeads = [
-    "Aaron Sucov",
     "William Dignam",
+    "Ece Kumcuoglu"
   ];
   const MechanicalSubteam = [
-    "Lucca Correia",
-    "Mia Tarantini",
     "Ethan Sekiguchi",
     "William Dignam",
     "Cleo Hamilton",
@@ -21,31 +19,36 @@ export default function Team() {
     "Bradley Reiff",
     "Derek Yang",
     "Miguel Manalang",
+    "Claire Kim",
+    "Stephanie Cheng",
+    "Yebon Kim",
+    "Talia Wilson",
+    "Addison Purcell",
+    "Anumita Kohli",
+    "Spencer Rudolph",
   ];
   const ElectricalSubteam = [
-    "Amber Li",
-    "Jasmine Si",
     "Casey Kashishian",
     "Aaron Sucov",
     "Antranig Baghdassarian",
-    "Parishee Bajaj",
-    "Akmal Rupasingha",
     "Lizeth Montemayor",
     "Raymond Shan",
-    "Sazidur Rashid",
     "Trinity Kong",
     "Spencer Hadlock",
+    "Eli Pratt",
+    "Alexis Lee",
+    "Josh Jung",
+    "Chloe Kim",
+    "Danielle Gilbert",
   ];
   const SoftwareSubteam = [
-    "Sophia Pan",
-    "Elaine Wu",
     "Natalie Leung",
+    "Grace Wei",
+    "Elaine Wu",
     "Michael Wu",
     "Amishi Gupta",
-    "Grace Wei",
     "Andrew Hu",
     "Ethan Huang",
-    "Jillian Chong",
     "Dora Zhang",
     "Julian Meinke",
     "Alex Saccone",
@@ -53,10 +56,11 @@ export default function Team() {
     "Yujean Choi",
     "Gabriella Seifert",
     "Arnav Bansal",
+    "Kevin Lu",
+    "Chris Zhang",
+    "Winston Wang",
   ];
   const BusinessSubteam = [
-    "Jeana Han",
-    "Shihan Gao",
     "Sanika Sharma",
     "Annika Terezakis",
     "Inae Kim",
@@ -65,6 +69,7 @@ export default function Team() {
     "Charles Lee",
     "Sebastian Lai",
     "Sidney Nam",
+    "Winston Wang",
   ];
 
   return (
@@ -76,7 +81,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/team/silly-fullteam.jpeg"}
+            src={"/team/silly-fullteam.jpg"}
             alt="silly fullteam image"
             width="700"
             height="700"
@@ -147,7 +152,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/team/mechanical.jpeg"}
+            src={"/team/mechanical.jpg"}
             alt="fullteam image"
             width="700"
             height="700"
@@ -165,7 +170,7 @@ export default function Team() {
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
             {MechanicalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
+              if (memberInfo[name]["title"] === "Full Team Lead") {
                 return (
                   <MemberCard
                     key={idx}
@@ -180,7 +185,22 @@ export default function Team() {
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {MechanicalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
+              if (memberInfo[name]["title"].includes("Sub-team Lead")) {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {MechanicalSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] === "") {
                 return (
                   <MemberCard
                     key={idx}
@@ -207,7 +227,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/team/electrical.jpeg"}
+            src={"/team/electrical.jpg"}
             alt="fullteam image"
             width="700"
             height="700"
@@ -228,7 +248,7 @@ export default function Team() {
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
             {ElectricalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
+              if (memberInfo[name]["title"] === "Full Team Lead") {
                 return (
                   <MemberCard
                     key={idx}
@@ -243,7 +263,22 @@ export default function Team() {
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {ElectricalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
+              if (memberInfo[name]["title"].includes("Sub-team Lead")) {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {ElectricalSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] === "") {
                 return (
                   <MemberCard
                     key={idx}
@@ -270,7 +305,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/team/software.jpeg"}
+            src={"/team/software.jpg"}
             alt="fullteam image"
             width="700"
             height="700"
@@ -289,7 +324,7 @@ export default function Team() {
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
             {SoftwareSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
+              if (memberInfo[name]["title"] === "Full Team Lead") {
                 return (
                   <MemberCard
                     key={idx}
@@ -304,7 +339,22 @@ export default function Team() {
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {SoftwareSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
+              if (memberInfo[name]["title"].includes("Sub-team Lead")) {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {SoftwareSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] === "") {
                 return (
                   <MemberCard
                     key={idx}
@@ -331,7 +381,7 @@ export default function Team() {
           </div>
           <Image
             className="rounded pb-5"
-            src={"/team/business.jpeg"}
+            src={"/team/business.jpg"}
             alt="fullteam image"
             width="700"
             height="700"
@@ -346,7 +396,7 @@ export default function Team() {
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
             {BusinessSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
+              if (memberInfo[name]["title"] === "Full Team Lead") {
                 return (
                   <MemberCard
                     key={idx}
@@ -361,7 +411,22 @@ export default function Team() {
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {BusinessSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
+              if (memberInfo[name]["title"].includes("Sub-team Lead")) {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {BusinessSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] === "") {
                 return (
                   <MemberCard
                     key={idx}
@@ -402,15 +467,20 @@ export default function Team() {
                 {[
                   { src: "/placements/amazon.svg", alt: "Amazon" },
                   { src: "/placements/microsoft.svg", alt: "Microsoft" },
-                  { src: "/placements/millennium.svg", alt: "Millennium" },
-                  { src: "/placements/capital_one.svg", alt: "Capital One" },
-                  { src: "/placements/apple.svg", alt: "Apple" },
+                  { src: "/placements/spacex.svg", alt: "SpaceX" },
                   { src: "/placements/meta.svg", alt: "Meta" },
+                  { src: "/placements/apple.svg", alt: "Apple" },
                   { src: "/placements/tesla.svg", alt: "Tesla" },
+                  { src: "/placements/roblox.svg", alt: "Roblox" },
+                  { src: "/placements/marvell.svg", alt: "Marvell" },
+                  { src: "/placements/ge_aerospace.svg", alt: "GE Aerospace" },
+                  { src: "/placements/tokyo_electron.svg", alt: "Tokyo Electron" },
+                  { src: "/placements/westinghouse.svg", alt: "Westinghouse Electric Company" },
+                  { src: "/placements/capital_one.svg", alt: "Capital One" },
+                  { src: "/placements/millennium.svg", alt: "Millennium" },
                   { src: "/placements/jpmc.svg", alt: "J.P. Morgan Chase" },
                   { src: "/placements/deloitte.svg", alt: "Deloitte" },
-                  { src: "/placements/marvell.svg", alt: "Marvell" },
-                  { src: "/placements/tokyo_electron.svg", alt: "Tokyo Electron" },
+                  { src: "/placements/plug.png", alt: "PlugPower" },
                   { src: "/placements/stv.png", alt: "STV" },
                   { src: "/placements/yext.jpg", alt: "Yext" },
                 ].map((logo, idx) => (

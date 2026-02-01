@@ -30,7 +30,7 @@ export default function Contact() {
               }}
             >
               <Image
-                src={"/team/silly-fullteam.jpeg"}
+                src={"/team/silly-fullteam.jpg"}
                 width="500"
                 height="700"
                 alt="silly full team"

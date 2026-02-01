@@ -14,9 +14,9 @@ import { motion } from "framer-motion";
 export default function Apply() {
   const accordianSection = [
     {
-      accordianTitle: "How can I apply?",
+      accordianTitle: "How/where can I apply?",
       accordianContent:
-        "Our applications have closed for Fall 2025. Check back next semester!",
+        "You can apply using the link above!",
     },
     {
       accordianTitle: "What does your application process look like?",
@@ -74,7 +74,7 @@ export default function Apply() {
               </div>
             </div>
           </motion.div> */}
-          <motion.div
+          {/*<motion.div
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
@@ -95,35 +95,47 @@ export default function Apply() {
               width="1200"
               height="300"
             />
-          </motion.div>
-          {/* {<motion.div
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1, duration: 0.5, ease: "easeInOut" }}
-          >
-            <Button
-              className="font-semibold"
-              href="https://forms.gle/WrQd3D12gaH86Pbs5"
-              color="navy"
-              size="lg"
-              text="Coffee Chat Sign-Up"
-            />
-          </motion.div>} */}
-          {/* {<motion.div
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1, duration: 0.5, ease: "easeInOut" }}
-          >
-            <Button
-              className="font-semibold"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSf8zF_wlfvICItLtU9jmBOQPdQY8T2z0MYzZg599ku6Lq57mA/viewform?usp=dialog"
-              color="navy"
-              size="lg"
-              text="Upperclassman Application"
-            />
-          </motion.div>} */}
+          </motion.div> */}
+          <div className="w-full max-w-5xl flex flex-col items-center gap-8 my-12">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="w-full"
+            >
+              <Image
+                className="rounded-xl shadow-lg w-full h-auto object-contain"
+                src={"/graphics/recruitment_timeline.png"}
+                alt="Recruitment timeline"
+                width="960"
+                height="400"
+              />
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+              className="w-full flex flex-col items-center gap-6"
+            >
+                <Button
+                  className="font-semibold"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScO-g2SHE_NWyPuVfY-s42BTexYCTTTxie565bClSO1Um0h8g/viewform"
+                  color="navy"
+                  size="lg"
+                  text="Apply"
+                />
+                <Button
+                  className="font-semibold w-full"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSePDdMlVye_eZz7cHaVzNK0WSdUxiw57ZxSVRcJObBznNOr7Q/viewform"
+                  color="navy"
+                  size="lg"
+                  text="Coffee Chat Sign-Up"
+                />
+            </motion.div>
+          </div>
           {/* {<motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
