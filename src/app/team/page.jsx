@@ -163,34 +163,28 @@ export default function Team() {
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
-            {MechanicalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] === "Full Team Lead") {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
-          </div>
-          <div className="flex flex-row flex-wrap justify-center">
-            {MechanicalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"].includes("Sub-team Lead")) {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
+            {MechanicalSubteam
+              .filter(name => memberInfo[name]["title"] !== "")
+              .sort((a, b) => {
+                const aTitle = memberInfo[a]["title"];
+                const bTitle = memberInfo[b]["title"];
+
+                // Full Team Lead comes before Sub-team Lead
+                if (aTitle === "Full Team Lead" && bTitle.includes("Sub-team Lead")) return -1;
+                if (bTitle === "Full Team Lead" && aTitle.includes("Sub-team Lead")) return 1;
+
+                // If same type of title, maintain original order (alphabetical by last name)
+                return 0;
+              })
+              .map((name, idx) => (
+                <MemberCard
+                  key={idx}
+                  src={memberInfo[name]["image"]}
+                  name={name}
+                  title={memberInfo[name]["title"]}
+                />
+              ))
+            }
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {MechanicalSubteam.map((name, idx) => {
@@ -241,34 +235,28 @@ export default function Team() {
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
-            {ElectricalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] === "Full Team Lead") {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
-          </div>
-          <div className="flex flex-row flex-wrap justify-center">
-            {ElectricalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"].includes("Sub-team Lead")) {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
+            {ElectricalSubteam
+              .filter(name => memberInfo[name]["title"] !== "")
+              .sort((a, b) => {
+                const aTitle = memberInfo[a]["title"];
+                const bTitle = memberInfo[b]["title"];
+
+                // Full Team Lead comes before Sub-team Lead
+                if (aTitle === "Full Team Lead" && bTitle.includes("Sub-team Lead")) return -1;
+                if (bTitle === "Full Team Lead" && aTitle.includes("Sub-team Lead")) return 1;
+
+                // If same type of title, maintain original order (alphabetical by last name)
+                return 0;
+              })
+              .map((name, idx) => (
+                <MemberCard
+                  key={idx}
+                  src={memberInfo[name]["image"]}
+                  name={name}
+                  title={memberInfo[name]["title"]}
+                />
+              ))
+            }
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {ElectricalSubteam.map((name, idx) => {
@@ -317,34 +305,28 @@ export default function Team() {
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
-            {SoftwareSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] === "Full Team Lead") {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
-          </div>
-          <div className="flex flex-row flex-wrap justify-center">
-            {SoftwareSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"].includes("Sub-team Lead")) {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
+            {SoftwareSubteam
+              .filter(name => memberInfo[name]["title"] !== "")
+              .sort((a, b) => {
+                const aTitle = memberInfo[a]["title"];
+                const bTitle = memberInfo[b]["title"];
+
+                // Full Team Lead comes before Sub-team Lead
+                if (aTitle === "Full Team Lead" && bTitle.includes("Sub-team Lead")) return -1;
+                if (bTitle === "Full Team Lead" && aTitle.includes("Sub-team Lead")) return 1;
+
+                // If same type of title, maintain original order (alphabetical by last name)
+                return 0;
+              })
+              .map((name, idx) => (
+                <MemberCard
+                  key={idx}
+                  src={memberInfo[name]["image"]}
+                  name={name}
+                  title={memberInfo[name]["title"]}
+                />
+              ))
+            }
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {SoftwareSubteam.map((name, idx) => {
@@ -389,34 +371,28 @@ export default function Team() {
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
-            {BusinessSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] === "Full Team Lead") {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
-          </div>
-          <div className="flex flex-row flex-wrap justify-center">
-            {BusinessSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"].includes("Sub-team Lead")) {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
+            {BusinessSubteam
+              .filter(name => memberInfo[name]["title"] !== "")
+              .sort((a, b) => {
+                const aTitle = memberInfo[a]["title"];
+                const bTitle = memberInfo[b]["title"];
+
+                // Full Team Lead comes before Sub-team Lead
+                if (aTitle === "Full Team Lead" && bTitle.includes("Sub-team Lead")) return -1;
+                if (bTitle === "Full Team Lead" && aTitle.includes("Sub-team Lead")) return 1;
+
+                // If same type of title, maintain original order (alphabetical by last name)
+                return 0;
+              })
+              .map((name, idx) => (
+                <MemberCard
+                  key={idx}
+                  src={memberInfo[name]["image"]}
+                  name={name}
+                  title={memberInfo[name]["title"]}
+                />
+              ))
+            }
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {BusinessSubteam.map((name, idx) => {
