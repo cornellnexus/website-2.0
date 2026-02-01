@@ -8,7 +8,6 @@ export default function Team() {
     "Ece Kumcuoglu"
   ];
   const MechanicalSubteam = [
-    "Mia Tarantini",
     "Ethan Sekiguchi",
     "William Dignam",
     "Cleo Hamilton",
@@ -29,13 +28,9 @@ export default function Team() {
     "Spencer Rudolph",
   ];
   const ElectricalSubteam = [
-    "Amber Li",
-    "Jasmine Si",
     "Casey Kashishian",
     "Aaron Sucov",
     "Antranig Baghdassarian",
-    "Parishee Bajaj",
-    "Akmal Rupasingha",
     "Lizeth Montemayor",
     "Raymond Shan",
     "Trinity Kong",
@@ -54,7 +49,6 @@ export default function Team() {
     "Amishi Gupta",
     "Andrew Hu",
     "Ethan Huang",
-    "Jillian Chong",
     "Dora Zhang",
     "Julian Meinke",
     "Alex Saccone",
@@ -64,9 +58,9 @@ export default function Team() {
     "Arnav Bansal",
     "Kevin Lu",
     "Chris Zhang",
+    "Winston Wang",
   ];
   const BusinessSubteam = [
-    "Shihan Gao",
     "Sanika Sharma",
     "Annika Terezakis",
     "Inae Kim",
@@ -176,7 +170,7 @@ export default function Team() {
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
             {MechanicalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
+              if (memberInfo[name]["title"] === "Full Team Lead") {
                 return (
                   <MemberCard
                     key={idx}
@@ -191,7 +185,22 @@ export default function Team() {
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {MechanicalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
+              if (memberInfo[name]["title"].includes("Sub-team Lead")) {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {MechanicalSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] === "") {
                 return (
                   <MemberCard
                     key={idx}
@@ -239,7 +248,7 @@ export default function Team() {
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
             {ElectricalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
+              if (memberInfo[name]["title"] === "Full Team Lead") {
                 return (
                   <MemberCard
                     key={idx}
@@ -254,7 +263,22 @@ export default function Team() {
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {ElectricalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
+              if (memberInfo[name]["title"].includes("Sub-team Lead")) {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {ElectricalSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] === "") {
                 return (
                   <MemberCard
                     key={idx}
@@ -300,7 +324,7 @@ export default function Team() {
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
             {SoftwareSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
+              if (memberInfo[name]["title"] === "Full Team Lead") {
                 return (
                   <MemberCard
                     key={idx}
@@ -315,7 +339,22 @@ export default function Team() {
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {SoftwareSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
+              if (memberInfo[name]["title"].includes("Sub-team Lead")) {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {SoftwareSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] === "") {
                 return (
                   <MemberCard
                     key={idx}
@@ -357,7 +396,7 @@ export default function Team() {
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
             {BusinessSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
+              if (memberInfo[name]["title"] === "Full Team Lead") {
                 return (
                   <MemberCard
                     key={idx}
@@ -372,7 +411,22 @@ export default function Team() {
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {BusinessSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
+              if (memberInfo[name]["title"].includes("Sub-team Lead")) {
+                return (
+                  <MemberCard
+                    key={idx}
+                    src={memberInfo[name]["image"]}
+                    name={name}
+                    title={memberInfo[name]["title"]}
+                  />
+                );
+              }
+              return null;
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            {BusinessSubteam.map((name, idx) => {
+              if (memberInfo[name]["title"] === "") {
                 return (
                   <MemberCard
                     key={idx}
