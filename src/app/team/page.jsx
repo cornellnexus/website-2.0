@@ -10,7 +10,6 @@ export default function Team() {
   const MechanicalSubteam = [
     "Ethan Sekiguchi",
     "William Dignam",
-    "Cleo Hamilton",
     "Natalie Kaplan",
     "Olivia Lee",
     "Rebecca Gerola",
@@ -28,7 +27,6 @@ export default function Team() {
     "Spencer Rudolph",
   ];
   const ElectricalSubteam = [
-    "Casey Kashishian",
     "Aaron Sucov",
     "Lizeth Montemayor",
     "Raymond Shan",
@@ -42,9 +40,6 @@ export default function Team() {
   ];
   const SoftwareSubteam = [
     "Natalie Leung",
-    "Grace Wei",
-    "Elaine Wu",
-    "Michael Wu",
     "Amishi Gupta",
     "Andrew Hu",
     "Ethan Huang",
