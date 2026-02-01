@@ -30,7 +30,6 @@ export default function Team() {
   const ElectricalSubteam = [
     "Casey Kashishian",
     "Aaron Sucov",
-    "Antranig Baghdassarian",
     "Lizeth Montemayor",
     "Raymond Shan",
     "Trinity Kong",
