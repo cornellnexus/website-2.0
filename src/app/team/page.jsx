@@ -2,6 +2,16 @@ import Image from "next/image";
 import MemberCard from "../component/membercard";
 import { memberInfo } from "../constants";
 
+export const metadata = {
+  title: "Meet the Team - Cornell Nexus Project Team",
+  description: "Meet the talented members of Cornell Nexus Project Team working across mechanical, electrical, software, and business subteams to build autonomous beach-cleaning robots.",
+  openGraph: {
+    title: "Meet the Team - Cornell Nexus Project Team",
+    description: "Meet the talented members of Cornell Nexus Project Team working across mechanical, electrical, software, and business subteams to build autonomous beach-cleaning robots.",
+    type: "website",
+  },
+};
+
 export default function Team() {
   const TeamLeads = [
     "William Dignam",
