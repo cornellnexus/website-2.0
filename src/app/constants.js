@@ -202,6 +202,15 @@ export const memberInfo = {
     netid: "chh89",
   },
 
+  "Cormac Kennedy": {
+    desc: "",
+    year: "2029",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "",
+  },
+
   "Danielle Gilbert": {
     desc: "Danielle is a freshman from Palo Alto, CA majoring Electrical and Computer Engineering. On-campus, she is in Cornell Ballet Club and is interested in sustainability and fashion. In her free time she loves exploring campus and hanging out with friends. She can be reached at dgg86@cornell.edu.",
     year: "2029",
@@ -274,6 +283,15 @@ export const memberInfo = {
     netid: "",
   },
 
+  "Elizabeth Zhuge": {
+    desc: "",
+    year: "2029",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "",
+  },
+
   "Gabriella Seifert": {
     desc: "Gabi is a sophomore from Dutchess County, NY, majoring in Information Science in the College of Arts and Sciences with a concentration in Data Science. On campus, she is part of Creme de Cornell. This summer she was a Project Engineering intern at Charter Technology Solutions, where she oversaw and scripted device deployment. In her free time, she enjoys thrifting and going on long walks. She can be reached at gms274@cornell.edu",
     year: "2028",
@@ -290,6 +308,24 @@ export const memberInfo = {
     emoji: "emojis/Molang_coffee.svg",
     linkedin: "gtwei",
     netid: "gtw25",
+  },
+
+  "Gordon Mei": {
+    desc: "",
+    year: "2028",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "",
+  },
+
+  "Hudson Friedman": {
+    desc: "",
+    year: "2029",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "",
   },
 
   "Inae Kim": {
@@ -344,6 +380,15 @@ export const memberInfo = {
     emoji: "",
     linkedin: "julian-meinke-9b7388335",
     netid: "jm2874",
+  },
+
+  "Julie Cai": {
+    desc: "",
+    year: "2029",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "",
   },
 
   "Kevin Lu": {
@@ -490,6 +535,15 @@ export const memberInfo = {
     netid: "rdg245",
   },
 
+  "Rodas Geberhiwet": {
+    desc: "",
+    year: "2029",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "",
+  },
+
   "Sajal Sabat": {
     desc: "Sajal is a sophomore from Atlanta, GA majoring in Computer Science in the College of Engineering. On-campus, he is a TA for CS 4820 and does research. This past summer he worked at PARES developing features for real estate user workflows. In Sajal's free time, he loves playing basketball, clash royale, and eating. He can be reached at ss4369@cornell.edu.",
     year: "2028",
@@ -597,6 +651,16 @@ export const memberInfo = {
     linkedin: "",
     netid: "trw73",
   },
+
+  "Titiksha Lunker": {
+    desc: "",
+    year: "2029",
+    title: "",
+    emoji: "",
+    linkedin: "",
+    netid: "",
+  },
+
 
   "Trinity Kong": {
     desc: "Trinity is a sophomore from Dallas, PA majoring in Electrical and Computer Engineering. On campus, she works as a barista and is a member of The Steminist Movement. Last summer she worked at Vielight Inc. processing and analyzing EEG and EKG data using Python. In Trinity's free time, she enjoys hiking, eating good food, and listening to new music. She can be reached at txk2@cornell.edu.",

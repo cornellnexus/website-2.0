@@ -64,6 +64,10 @@ export default function Team() {
     "Arnav Bansal",
     "Kevin Lu",
     "Chris Zhang",
+    "Cormac Kennedy",
+    "Julie Cai",
+    "Gordon Mei",
+    "Rodas Geberhiwet"
   ];
   const BusinessSubteam = [
     "Shihan Gao",
@@ -76,6 +80,9 @@ export default function Team() {
     "Sebastian Lai",
     "Sidney Nam",
     "Winston Wang",
+    "Elizabeth Zhuge",
+    "Hudson Friedman",
+    "Titiksha Lunker"
   ];
 
   return (
