@@ -203,11 +203,11 @@ export const memberInfo = {
   },
 
   "Cormac Kennedy": {
-    desc: "",
+    desc: "Cormac is a freshman from South Bend, IN majoring in Computer Science in the College of Arts and Sciences. For two summers, he has interned at the Center for Research Computing at the University of Notre Dame in ethical applications of agentic AI on social media. In his free time, Cormac enjoys playing volleyball, tennis and disc golfing. He can be reached at cjk276@cornell.edu.",
     year: "2029",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "cormac-kennedy-257bba380",
     netid: "",
   },
 
@@ -284,11 +284,11 @@ export const memberInfo = {
   },
 
   "Elizabeth Zhuge": {
-    desc: "",
+    desc: "Elizabeth is a freshman from Pleasanton, CA majoring in Public Policy with a minor in Creative Writing. On campus, she is also a part of the CSDS Worlds (British Parliamentary) debate team. She is especially interested in the intersections between sustainability, law, and government. In her free time, she enjoys writing, nature photography, and board games. She can be reached at ez324@cornell.edu.",
     year: "2029",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "elizabeth-zhuge",
     netid: "",
   },
 
@@ -311,7 +311,7 @@ export const memberInfo = {
   },
 
   "Gordon Mei": {
-    desc: "",
+    desc: "Gordon is a sophomore from Ellicott City, MD majoring in Computer Science and Math in the College of Arts and Sciences. On campus, he is a TA for CS 4820, does research in the Wei Lab (Department of Computational Biology), and plays table tennis for Cornell's club team. In his free time, he enjoys trying new boba places, playing badminton, and looking for dining halls with French toast sticks. He can be reached at gam278@cornell.edu.",
     year: "2028",
     title: "",
     emoji: "",
@@ -320,11 +320,11 @@ export const memberInfo = {
   },
 
   "Hudson Friedman": {
-    desc: "",
+    desc: "Hudson is a freshman from Westlake Village, CA majoring in Architecture in AAP. On campus he works with the Cornell Marketing club and various architecture organizations. He has previously worked with Sal Khan, Ouidas, and Fairmont Hotels with marketing initiatives. In Hudson’s free time he enjoys going to the beach, sculpting, and listening to music. He can be reached at hmf64@cornell.edu",
     year: "2029",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "hudson-friedman",
     netid: "",
   },
 
@@ -383,11 +383,11 @@ export const memberInfo = {
   },
 
   "Julie Cai": {
-    desc: "",
+    desc: "Julie is a freshman from Plainsboro, NJ studying Computer Science in the College of Engineering. On campus, she serves on the DGA Studios E-board, dances with E.Motion, and is part of the Bowers CIS ASCEND Program. In her free time, she loves grabbing coffee, listening to music, playing games, and hanging out with friends.",
     year: "2029",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "juliecai-nj",
     netid: "",
   },
 
@@ -536,11 +536,11 @@ export const memberInfo = {
   },
 
   "Rodas Geberhiwet": {
-    desc: "",
+    desc: "Rodas is a freshman at the College of Engineering planning to major in CS with a possible minor in ECE/ AI. He is interested in the intersection of artificial intelligence and computer hardware. On campus he serves as an AI/ML developer at Cornell GenAI and is part of the E-board for URMC. In his free time he enjoys watching movies (thriller/action series), playing soccer and listening to jazz.",
     year: "2029",
     title: "",
-    emoji: "",
-    linkedin: "",
+    emoji: "🏋️‍♂️☕️🗿🎬🎷",
+    linkedin: "rodas-y-gebrehiwet",
     netid: "",
   },
 
@@ -653,11 +653,11 @@ export const memberInfo = {
   },
 
   "Titiksha Lunker": {
-    desc: "",
+    desc: "Titiksha is a freshman from Los Angeles, CA majoring in Chemical Engineering. On campus, she is a member of Cornell Sitara and Society of Women Engineers. In her free time, she enjoys dancing, baking, and discovering new music. Reach her at tl947@cornell.edu!",
     year: "2029",
     title: "",
     emoji: "",
-    linkedin: "",
+    linkedin: "💫",
     netid: "",
   },
 
