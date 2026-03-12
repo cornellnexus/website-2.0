@@ -316,7 +316,7 @@ export const memberInfo = {
     title: "",
     emoji: "emojis/stressedpsyduck.svg",
     linkedin: "",
-    netid: "",
+    netid: "gam278",
   },
 
   "Hudson Friedman": {
@@ -388,7 +388,7 @@ export const memberInfo = {
     title: "",
     emoji: "",
     linkedin: "juliecai-nj",
-    netid: "",
+    netid: "jc3768",
   },
 
   "Kevin Lu": {
