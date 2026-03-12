@@ -51,7 +51,7 @@ export default function Apply() {
           <div className="py-10">
             <AnimatedTitle text="Join Our Team" />
           </div>
-          {/* <motion.div
+          <motion.div
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -73,8 +73,8 @@ export default function Apply() {
                 />
               </div>
             </div>
-          </motion.div> */}
-          {/*<motion.div
+          </motion.div>
+          {/* <motion.div
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
@@ -96,7 +96,7 @@ export default function Apply() {
               height="300"
             />
           </motion.div> */}
-          <div className="w-full max-w-5xl flex flex-col items-center gap-8 my-12">
+          {/* <div className="w-full max-w-5xl flex flex-col items-center gap-8 my-12">
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -111,7 +111,7 @@ export default function Apply() {
                 width="960"
                 height="400"
               />
-            </motion.div>
+            </motion.div> */}
 
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -120,13 +120,13 @@ export default function Apply() {
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
               className="w-full flex flex-col items-center gap-6"
             >
-                <Button
+                {/* <Button
                   className="font-semibold"
                   href="https://docs.google.com/forms/d/e/1FAIpQLScO-g2SHE_NWyPuVfY-s42BTexYCTTTxie565bClSO1Um0h8g/viewform"
                   color="navy"
                   size="lg"
                   text="Apply"
-                />
+                /> */}
                 <Button
                   className="font-semibold w-full"
                   href="https://docs.google.com/forms/d/e/1FAIpQLSePDdMlVye_eZz7cHaVzNK0WSdUxiw57ZxSVRcJObBznNOr7Q/viewform"
@@ -156,13 +156,13 @@ export default function Apply() {
             viewport={{ once: true }}
             transition={{ delay: 0.1, duration: 0.5, ease: "easeInOut" }}
           >
-            <Image
+            {/* <Image
               className="mb-10 mt-6"
               src={"/icons/delimiter.svg"}
               alt="separator"
               width="128"
               height="4"
-            />
+            /> */}
           </motion.div>}
 
           <motion.div
@@ -227,7 +227,7 @@ export default function Apply() {
             </div>
           </motion.div>
         </div>
-      </div>
+      {/* </div> */}
     </>
   );
 }

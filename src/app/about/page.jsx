@@ -4,16 +4,6 @@ import { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 
-export const metadata = {
-  title: "About Us",
-  description: "Learn about Cornell Nexus Project Team's mission to create social impact through technology. We're building solar-powered robots that filter microplastics from beaches to combat environmental pollution.",
-  openGraph: {
-    title: "About Us - Cornell Nexus Project Team",
-    description: "Learn about Cornell Nexus Project Team's mission to create social impact through technology. We're building solar-powered robots that filter microplastics from beaches to combat environmental pollution.",
-    type: "website",
-  },
-}
-
 export default function AboutUs() {
   const [direction, setDirection] = useState("right");
   const mission =
