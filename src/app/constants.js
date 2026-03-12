@@ -388,7 +388,7 @@ export const memberInfo = {
     title: "",
     emoji: "",
     linkedin: "juliecai-nj",
-    netid: "",
+    netid: "jc3768",
   },
 
   "Kevin Lu": {
