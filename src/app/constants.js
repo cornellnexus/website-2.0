@@ -314,7 +314,7 @@ export const memberInfo = {
     desc: "Gordon is a sophomore from Ellicott City, MD majoring in Computer Science and Math in the College of Arts and Sciences. On campus, he is a TA for CS 4820, does research in the Wei Lab (Department of Computational Biology), and plays table tennis for Cornell's club team. In his free time, he enjoys trying new boba places, playing badminton, and looking for dining halls with French toast sticks. He can be reached at gam278@cornell.edu.",
     year: "2028",
     title: "",
-    emoji: "",
+    emoji: "emojis/stressedpsyduck.svg",
     linkedin: "",
     netid: "",
   },
@@ -383,7 +383,7 @@ export const memberInfo = {
   },
 
   "Julie Cai": {
-    desc: "Julie is a freshman from Plainsboro, NJ studying Computer Science in the College of Engineering. On campus, she serves on the DGA Studios E-board, dances with E.Motion, and is part of the Bowers CIS ASCEND Program. In her free time, she loves grabbing coffee, listening to music, playing games, and hanging out with friends.",
+    desc: "Julie is a freshman from Plainsboro, NJ studying Computer Science in the College of Engineering. On campus, she serves on the DGA Studios E-board, dances with E.Motion, and is part of the Bowers CIS ASCEND Program. She also did research at Stony Brook University, developing kinematic and landscape models of the East African Rift. In her free time, she loves grabbing coffee, listening to music, playing games, and hanging out with friends.",
     year: "2029",
     title: "",
     emoji: "",
