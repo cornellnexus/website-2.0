@@ -2,16 +2,24 @@ import Image from "next/image";
 import MemberCard from "../component/membercard";
 import { memberInfo } from "../constants";
 
+export const metadata = {
+  title: "Meet the Team - Cornell Nexus Project Team",
+  description: "Meet the talented members of Cornell Nexus Project Team working across mechanical, electrical, software, and business subteams to build autonomous beach-cleaning robots.",
+  openGraph: {
+    title: "Meet the Team - Cornell Nexus Project Team",
+    description: "Meet the talented members of Cornell Nexus Project Team working across mechanical, electrical, software, and business subteams to build autonomous beach-cleaning robots.",
+    type: "website",
+  },
+};
+
 export default function Team() {
   const TeamLeads = [
     "William Dignam",
     "Ece Kumcuoglu"
   ];
   const MechanicalSubteam = [
-    "Mia Tarantini",
     "Ethan Sekiguchi",
     "William Dignam",
-    "Cleo Hamilton",
     "Natalie Kaplan",
     "Olivia Lee",
     "Rebecca Gerola",
@@ -29,13 +37,7 @@ export default function Team() {
     "Spencer Rudolph",
   ];
   const ElectricalSubteam = [
-    "Amber Li",
-    "Jasmine Si",
-    "Casey Kashishian",
     "Aaron Sucov",
-    "Antranig Baghdassarian",
-    "Parishee Bajaj",
-    "Akmal Rupasingha",
     "Lizeth Montemayor",
     "Raymond Shan",
     "Trinity Kong",
@@ -48,13 +50,9 @@ export default function Team() {
   ];
   const SoftwareSubteam = [
     "Natalie Leung",
-    "Grace Wei",
-    "Elaine Wu",
-    "Michael Wu",
     "Amishi Gupta",
     "Andrew Hu",
     "Ethan Huang",
-    "Jillian Chong",
     "Dora Zhang",
     "Julian Meinke",
     "Alex Saccone",
@@ -64,13 +62,13 @@ export default function Team() {
     "Arnav Bansal",
     "Kevin Lu",
     "Chris Zhang",
+    "Winston Wang",
     "Cormac Kennedy",
     "Julie Cai",
     "Gordon Mei",
-    "Rodas Geberhiwet"
+    "Rodas Geberhiwet",
   ];
   const BusinessSubteam = [
-    "Shihan Gao",
     "Sanika Sharma",
     "Annika Terezakis",
     "Inae Kim",
@@ -182,23 +180,32 @@ export default function Team() {
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
-            {MechanicalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
+            {MechanicalSubteam
+              .filter(name => memberInfo[name]["title"] !== "")
+              .sort((a, b) => {
+                const aTitle = memberInfo[a]["title"];
+                const bTitle = memberInfo[b]["title"];
+
+                // Full Team Lead comes before Sub-team Lead
+                if (aTitle === "Full Team Lead" && bTitle.includes("Sub-team Lead")) return -1;
+                if (bTitle === "Full Team Lead" && aTitle.includes("Sub-team Lead")) return 1;
+
+                // If same type of title, maintain original order (alphabetical by last name)
+                return 0;
+              })
+              .map((name, idx) => (
+                <MemberCard
+                  key={idx}
+                  src={memberInfo[name]["image"]}
+                  name={name}
+                  title={memberInfo[name]["title"]}
+                />
+              ))
+            }
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {MechanicalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
+              if (memberInfo[name]["title"] === "") {
                 return (
                   <MemberCard
                     key={idx}
@@ -245,23 +252,32 @@ export default function Team() {
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
-            {ElectricalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
+            {ElectricalSubteam
+              .filter(name => memberInfo[name]["title"] !== "")
+              .sort((a, b) => {
+                const aTitle = memberInfo[a]["title"];
+                const bTitle = memberInfo[b]["title"];
+
+                // Full Team Lead comes before Sub-team Lead
+                if (aTitle === "Full Team Lead" && bTitle.includes("Sub-team Lead")) return -1;
+                if (bTitle === "Full Team Lead" && aTitle.includes("Sub-team Lead")) return 1;
+
+                // If same type of title, maintain original order (alphabetical by last name)
+                return 0;
+              })
+              .map((name, idx) => (
+                <MemberCard
+                  key={idx}
+                  src={memberInfo[name]["image"]}
+                  name={name}
+                  title={memberInfo[name]["title"]}
+                />
+              ))
+            }
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {ElectricalSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
+              if (memberInfo[name]["title"] === "") {
                 return (
                   <MemberCard
                     key={idx}
@@ -306,23 +322,32 @@ export default function Team() {
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
-            {SoftwareSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
+            {SoftwareSubteam
+              .filter(name => memberInfo[name]["title"] !== "")
+              .sort((a, b) => {
+                const aTitle = memberInfo[a]["title"];
+                const bTitle = memberInfo[b]["title"];
+
+                // Full Team Lead comes before Sub-team Lead
+                if (aTitle === "Full Team Lead" && bTitle.includes("Sub-team Lead")) return -1;
+                if (bTitle === "Full Team Lead" && aTitle.includes("Sub-team Lead")) return 1;
+
+                // If same type of title, maintain original order (alphabetical by last name)
+                return 0;
+              })
+              .map((name, idx) => (
+                <MemberCard
+                  key={idx}
+                  src={memberInfo[name]["image"]}
+                  name={name}
+                  title={memberInfo[name]["title"]}
+                />
+              ))
+            }
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {SoftwareSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
+              if (memberInfo[name]["title"] === "") {
                 return (
                   <MemberCard
                     key={idx}
@@ -363,23 +388,32 @@ export default function Team() {
           </div>
           <div className="text-center text-3xl font-semibold py-5">Members</div>
           <div className="flex flex-row flex-wrap justify-center">
-            {BusinessSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] != "") {
-                return (
-                  <MemberCard
-                    key={idx}
-                    src={memberInfo[name]["image"]}
-                    name={name}
-                    title={memberInfo[name]["title"]}
-                  />
-                );
-              }
-              return null;
-            })}
+            {BusinessSubteam
+              .filter(name => memberInfo[name]["title"] !== "")
+              .sort((a, b) => {
+                const aTitle = memberInfo[a]["title"];
+                const bTitle = memberInfo[b]["title"];
+
+                // Full Team Lead comes before Sub-team Lead
+                if (aTitle === "Full Team Lead" && bTitle.includes("Sub-team Lead")) return -1;
+                if (bTitle === "Full Team Lead" && aTitle.includes("Sub-team Lead")) return 1;
+
+                // If same type of title, maintain original order (alphabetical by last name)
+                return 0;
+              })
+              .map((name, idx) => (
+                <MemberCard
+                  key={idx}
+                  src={memberInfo[name]["image"]}
+                  name={name}
+                  title={memberInfo[name]["title"]}
+                />
+              ))
+            }
           </div>
           <div className="flex flex-row flex-wrap justify-center">
             {BusinessSubteam.map((name, idx) => {
-              if (memberInfo[name]["title"] == "") {
+              if (memberInfo[name]["title"] === "") {
                 return (
                   <MemberCard
                     key={idx}
