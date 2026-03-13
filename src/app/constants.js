@@ -539,7 +539,7 @@ export const memberInfo = {
     desc: "Rodas is a freshman at the College of Engineering planning to major in CS with a possible minor in ECE/ AI. He is interested in the intersection of artificial intelligence and computer hardware. On campus he serves as an AI/ML developer at Cornell GenAI and is part of the E-board for URMC. In his free time he enjoys watching movies (thriller/action series), playing soccer and listening to jazz.",
     year: "2029",
     title: "",
-    emoji: "🏋️‍♂️☕️🗿🎬🎷",
+    emoji: "🗿",
     linkedin: "rodas-y-gebrehiwet",
     netid: "",
   },
