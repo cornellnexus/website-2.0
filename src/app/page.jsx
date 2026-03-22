@@ -40,7 +40,7 @@ const contentScrollVariants = {
 export default function Home() {
   return (
     <div className="bg-teal pb-4">
-      <div className="min-w-screen bg-sand">
+      <div className="min-w-screen min-h-screen bg-sand">
         <div className="flex flex-row flex-wrap justify-center items-center gap-12 pt-16 px-4 bg-sand">
           <motion.div
             initial={{ x: -150, opacity: 0 }}
@@ -64,6 +64,7 @@ export default function Home() {
             />
           </motion.div>
         </div>
+        <div className="overflow-hidden">
         <motion.div
           initial={{ y: 200, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -79,6 +80,7 @@ export default function Home() {
             alt="Beach"
           />
         </motion.div>
+        </div>
       </div>
       <div className="flex flex-col items-center max-w-screen-lg px-4 mx-auto">
         <div className="flex justify-center flex-wrap gap-12 mb-12">
