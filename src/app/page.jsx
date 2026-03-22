@@ -64,9 +64,10 @@ export default function Home() {
             />
           </motion.div>
         </div>
+        <div className="overflow-hidden">
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          initial={{ y: 200, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.1, duration: 0.7, ease: "easeInOut" }}
         >
           <Image
@@ -79,6 +80,7 @@ export default function Home() {
             alt="Beach"
           />
         </motion.div>
+        </div>
       </div>
       <div className="flex flex-col items-center max-w-screen-lg px-4 mx-auto">
         <div className="flex justify-center flex-wrap gap-12 mb-12">
