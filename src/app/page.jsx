@@ -40,7 +40,7 @@ const contentScrollVariants = {
 export default function Home() {
   return (
     <div className="bg-teal pb-4">
-      <div className="min-w-screen bg-sand">
+      <div className="min-w-screen min-h-screen bg-sand">
         <div className="flex flex-row flex-wrap justify-center items-center gap-12 pt-16 px-4 bg-sand">
           <motion.div
             initial={{ x: -150, opacity: 0 }}
@@ -65,8 +65,8 @@ export default function Home() {
           </motion.div>
         </div>
         <motion.div
-          initial={{ y: 200, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
           transition={{ delay: 0.1, duration: 0.7, ease: "easeInOut" }}
         >
           <Image
