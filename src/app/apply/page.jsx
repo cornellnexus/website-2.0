@@ -201,7 +201,7 @@ export default function Apply() {
             viewport={{ once: true }}
             transition={{ delay: 0.1, duration: 0.5, ease: "easeInOut" }}
           >
-            <div className="py-5 flex flex-col ">
+            <div className="py-5 flex flex-col items-center">
               <div className="flex flex-row ">
                 <Image
                   className="rounded m-1"
